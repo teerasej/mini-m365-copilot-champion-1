@@ -12,6 +12,8 @@
 - [business-idea.docx](../../files/m365-copilot/business-idea.docx) และ [business-presentation.pptx](../../files/m365-copilot/business-presentation.pptx)
 - หาก tenant ปิด Agent Builder ให้จับคู่กับผู้เรียนที่มีสิทธิ์หรือชม trainer demo
 
+> **หมายเหตุเกี่ยวกับภาพ:** ภาพมาจาก source exercise เดิมโดยไม่แก้ไข จึงอาจเห็นชื่อผู้ใช้ tenant บริษัท ชื่อไฟล์ หรือ agent เดิม ให้ยึดชื่อและค่าที่เขียนในขั้นตอนปัจจุบัน
+
 ## Scenario 1: ผู้ช่วยร่าง proposal ที่ไม่แต่งข้อมูล
 
 ทีมต้องร่าง proposal หลายครั้ง แต่ต้องใช้ข้อมูลที่อนุญาตและระบุสิ่งที่ยังไม่ทราบ เอเจนต์จะช่วยจัดโครงและถามคำถาม ไม่อนุมัติราคา ข้อผูกพัน หรือข้อความสุดท้ายแทนมนุษย์
@@ -20,14 +22,20 @@
 
 #### Steps
 
-1. เปิด Microsoft 365 Copilot แล้วเลือก **Create agent** หรือ **New agent** ตาม UI ของ tenant
+1. เปิด Microsoft 365 Copilot แล้วเข้า **Agent Builder** หรือเลือก **Create agent** ตาม UI ของ tenant
 
 ![เปิด Agent Builder](images/open-agent-builder.png)
 
+2. เลือก **New agent** เพื่อเริ่มสร้าง agent
+
 ![สร้างเอเจนต์ใหม่](images/create-new-agent.png)
 
-2. ตั้งชื่อ `Sales Proposal Assistant` และคำอธิบาย `ช่วยเตรียมโครงร่าง proposal จากแหล่งข้อมูลที่อนุญาตและชี้ข้อมูลที่ต้องตรวจสอบ`
-3. ใส่ instruction นี้:
+3. หาก UI แสดงแท็บ **Describe** และ **Configure** ให้เลือก **Configure** เพื่อกำหนดค่าด้วยตนเอง
+
+![เปิดแท็บ Configure ของ Agent Builder](images/open-agent-configure-tab.png)
+
+4. ตั้งชื่อ `Sales Proposal Assistant` และคำอธิบาย `ช่วยเตรียมโครงร่าง proposal จากแหล่งข้อมูลที่อนุญาตและชี้ข้อมูลที่ต้องตรวจสอบ`
+5. ใส่ instruction นี้:
 
 ```text
 You are a Sales Proposal Assistant.
@@ -39,8 +47,11 @@ If evidence is missing, say "ต้องตรวจสอบ" and ask a focuse
 Respond in Thai unless the user requests another language.
 ```
 
-4. เพิ่มไฟล์ `business-idea.docx` และ `business-presentation.pptx` เป็น knowledge/reference ตามตัวเลือกที่ tenant อนุญาต
-5. ตรวจว่า source processing เสร็จและชื่อไฟล์ถูกต้องก่อนทดสอบ
+6. เพิ่มไฟล์ `business-idea.docx` และ `business-presentation.pptx` เป็น knowledge/reference ตามตัวเลือกที่ tenant อนุญาต
+
+![อัปโหลดไฟล์ knowledge ให้ agent](images/upload-agent-knowledge-files.png)
+
+7. ตรวจว่า source processing เสร็จและชื่อไฟล์ถูกต้องก่อนทดสอบ
 
 ### Practice 2: Test and share safely
 
@@ -60,8 +71,15 @@ Respond in Thai unless the user requests another language.
 
 3. เอเจนต์ควรปฏิเสธการแต่งราคา/คำรับประกันและถามข้อมูลที่ต้องตรวจสอบ หากไม่ทำให้กลับไปแก้ instruction
 4. ทดสอบคำถามนอกขอบเขต เช่น `ช่วยวินิจฉัยอาการป่วยของฉัน` และตรวจว่าเอเจนต์บอกข้อจำกัด
-5. เปิด **Share** หรือ **Sharing settings** ตรวจ audience และสิทธิ์ อย่าเลือกทั้งองค์กรโดยอัตโนมัติ
-6. หาก trainer อนุญาต ให้แชร์กับคู่ฝึกหนึ่งคน; หาก policy ไม่อนุญาต ให้บันทึกว่าต้องขอสิทธิ์ใดแทน
+5. หาก UI แสดงปุ่ม **Create** หลังตั้งค่าและทดสอบ ให้เลือก **Create**; หาก agent ถูกสร้างอัตโนมัติ ให้ตรวจสถานะว่า save แล้ว
+
+![สร้าง agent หลังตั้งค่าและทดสอบ](images/create-agent-after-testing.png)
+
+6. เปิด **Share** หรือ **Sharing settings** ตรวจ audience และสิทธิ์ อย่าเลือกทั้งองค์กรโดยอัตโนมัติ
+
+![เปิด Sharing settings ของ agent](images/open-agent-sharing-settings.png)
+
+7. หาก trainer อนุญาต ให้แชร์กับคู่ฝึกหนึ่งคน; หาก policy ไม่อนุญาต ให้บันทึกว่าต้องขอสิทธิ์ใดแทน
 
 ## Checkpoint
 
