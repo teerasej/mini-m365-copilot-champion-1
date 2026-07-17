@@ -13,6 +13,8 @@
 - public website ที่กำหนด: <https://learn.microsoft.com/en-us/copilot/>
 - อ่านข้อจำกัดล่าสุดจาก [Microsoft guidance for public website knowledge](https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-add-public-website)
 
+> **หมายเหตุเกี่ยวกับภาพ:** ภาพมาจาก source exercise เดิมโดยไม่แก้ไข จึงอาจเห็นชื่อผู้ใช้ tenant บริษัท หรือชื่อไฟล์เดิม ให้ยึด `copilot-adoption-guide.docx` และค่าที่เขียนในขั้นตอนปัจจุบัน
+
 ## Scenario 1: ให้คำตอบจากแหล่งที่เชื่อถือได้
 
 เอเจนต์ต้องตอบคำถามการเริ่มใช้ Copilot จากคู่มือกลางและเว็บไซต์ทางการ หากไม่พบคำตอบ ต้องบอกข้อจำกัดแทนการคาดเดา
@@ -26,9 +28,19 @@
 ![เปิด Add knowledge](images/open-add-knowledge.png)
 
 2. เลือก **Files** หรือ **Upload file** แล้วอัปโหลด `copilot-adoption-guide.docx`
-3. ตั้งชื่อ source ให้สื่อความหมาย เช่น `Copilot adoption guide`
-4. รอให้ **Status** เป็นพร้อมใช้งาน หากยัง processing ให้ทำขั้นถัดไปแล้วกลับมาตรวจ
-5. เปิดรายละเอียด source และตรวจว่าชื่อไฟล์กับ description ถูกต้อง
+
+![อัปโหลดไฟล์ knowledge](images/upload-copilot-adoption-guide.png)
+
+3. เลือกไฟล์ที่อัปโหลดแล้วกด **Add to agent**
+
+![เพิ่มไฟล์ที่อัปโหลดเข้า agent](images/add-uploaded-file-to-agent.png)
+
+4. ตั้งชื่อ source ให้สื่อความหมาย เช่น `Copilot adoption guide`
+5. รอให้ **Status** เป็นพร้อมใช้งาน หากยัง processing ให้ทำขั้นถัดไปแล้วกลับมาตรวจ
+
+![ตรวจสถานะ knowledge source](images/check-knowledge-source-status.png)
+
+6. เปิดรายละเอียด source และตรวจว่าชื่อไฟล์กับ description ถูกต้อง
 
 ### Practice 2: Add the fixed public website and test citations
 

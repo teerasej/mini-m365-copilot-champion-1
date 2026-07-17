@@ -13,6 +13,8 @@
 - tenant policy อาจปิด connector, publishing หรือ Teams; เมื่อถูกจำกัดให้ทำถึง checkpoint และชม trainer demo
 - อ้างอิง [publishing and channels](https://learn.microsoft.com/en-us/microsoft-copilot-studio/publication-fundamentals-publish-channels) และ [sharing](https://learn.microsoft.com/en-us/microsoft-copilot-studio/admin-share-bots?tabs=teams)
 
+> **หมายเหตุเกี่ยวกับภาพ:** ภาพมาจาก source exercise เดิมโดยไม่แก้ไข จึงอาจเห็นชื่อผู้ใช้ tenant บริษัท ชื่อ flow หรือตัวแปรเดิม ให้ยึดชื่อ flow และตัวแปรที่เขียนในขั้นตอนปัจจุบัน
+
 ## Scenario 1: ส่งสรุปการเริ่มใช้ให้ตัวเอง
 
 ผู้ใช้ขอให้อีเมล checklist ไปยังตนเอง เอเจนต์ต้องเก็บ recipient, subject และ content แสดงสรุปเพื่อขอ confirmation แล้วจึงเรียก flow ห้ามส่งให้บุคคลอื่นในกิจกรรมนี้
@@ -22,13 +24,34 @@
 #### Steps
 
 1. เปิด agent ไปที่ **Tools** หรือ **Actions** แล้วเลือก **Add a tool** > **New Agent flow**
-2. ตั้งชื่อ `Send Copilot adoption checklist`
-3. ใน trigger **When an agent calls the flow** เพิ่ม text inputs 3 รายการ: `RecipientEmail`, `EmailSubject`, `EmailBody`
-4. เพิ่ม action **Office 365 Outlook — Send an email (V2)**
-5. map ค่าแบบ dynamic content: `RecipientEmail` ไปที่ **To**, `EmailSubject` ไปที่ **Subject**, และ `EmailBody` ไปที่ **Body**
-6. เพิ่ม output `DeliveryStatus` และคืนค่า `Email request completed` หลัง action สำเร็จ
-7. เลือก **Save draft** ตรวจ connection แล้วเลือก **Publish** สำหรับ flow เมื่อไม่มี error
-8. กลับไปที่ agent เลือก **Add a tool** และเพิ่ม flow ที่เผยแพร่แล้ว
+
+![สร้าง Agent Flow ใหม่](images/create-new-agent-flow.png)
+
+2. เมื่อหน้า designer เปิด ให้เลือก **Save draft** ก่อนตั้งค่าต่อ
+
+![ตำแหน่ง Save draft และ Publish ของ Agent Flow](images/save-draft-and-publish-flow.png)
+
+3. ตั้งชื่อ `Send Copilot adoption checklist`
+4. ใน trigger **When an agent calls the flow** เพิ่ม text inputs 3 รายการ: `RecipientEmail`, `EmailSubject`, `EmailBody`
+
+![เพิ่ม input ให้ Agent Flow](images/configure-agent-flow-inputs.png)
+
+5. เพิ่ม action **Office 365 Outlook — Send an email (V2)**
+
+![เพิ่ม Send an email (V2)](images/add-send-email-v2-action.png)
+
+6. map ค่าแบบ dynamic content: `RecipientEmail` ไปที่ **To**, `EmailSubject` ไปที่ **Subject**, และ `EmailBody` ไปที่ **Body**
+
+![Map ค่าอีเมลด้วย dynamic content](images/map-email-fields-with-dynamic-content.png)
+
+7. เพิ่ม output `DeliveryStatus` และคืนค่า `Email request completed` หลัง action สำเร็จ
+
+![Map output response กลับไปยัง agent](images/map-flow-output-response.gif)
+
+8. เลือก **Save draft** ตรวจ connection แล้วเลือก **Publish** สำหรับ flow เมื่อไม่มี error
+9. กลับไปที่ agent เลือก **Add a tool** และเพิ่ม flow ที่เผยแพร่แล้ว
+
+![เลือก Agent Flow ที่เผยแพร่แล้วเป็น tool](images/select-published-agent-flow-tool.png)
 
 ### Practice 2: Confirm, send, publish, and share
 
