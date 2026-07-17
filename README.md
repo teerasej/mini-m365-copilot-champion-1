@@ -15,24 +15,24 @@
 
 | วัน | เวลา | Section | ผลลัพธ์ของผู้เรียน | แบบฝึกหัด |
 |---|---|---|---|---|
-| Foundation | 09:00–10:30 | 1 | ถอดแผนงานประจำวันและค้นหา pain point | [Foundation Day README](foundation/README.md) |
-| Foundation | 10:45–12:00 | 2 | เลือกลำดับความสำคัญ pain point  ด้วย selection framework | [Foundation Day README](foundation/README.md) |
-| Foundation | 13:00–14:30 | 3 | Prepare the workflow for human-AI ready | [Foundation Day README](foundation/README.md) |
-| Foundation | 14:45–16:00 | 4 | รวมรวมไอเดียและใช้งาน AI Use Canvas | [Foundation Day README](foundation/README.md) |
-| Microsoft 365 Copilot | 09:00–10:30 | 1 | อีเมลติดตามงาน สรุปสัปดาห์ และ meeting brief | [Microsoft 365 Copilot Day README](m365-copilot/README.md) |
-| Microsoft 365 Copilot | 10:45–12:00 | 2 | ชุดผลงานจาก Word, PowerPoint, Excel และ Outlook | [Microsoft 365 Copilot Day README](m365-copilot/README.md) |
-| Microsoft 365 Copilot | 13:00–14:30 | 3 | Sales Proposal Assistant ที่ผ่านการทดสอบและพร้อมแชร์ | [Microsoft 365 Copilot Day README](m365-copilot/README.md) |
-| Microsoft 365 Copilot | 14:45–16:00 | 4 | AI Use Canvas ที่เชื่อม workflow กับเครื่องมือและ prompt | [Microsoft 365 Copilot Day README](m365-copilot/README.md) |
-| Copilot Studio | 09:00–10:30 | 1 | AI Agent Canvas ที่กำหนดขอบเขต และ Financial Report Assistant เปล่าที่มี instruction ผ่าน smoke test | [Exercise 1: Agent Canvas](copilot-studio/exercise-1-agent-canvas-template/README.md) · [Exercise 2: Create Agent](copilot-studio/exercise-2-create-financial-agent/README.md) |
-| Copilot Studio | 10:45–12:00 | 2 | Topic ที่รับไฟล์รายงานการเงินและวิเคราะห์ด้วย Prompt node | [Exercise 3: Report Intake Topic](copilot-studio/exercise-5-topic/README.md) |
-| Copilot Studio | 13:00–14:30 | 3 | เอเจนต์ที่เพิ่ม Knowledge สำหรับตอบคำศัพท์ทางการเงิน | [Exercise 4: Knowledge](copilot-studio/exercise-3-knowledge/README.md) |
-| Copilot Studio | 14:45–16:00 | 4 | Agent Flow ส่งอีเมลสรุปรายงาน ผ่านการทดสอบ Happy/Cancel path | [Exercise 5: Agent Flow & Test](copilot-studio/exercise-4-agent-flow-as-a-tools/README.md) |
+| Foundation | 09:00–10:30 | 1 | ถอดแผนงานประจำวันและค้นหา pain point | [Foundation Day README](day-1-foundation/README.md) |
+| Foundation | 10:45–12:00 | 2 | เลือกลำดับความสำคัญ pain point  ด้วย selection framework | [Foundation Day README](day-1-foundation/README.md) |
+| Foundation | 13:00–14:30 | 3 | Prepare the workflow for human-AI ready | [Foundation Day README](day-1-foundation/README.md) |
+| Foundation | 14:45–16:00 | 4 | รวมรวมไอเดียและใช้งาน AI Use Canvas | [Foundation Day README](day-1-foundation/README.md) |
+| Microsoft 365 Copilot | 09:00–10:30 | 1 | อีเมลติดตามงาน สรุปสัปดาห์ และ meeting brief | [Microsoft 365 Copilot Day README](day-2-m365-copilot/README.md) |
+| Microsoft 365 Copilot | 10:45–12:00 | 2 | ชุดผลงานจาก Word, PowerPoint, Excel และ Outlook | [Microsoft 365 Copilot Day README](day-2-m365-copilot/README.md) |
+| Microsoft 365 Copilot | 13:00–14:30 | 3 | Sales Proposal Assistant ที่ผ่านการทดสอบและพร้อมแชร์ | [Microsoft 365 Copilot Day README](day-2-m365-copilot/README.md) |
+| Microsoft 365 Copilot | 14:45–16:00 | 4 | AI Use Canvas ที่เชื่อม workflow กับเครื่องมือและ prompt | [Microsoft 365 Copilot Day README](day-2-m365-copilot/README.md) |
+| Copilot Studio | 09:00–10:30 | 1 | AI Agent Canvas ที่กำหนดขอบเขต และ Financial Report Assistant เปล่าที่มี instruction ผ่าน smoke test | [Exercise 1: Agent Canvas](day-3-copilot-studio/exercise-1-agent-canvas-template/README.md) · [Exercise 2: Create Agent](day-3-copilot-studio/exercise-2-create-financial-agent/README.md) |
+| Copilot Studio | 10:45–12:00 | 2 | Topic ที่รับไฟล์รายงานการเงินและวิเคราะห์ด้วย Prompt node | [Exercise 3: Report Intake Topic](day-3-copilot-studio/exercise-5-topic/README.md) |
+| Copilot Studio | 13:00–14:30 | 3 | เอเจนต์ที่เพิ่ม Knowledge สำหรับตอบคำศัพท์ทางการเงิน | [Exercise 4: Knowledge](day-3-copilot-studio/exercise-3-knowledge/README.md) |
+| Copilot Studio | 14:45–16:00 | 4 | Agent Flow ส่งอีเมลสรุปรายงาน ผ่านการทดสอบ Happy/Cancel path | [Exercise 5: Agent Flow & Test](day-3-copilot-studio/exercise-4-agent-flow-as-a-tools/README.md) |
 
 ## โครงสร้าง
 
-- [`foundation/`](foundation/) — workshop แบบไม่ใช้แอป
-- [`m365-copilot/`](m365-copilot/) — ฝึก Copilot Chat, Microsoft 365 apps และ Agent Builder
-- [`copilot-studio/`](copilot-studio/) — สร้าง เพิ่มความรู้ เพิ่มเครื่องมือ และเผยแพร่เอเจนต์
+- [`day-1-foundation/`](day-1-foundation/) — workshop แบบไม่ใช้แอป
+- [`day-2-m365-copilot/`](day-2-m365-copilot/) — ฝึก Copilot Chat, Microsoft 365 apps และ Agent Builder
+- [`day-3-copilot-studio/`](day-3-copilot-studio/) — สร้าง เพิ่มความรู้ เพิ่มเครื่องมือ และเผยแพร่เอเจนต์
 - [`templates/`](templates/) — printable Markdown templates
 - [`files/`](files/) — learner files ที่ใช้ร่วมกัน
 - [`SOURCES.md`](SOURCES.md) — แหล่งอ้างอิงและ commit ที่ตรึงไว้
