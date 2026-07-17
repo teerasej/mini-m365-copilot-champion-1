@@ -1,10 +1,40 @@
+
 # Day 2 — Microsoft 365 Copilot: Practise the Flow
 
-วันที่ 2 นำ pain point และ AI Use Canvas จากวันแรกมาทดลองกับ Copilot Chat, Word, PowerPoint, Excel, Outlook และ Agent Builder โดยใช้ไฟล์ตัวอย่างที่ไม่ผูกกับองค์กรใด
+วันที่ 2 นำ pain point และ AI Use Canvas จากวันแรกมาทดลองกับ Copilot Chat, Word, PowerPoint, Excel, Outlook และ Agent Builder 
 
-1. [Copilot Chat and Work IQ](01-copilot-chat-and-work-iq/) — 09:00–10:30
-2. [Copilot in Microsoft 365 Apps](02-copilot-in-m365-apps/) — 10:45–12:00
-3. [Build Sales Proposal Assistant](03-build-sales-proposal-assistant/) — 13:00–14:30
-4. [Map Tools and Reflect](04-map-tools-and-reflect/) — 14:45–16:00
+## มาก่อนเวลาใช่ไหม? ลองเช็คดูว่าเราพร้อมสำหรับเวิร์คชอปนี้หรือยัง
 
-ดาวน์โหลด learner files จาก [`../files/m365-copilot/`](../files/m365-copilot/)
+1. ลงชื่อเข้าใช้ Microsoft 365 บนเว็บเบราว์เซอร์ [https://www.office.com](https://www.office.com) ด้วย account ที่มี
+
+## ไฟล์สำหรับ workshop
+
+1. [ไฟล์เอกสารนำเสนอ](https://github.com/teerasej/ai-for-everyone/raw/gpo-2026-01/files/TokioMarineLife/presentation.pdf)
+2. [ดาวน์โหลดไฟล์สำหรับใช้ในเวิร์คชอป (zip file)](https://github.com/teerasej/ai-for-everyone/raw/gpo-2026-01/files/TokioMarineLife/Nextflow-M365-Copilot-TokioMarineLife-files.zip)
+
+
+
+## Exercise
+
+ขั้นตอนที่เตรียมตัว [อัพโหลดไฟล์เข้า OneDrive](exercises/copilot-upload-file.md)
+
+1. [Copilot Chat & Create](exercises/use-case/exercise-1.md)
+2. [Word](exercises/use-case/exercise-2.md)
+3. [Powerpoint](exercises/use-case/exercise-3.md)
+4. [Excel](exercises/use-case/exercise-4.md)
+5. [Outlook & Teams](exercises/use-case/exercise-5.md)
+6. [Create First AI Agent](exercises/agent/create-first-ai-agent.md)
+
+
+
+## แหล่งข้อมูลอ้างอิง และติดตามอัพเดต
+
+- [Youtube](https://www.youtube.com/teerasej)
+- [คุยกันบน Facebook](https://www.facebook.com/teerasej)
+- [ทวิตกันบน Twitter](https://twitter.com/teerasej)
+
+
+## All rights reserved
+
+All rights reserved by [Amaround Co., Ltd.](https://www.nextflow.in.th/)
+
