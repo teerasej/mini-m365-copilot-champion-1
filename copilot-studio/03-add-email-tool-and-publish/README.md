@@ -71,4 +71,3 @@ Never guess an address or silently change the content.
 ## Optional Extension
 
 เพิ่ม validation ให้ flow ปฏิเสธ recipient ที่ไม่ตรงกับอีเมลผู้เรียน แล้วทดสอบ negative case โดยไม่ส่งข้อความจริง
-

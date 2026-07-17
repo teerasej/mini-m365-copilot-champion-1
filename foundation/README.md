@@ -8,4 +8,3 @@
 4. [Estimate Value and Pitch](04-estimate-value-and-pitch/) — 14:45–16:00
 
 Printable templates อยู่ที่ [`../templates/`](../templates/)
-

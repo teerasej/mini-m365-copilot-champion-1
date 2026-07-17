@@ -76,4 +76,3 @@ Sales Proposal Assistant พร้อม test log สั้น ๆ: prompt, expe
 ## Optional Extension
 
 เพิ่ม conversation starter 3 ข้อสำหรับ `Create a proposal outline`, `Find missing evidence` และ `Review this draft for unsupported claims`
-

@@ -50,4 +50,3 @@ Human + AI Workflow Map ที่ออกแบบใหม่และ AI Use 
 ## Optional Extension
 
 เพิ่ม fallback path สำหรับกรณีข้อมูลไม่ครบ AI ตอบไม่ได้ หรือผู้ใช้ไม่อนุมัติร่าง
-

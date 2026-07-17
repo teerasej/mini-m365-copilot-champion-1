@@ -21,4 +21,3 @@
 ## Screenshot adaptation
 
 ภาพที่ใช้ถูกตรวจดูและเปลี่ยนเป็นชื่อแบบ kebab-case ภาพที่มี branding, personal data, tenant name หรือ UI ที่ไม่เหมาะกับแบบฝึกหัดถูกตัดออกจาก repository นี้
-

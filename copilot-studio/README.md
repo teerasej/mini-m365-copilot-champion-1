@@ -8,4 +8,3 @@
 4. [Test, Reflect, and Plan](04-test-reflect-and-plan/) — 14:45–16:00
 
 ดาวน์โหลด knowledge file และ test workbook จาก [`../files/copilot-studio/`](../files/copilot-studio/)
-

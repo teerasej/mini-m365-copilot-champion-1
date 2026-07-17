@@ -71,4 +71,3 @@ Copilot Champion Assistant ที่ตอบจาก guide และ Microsoft
 ## Optional Extension
 
 แก้ description ของ knowledge source ให้ระบุว่า source เหมาะกับคำถามชนิดใด แล้วทดสอบคำถามเดิมเพื่อดูว่าการเลือก source ดีขึ้นหรือไม่
-

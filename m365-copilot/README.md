@@ -8,4 +8,3 @@
 4. [Map Tools and Reflect](04-map-tools-and-reflect/) — 14:45–16:00
 
 ดาวน์โหลด learner files จาก [`../files/m365-copilot/`](../files/m365-copilot/)
-

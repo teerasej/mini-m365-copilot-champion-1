@@ -76,4 +76,3 @@ blank agent ที่มี instruction ชัดและผ่าน smoke tes
 ## Optional Extension
 
 เพิ่ม suggested prompt 3 ข้อ: `เริ่มใช้ Copilot Chat`, `ปรับ prompt ของฉัน` และ `ตรวจผลลัพธ์ก่อนนำไปใช้`
-
