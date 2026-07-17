@@ -1,15 +1,15 @@
 # Mini Microsoft 365 Copilot Champion
 
-แบบฝึกหัดภาษาไทยสำหรับเวิร์กช็อป 3 วัน เพื่อพาผู้เรียนจากการมองเห็นจุดติดขัดของงาน ไปสู่การใช้ Microsoft 365 Copilot และสร้าง **Copilot Champion Assistant** ที่ตอบคำถามด้านการนำ Copilot ไปใช้ได้อย่างปลอดภัย
+แบบฝึกหัดภาษาไทยสำหรับเวิร์กช็อป 3 วัน ออกแบบมาเพื่อทำให้พวกเราฝึกการตรวจสอบปัญหาของการทำงานในปัจจุบัน ไปสู่การเลือกใช้ Microsoft 365 Copilot รวมถึง Copilot Studio เพื่อให้เราได้มีพื้นฐานในการเป็น **Copilot Champion** ที่สามารถแนะนำการใช้งาน Copilot และสร้างเอเจนต์ให้กับทีมงานของตนเองได้ครับ
 
-เรื่องราวตลอดหลักสูตรใช้สถานการณ์กลาง ไม่อ้างอิงบริษัทหรือองค์กรใด ผู้เรียนจะเริ่มจากงานจริงของตนเอง สร้าง AI Use Canvas ทดลอง Copilot กับไฟล์ตัวอย่าง แล้วเปลี่ยนแนวคิดเป็น AI Agent Canvas และเอเจนต์ต้นแบบ
+เรื่องราวตลอดหลักสูตรจะมีตั้งแต่การ สร้าง AI Use Canvas, ทดลอง Copilot, แล้วเปลี่ยนแนวคิดเป็น AI Agent Canvas พร้อมทั้งทดลองสร้าง Agent ต้นแบบจากโจทย์ที่กำหนด เพื่อให้ได้ประสบการณ์การใช้งานจริงและสามารถนำไปต่อยอดกับงานของตนเองได้
 
 ## สิ่งที่ต้องเตรียม
 
-- **วันที่ 1 — Foundation:** post-it อย่างน้อย 15 แผ่นต่อคน ปากกาเมจิก dot sticker และ flipchart; ไม่ใช้คอมพิวเตอร์หรือแอป
-- **วันที่ 2 — Microsoft 365 Copilot:** บัญชี Microsoft 365 ที่เปิดใช้ Copilot, เบราว์เซอร์, Word, PowerPoint, Excel, Outlook และสิทธิ์ใช้ **Agent Builder**; ดาวน์โหลดไฟล์ใน [`files/m365-copilot/`](files/m365-copilot/)
-- **วันที่ 3 — Copilot Studio:** สิทธิ์สร้างและเผยแพร่เอเจนต์ใน Microsoft Copilot Studio, กล่องจดหมาย Outlook และสิทธิ์ใช้ connector; ดาวน์โหลดไฟล์ใน [`files/copilot-studio/`](files/copilot-studio/)
-- ชื่อเมนู ปุ่ม และช่องในหน้าจอเขียนเป็นภาษาอังกฤษตาม UI; ตำแหน่งหรือชื่ออาจต่างเล็กน้อยตาม tenant และการอัปเดตผลิตภัณฑ์
+- **วันที่ 1 — Foundation:** post-it  ปากกาเมจิก dot sticker และ flipchart วันนี้จะไม่มีการฝึกใช้งานโปรแกรมใดๆ นะ
+- **วันที่ 2 — Microsoft 365 Copilot:** บัญชี Microsoft 365 ที่เปิดใช้ Copilot Premium และสิทธิ์ใช้ **Agent Builder**; ดาวน์โหลดไฟล์ใน [`files/m365-copilot/`](files/m365-copilot/)
+- **วันที่ 3 — Copilot Studio:** บัญชีผู้ใช้ Microsoft 365 ที่มีสิทธิ์สร้างและนำ Agent ไปใช้ใน Microsoft Copilot Studio, กล่องจดหมาย Outlook และสิทธิ์ใช้ connector; ดาวน์โหลดไฟล์ใน [`files/copilot-studio/`](files/copilot-studio/)
+
 
 ## สารบัญแบบฝึกหัด
 

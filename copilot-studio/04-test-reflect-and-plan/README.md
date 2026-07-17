@@ -13,7 +13,7 @@
 
 ## Scenario 1: ตรวจเอเจนต์ก่อนชวนคนอื่นใช้
 
-การ publish เปรียบเหมือนเปิดประตูห้องทดลอง ไม่ได้แปลว่างานเสร็จ คุณต้องตรวจ happy path, edge case และ out-of-scope พร้อมกำหนด owner, audience และวิธีติดตามผล
+การ publish เปรียบเหมือนเปิดประตูห้องทดลอง ไม่ได้แปลว่างานเสร็จ พวกเราต้องตรวจ happy path, edge case และ out-of-scope พร้อมกำหนด owner, audience และวิธีติดตามผล
 
 ### Practice 1: Transform the canvas and run tests
 
