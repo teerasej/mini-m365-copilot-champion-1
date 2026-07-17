@@ -10,7 +10,7 @@
 
 - AI Use Canvas จาก Day 1
 - ผลงานจาก Sections 1–3 ของ Day 2
-- ปากกาและ [AI Use Canvas](../../templates/ai-use-canvas.md) สำรอง
+- ปากกาและ [AI Use Canvas](https://raw.githubusercontent.com/teerasej/mini-m365-copilot-champion-1/main/templates/AI%20Use%20Canvas%20Template.pptx) สำรอง
 
 ## Scenario 1: เลือกเครื่องมือให้ตรงกับงาน
 

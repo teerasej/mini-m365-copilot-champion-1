@@ -17,8 +17,8 @@
 |---|---|---|---|---|
 | Foundation | 09:00–10:30 | 1 | ถอดแผนงานประจำวันและค้นหา pain point | [Foundation Day README](day-1-foundation/README.md) |
 | Foundation | 10:45–12:00 | 2 | เลือกลำดับความสำคัญ pain point  ด้วย selection framework | [Foundation Day README](day-1-foundation/README.md) |
-| Foundation | 13:00–14:30 | 3 | Prepare the workflow for human-AI ready | [Foundation Day README](day-1-foundation/README.md) |
-| Foundation | 14:45–16:00 | 4 | รวมรวมไอเดียและใช้งาน AI Use Canvas | [Foundation Day README](day-1-foundation/README.md) |
+| Foundation | 13:00–14:30 | 3 | เตรียม workflow ให้พร้อมสำหรับนำ AI มาใช้กับมนุษย์ | [Foundation Day README](day-1-foundation/README.md) |
+| Foundation | 14:45–16:00 | 4 | รวมรวมไอเดียลง AI Use Canvas | [Foundation Day README](day-1-foundation/README.md) |
 | Microsoft 365 Copilot | 09:00–10:30 | 1 | อีเมลติดตามงาน สรุปสัปดาห์ และ meeting brief | [Microsoft 365 Copilot Day README](day-2-m365-copilot/README.md) |
 | Microsoft 365 Copilot | 10:45–12:00 | 2 | ชุดผลงานจาก Word, PowerPoint, Excel และ Outlook | [Microsoft 365 Copilot Day README](day-2-m365-copilot/README.md) |
 | Microsoft 365 Copilot | 13:00–14:30 | 3 | Sales Proposal Assistant ที่ผ่านการทดสอบและพร้อมแชร์ | [Microsoft 365 Copilot Day README](day-2-m365-copilot/README.md) |

@@ -8,7 +8,7 @@
 
 ## Practice 1: เตรียม Canvas Template และกำหนดโจทย์
 
-1. ดาวน์โหลดไฟล์จากหน้ารวมลิงก์ [AI Agent Canvas Template Links](../ai-agent-canvas-template-links.md)
+1. ดาวน์โหลดไฟล์ [AI Agent Canvas Template](https://raw.githubusercontent.com/teerasej/mini-m365-copilot-champion-1/main/templates/AI%20Agent%20Canvas%20Template.pptx)
 2. เลือก use case ที่ทีมผ่านการให้คะแนนจาก Exercise 1 แล้ว
 3. กำหนดขอบเขตเบื้องต้นให้ชัดเจน โดยตอบคำถามต่อไปนี้ร่วมกัน:
    - Agent นี้ถูกสร้างมาเพื่อช่วยงานอะไร?

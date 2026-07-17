@@ -10,7 +10,7 @@
 
 - Opportunity statement จาก Section 2
 - flipchart ปากกา post-it 3 สี
-- [Human + AI Workflow Map](../../templates/human-ai-workflow-map.md) และ [AI Use Canvas](../../templates/ai-use-canvas.md)
+- [Human + AI Workflow Map](../../templates/human-ai-workflow-map.md) และ [AI Use Canvas](https://raw.githubusercontent.com/teerasej/mini-m365-copilot-champion-1/main/templates/AI%20Use%20Canvas%20Template.pptx)
 
 ## Scenario 1: จัด handoff ใหม่ก่อนเพิ่ม AI
 
@@ -34,7 +34,7 @@
 3. ติดป้าย **AI** เมื่อเป็นการค้นหา สรุป จัดรูปแบบ หรือร่างจากข้อมูลที่อนุญาต
 4. ติดป้าย **Shared** เมื่อ AI เตรียมร่างและ Human ตรวจ แก้ หรือตัดสินใจ
 5. ระบุ human checkpoint ก่อนการส่ง การอนุมัติ หรือการตัดสินใจที่มีผล
-6. ถ่ายข้อมูลจาก workflow ลง [AI Use Canvas](../../templates/ai-use-canvas.md): user, problem, workflow, AI role, data, guardrail และ expected value
+6. ถ่ายข้อมูลจาก workflow ลง [AI Use Canvas](https://raw.githubusercontent.com/teerasej/mini-m365-copilot-champion-1/main/templates/AI%20Use%20Canvas%20Template.pptx): user, problem, workflow, AI role, data, guardrail และ expected value
 7. แลก canvas กับอีกทีมและถามว่า “AI ได้ข้อมูลจากไหน” กับ “ใครตรวจผลลัพธ์”
 
 ## Checkpoint
