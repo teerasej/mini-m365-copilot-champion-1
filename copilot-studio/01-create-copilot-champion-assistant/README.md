@@ -2,13 +2,14 @@
 
 ## Exercise Overview
 
+- **เวลา:** 09:00–10:30 (90 นาที)
 - **เป้าหมาย:** สร้าง blank agent กำหนดพฤติกรรมพื้นฐาน และทำ smoke test
 - **ผลลัพธ์:** Copilot Champion Assistant ที่มี name, description, instruction และ test notes
 
 ## Prerequisites
 
 - สิทธิ์สร้าง agent ใน Microsoft Copilot Studio และเลือก environment ที่กำหนด
-- AI Use Canvas จากที่ได้จากวันที่ 2
+- AI Use Canvas ที่ได้จากวันที่ 2
 - UI ในแบบฝึกหัดอ้างอิง stable/classic experience; ใน UI ใหม่ เมนูอาจรวมอยู่ที่ **Overview** หรือใช้คำว่า **Create an agent**
 
 ## Scenario 1: สร้างผู้ช่วยนำ Copilot ไปใช้
@@ -42,7 +43,7 @@ Never approve access, policy exceptions, purchases, legal decisions, or sensitiv
 If a request is outside scope, explain the boundary and suggest the correct owner or official source.
 Reply in Thai, while preserving official English UI labels.
 
-# response guidelines
+# Response guidelines
 - Use clear, concise Thai sentences.
 ```
 
