@@ -18,7 +18,7 @@ Copilot แต่ละจุดเหมือนอุปกรณ์คนล
 
 ### Practice 1: Map capability to workflow
 
-#### Steps
+#### ขั้นตอนการทำกิจกรรม
 
 1. เปิด future workflow จาก Day 1 และเลือก 3 ขั้นตอนที่ AI อาจช่วยได้
 2. เขียนเครื่องมือที่เหมาะข้างแต่ละขั้น: **Copilot Chat**, **Word**, **PowerPoint**, **Excel**, **Outlook** หรือ **Agent Builder**
@@ -28,7 +28,7 @@ Copilot แต่ละจุดเหมือนอุปกรณ์คนล
 
 ### Practice 2: Refine one prompt and share
 
-#### Steps
+#### ขั้นตอนการทำกิจกรรม
 
 1. เลือก prompt หนึ่งอันที่ใช้วันนี้และเขียนเวอร์ชันเดิมไว้
 2. ปรับด้วย 5 ส่วน: **Goal**, **Context**, **Source**, **Output**, **Quality check**
@@ -42,7 +42,7 @@ Copilot แต่ละจุดเหมือนอุปกรณ์คนล
 - prompt ใหม่ระบุ source และ quality check
 - canvas มี human owner และวิธีวัด first experiment
 
-## Expected Output
+## สิ่งที่จะได้จาก exercise นี้
 
 AI Use Canvas ที่เชื่อม workflow กับ Copilot tools พร้อม prompt before/after และ reflection ที่นำไปต่อ Day 3 ได้
 

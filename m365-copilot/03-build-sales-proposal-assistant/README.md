@@ -18,7 +18,7 @@
 
 ### Practice 1: Create, instruct, and ground
 
-#### Steps
+#### ขั้นตอนการทำกิจกรรม
 
 1. เปิด Microsoft 365 Copilot แล้วเลือก **Create agent** หรือ **New agent** ตาม UI ของ tenant
 
@@ -44,7 +44,7 @@ Respond in Thai unless the user requests another language.
 
 ### Practice 2: Test and share safely
 
-#### Steps
+#### ขั้นตอนการทำกิจกรรม
 
 1. ทดสอบ prompt ปกติ:
 
@@ -69,7 +69,7 @@ Respond in Thai unless the user requests another language.
 - test ครบ happy path, missing-data และ out-of-scope
 - sharing scope เล็กที่สุดที่เพียงพอและผู้เรียนเข้าใจว่า sharing ไม่ได้เปลี่ยนสิทธิ์ของข้อมูลต้นทาง
 
-## Expected Output
+## สิ่งที่จะได้จาก exercise นี้
 
 Sales Proposal Assistant พร้อม test log สั้น ๆ: prompt, expected behavior, actual behavior และสิ่งที่แก้
 

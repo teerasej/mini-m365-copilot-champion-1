@@ -19,7 +19,7 @@
 
 ### Practice 1: Upload the guide
 
-#### Steps
+#### ขั้นตอนการทำกิจกรรม
 
 1. เปิด agent แล้วไปที่ **Knowledge** เลือก **Add knowledge**
 
@@ -32,7 +32,7 @@
 
 ### Practice 2: Add the fixed public website and test citations
 
-#### Steps
+#### ขั้นตอนการทำกิจกรรม
 
 1. เลือก **Add knowledge** อีกครั้ง แล้วเลือก **Public websites**
 2. ป้อน URL นี้เท่านั้น:
@@ -64,7 +64,7 @@ https://learn.microsoft.com/en-us/copilot/
 - เปิด citation แล้วกลับไปยัง source ที่ตรงกับคำตอบได้
 - SharePoint เป็น trainer demo เมื่อ access ถูกจำกัด และการแชร์ agent ไม่ขยายสิทธิ์เข้าถึง SharePoint ของผู้ใช้
 
-## Expected Output
+## สิ่งที่จะได้จาก exercise นี้
 
 Copilot Champion Assistant ที่ตอบจาก guide และ Microsoft public website พร้อมปฏิเสธคำถามที่ไม่มีหลักฐาน
 

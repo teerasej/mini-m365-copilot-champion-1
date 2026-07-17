@@ -19,7 +19,7 @@
 
 ### Practice 1: Create a minimal email Agent Flow
 
-#### Steps
+#### ขั้นตอนการทำกิจกรรม
 
 1. เปิด agent ไปที่ **Tools** หรือ **Actions** แล้วเลือก **Add a tool** > **New Agent flow**
 2. ตั้งชื่อ `Send Copilot adoption checklist`
@@ -32,7 +32,7 @@
 
 ### Practice 2: Confirm, send, publish, and share
 
-#### Steps
+#### ขั้นตอนการทำกิจกรรม
 
 1. เพิ่ม instruction สำหรับ tool behavior:
 
@@ -64,7 +64,7 @@ Never guess an address or silently change the content.
 - agent ถูก publish ก่อนเปิด channel; Demo website ใช้เพื่อทดลอง ไม่ใช่ production
 - sharing audience และ Teams availability เป็นไปตาม tenant policy และ license
 
-## Expected Output
+## สิ่งที่จะได้จาก exercise นี้
 
 อีเมลทดสอบหนึ่งฉบับ, Agent Flow ที่ publish แล้ว และ Copilot Champion Assistant ที่ publish พร้อม channel decision
 

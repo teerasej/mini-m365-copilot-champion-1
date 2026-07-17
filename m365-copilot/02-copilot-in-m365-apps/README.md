@@ -3,7 +3,7 @@
 ## Exercise Overview
 
 - **เวลา:** 10:45–12:00 (75 นาที)
-- **เป้าหมาย:** ทำ relay ผ่าน Word, PowerPoint, Excel และ Outlook โดยส่งต่อ context อย่างมีคุณภาพ
+- **เป้าหมาย:** ทำ relay ผ่าน Word, PowerPoint, Excel และ Outlook โดยส่งต่อ context อย่างมีพวกเราภาพ
 - **ผลลัพธ์:** concept brief, presentation outline, revenue insight และ email draft
 
 ## Prerequisites
@@ -18,7 +18,7 @@
 
 ### Practice 1: Word และ PowerPoint
 
-#### Steps
+#### ขั้นตอนการทำกิจกรรม
 
 1. เปิด `business-idea.docx` ใน Word และเปิด **Copilot**
 2. ใช้ prompt:
@@ -35,7 +35,7 @@
 
 ### Practice 2: Excel และ Outlook
 
-#### Steps
+#### ขั้นตอนการทำกิจกรรม
 
 1. เปิด `product-revenue.xlsx` ใน Excel แล้วเปิด Copilot จาก ribbon
 
@@ -72,7 +72,7 @@
 - Excel insight อ้างอิงช่วงเซลล์และผู้เรียนตรวจเลขอย่างน้อย 2 ค่า
 - Outlook draft ไม่มีข้อมูลผู้รับจริงหรือไฟล์แนบผิด
 
-## Expected Output
+## สิ่งที่จะได้จาก exercise นี้
 
 concept brief, presentation outline, revenue insight และ email draft ที่สามารถส่งต่อให้เพื่อนตรวจได้
 

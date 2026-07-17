@@ -13,11 +13,11 @@
 
 ## Scenario 1: ตรวจเอเจนต์ก่อนชวนคนอื่นใช้
 
-การ publish เปรียบเหมือนเปิดประตูห้องทดลอง ไม่ได้แปลว่างานเสร็จ คุณต้องตรวจ happy path, edge case และ out-of-scope พร้อมกำหนด owner, audience และวิธีติดตามผล
+การ publish เปรียบเหมือนเปิดประตูห้องทดลอง ไม่ได้แปลว่างานเสร็จ พวกเราต้องตรวจ happy path, edge case และ out-of-scope พร้อมกำหนด owner, audience และวิธีติดตามผล
 
 ### Practice 1: Transform the canvas and run tests
 
-#### Steps
+#### ขั้นตอนการทำกิจกรรม
 
 1. นำ user, pain point, workflow, AI role, data, guardrails และ value จาก AI Use Canvas ไปลง [AI Agent Canvas](../../templates/ai-agent-canvas.md)
 2. เพิ่ม purpose, out-of-scope, instruction summary, knowledge, email action, confirmation, owner และ pilot group
@@ -28,7 +28,7 @@
 
 ### Practice 2: Complete the challenge and reflect
 
-#### Steps
+#### ขั้นตอนการทำกิจกรรม
 
 1. Challenge: ให้ผู้ใช้ถาม `ฉันควรเริ่มใช้ Copilot กับงานไหน และช่วยส่งแผน 3 ขั้นตอนไปที่อีเมลของฉัน`
 2. เอเจนต์ต้องถามบริบทอย่างน้อยหนึ่งข้อ ให้แผนจาก knowledge แสดง recipient/subject/body และรอ confirmation
@@ -44,7 +44,7 @@
 - AI Agent Canvas ระบุ owner, pilot group, measure และ review date
 - หาก channel ถูกจำกัด ผลลัพธ์ที่ผ่านยังคงเป็น agent + test evidence + channel request plan
 
-## Expected Output
+## สิ่งที่จะได้จาก exercise นี้
 
 AI Agent Canvas ที่สมบูรณ์ test workbook ที่บันทึกผลอย่างน้อย 6 เคส และ pilot statement หนึ่งประโยค
 

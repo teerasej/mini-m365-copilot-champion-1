@@ -14,11 +14,11 @@
 
 ## Scenario 1: สร้างผู้ช่วยนำ Copilot ไปใช้
 
-ผู้เรียนในทีมมีคำถามว่าเริ่มใช้ Copilot อย่างไร เลือก prompt แบบไหน และควรตรวจอะไร คุณจะสร้าง assistant ที่ให้คำแนะนำทั่วไป อ้างอิงแหล่งความรู้ที่กำหนด และไม่ตัดสินใจด้าน policy หรือสิทธิ์แทนผู้รับผิดชอบ
+ผู้เรียนในทีมมีคำถามว่าเริ่มใช้ Copilot อย่างไร เลือก prompt แบบไหน และควรตรวจอะไร พวกเราจะสร้าง assistant ที่ให้คำแนะนำทั่วไป อ้างอิงแหล่งความรู้ที่กำหนด และไม่ตัดสินใจด้าน policy หรือสิทธิ์แทนผู้รับผิดชอบ
 
 ### Practice 1: Create a blank agent
 
-#### Steps
+#### ขั้นตอนการทำกิจกรรม
 
 1. เปิด Microsoft Copilot Studio เลือก environment ที่ trainer ระบุ แล้วไปที่ **Agents**
 2. เลือก **New agent** หรือ **Create** แล้วเลือกการสร้าง agent ใหม่แบบ blank หาก UI แสดงตัวเลือก
@@ -29,7 +29,7 @@
 
 ### Practice 2: Add concise instructions and smoke test
 
-#### Steps
+#### ขั้นตอนการทำกิจกรรม
 
 1. เปิดช่อง **Instructions** แล้ววางข้อความนี้:
 
@@ -69,7 +69,7 @@ Reply in Thai, while preserving official English UI labels.
 - response ใช้ภาษาไทยแต่รักษาชื่อปุ่มเป็น English
 - เอเจนต์ไม่อ้างว่ามี knowledge ที่ยังไม่ได้เพิ่ม และปฏิเสธการอนุมัติแทนผู้รับผิดชอบ
 
-## Expected Output
+## สิ่งที่จะได้จาก exercise นี้
 
 blank agent ที่มี instruction ชัดและผ่าน smoke test 3 แบบ: normal, vague และ restricted request
 
