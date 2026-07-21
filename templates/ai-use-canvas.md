@@ -5,7 +5,6 @@
 - ผู้ใช้หลัก:
 - งานหรือสถานการณ์:
 - Pain point:
-- Opportunity statement:
 
 ## Workflow and AI Role
 

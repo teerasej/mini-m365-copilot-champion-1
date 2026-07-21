@@ -18,10 +18,10 @@
 | วัน | เวลา | Section | ผลลัพธ์ของผู้เรียน | แบบฝึกหัด |
 |---|---|---|---|---|
 | Foundation | 09:00–10:30 | 1 | สำรวจ AI agents ที่กำลังเปลี่ยนแปลงการทำงาน | [Exercise 1: Agents of Change](day-1-foundation/01a-agent-of-change/README.md) |
-| Foundation | 10:45–12:00 | 2 | ถอดแผนงานประจำวันและค้นหา pain point | [Foundation Day README](day-1-foundation/README.md) |
-| Foundation | 13:00–14:30 | 3 | เลือกลำดับความสำคัญ pain point  ด้วย selection framework | [Foundation Day README](day-1-foundation/README.md) |
-| Foundation | 14:45–16:00 | 4 | เตรียม workflow ให้พร้อมสำหรับนำ AI มาใช้กับมนุษย์ | [Foundation Day README](day-1-foundation/README.md) |
-| Foundation | TBD | 5 | รวมรวมไอเดียลง AI Use Canvas | [Foundation Day README](day-1-foundation/README.md) |
+| Foundation | 09:00–10:30 | 2 | ถอดแผนงานประจำวันและค้นหา pain point | [Foundation Day README](day-1-foundation/README.md) |
+| Foundation | 10:45–12:00 | 3 | เลือกลำดับความสำคัญ pain point  ด้วย selection framework | [Foundation Day README](day-1-foundation/README.md) |
+| Foundation | 13:00–14:30 | 4 | เตรียม workflow ให้พร้อมสำหรับนำ AI มาใช้กับมนุษย์ | [Foundation Day README](day-1-foundation/README.md) |
+| Foundation | 14:45–16:00 | 5 | รวมรวมไอเดียลง AI Use Canvas | [Foundation Day README](day-1-foundation/README.md) |
 | Microsoft 365 Copilot | 09:00–10:30 | 1 | อีเมลติดตามงาน สรุปงานสัปดาห์ที่แล้ว และ meeting brief | [Microsoft 365 Copilot Day README](day-2-m365-copilot/README.md) |
 | Microsoft 365 Copilot | 10:45–12:00 | 2 | ใช้งาน copilot จากใน Word, PowerPoint, Excel และ Outlook | [Microsoft 365 Copilot Day README](day-2-m365-copilot/README.md) |
 | Microsoft 365 Copilot | 13:00–14:30 | 3 | ลองสร้าง agent กับ Agent Builder | [Microsoft 365 Copilot Day README](day-2-m365-copilot/README.md) |

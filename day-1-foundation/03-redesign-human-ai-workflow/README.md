@@ -8,7 +8,7 @@
 
 ## Prerequisites
 
-- Opportunity statement จาก Section 2
+- Pain-point theme ที่เลือกจาก Section 2
 - flipchart ปากกา post-it 3 สี
 - [Human + AI Workflow Map](../../templates/human-ai-workflow-map.md) และ [AI Use Canvas](https://raw.githubusercontent.com/teerasej/mini-m365-copilot-champion-1/main/templates/AI%20Use%20Canvas%20Template.pptx)
 
