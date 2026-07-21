@@ -22,3 +22,14 @@
 | Foundation | 10:45–12:00 | 3 | เลือกลำดับความสำคัญ pain point  ด้วย selection framework | [Foundation Day README](day-1-foundation/README.md) |
 | Foundation | 13:00–14:30 | 4 | เตรียม workflow ให้พร้อมสำหรับนำ AI มาใช้กับมนุษย์ | [Foundation Day README](day-1-foundation/README.md) |
 | Foundation | 14:45–16:00 | 5 | รวมรวมไอเดียลง AI Use Canvas | [Foundation Day README](day-1-foundation/README.md) |
+
+## แหล่งข้อมูลอ้างอิง และติดตามอัพเดต
+
+- [Youtube](https://www.youtube.com/teerasej)
+- [คุยกันบน Facebook](https://www.facebook.com/teerasej)
+- [ทวิตกันบน Twitter](https://twitter.com/teerasej)
+
+## All rights reserved
+
+All rights reserved by [Amaround Co., Ltd.](https://www.nextflow.in.th/)
+
