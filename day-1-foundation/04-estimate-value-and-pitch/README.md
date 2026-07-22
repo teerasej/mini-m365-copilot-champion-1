@@ -16,7 +16,7 @@
 #### Steps
 
 1. ใช้ AI Use Canvas เพื่อประมาณค่า value ของ initiative ของพวกเรา
-2. ดาวน์โหลด AI Use Canvas (PPTX): [Raw GitHub Link](https://raw.githubusercontent.com/teerasej/mini-m365-copilot-champion-1/main/day-1-foundation/04-estimate-value-and-pitch/AI-Use-Canvas.pptx)
+2. ดาวน์โหลด AI Use Canvas (PPTX): [Raw GitHub Link](https://raw.githubusercontent.com/teerasej/mini-m365-copilot-champion-1/main/templates/AI%20Use%20Canvas%20Template.pptx)
 3. ทำการวิเคราะห์ประเภทของ value ที่พวกเราคาดว่าจะได้รับจากการนำ ai มาใช้
 4. ทำการเติมข้อมูลรายละเอียดของหัวข้อต่างๆ  ลงใน AI Use Canvas
 
