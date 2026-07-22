@@ -11,7 +11,7 @@
 - flipchart ปากกา 
 
 
-### Practice 1: ประมาณพวกเราค่าและรับ feedback
+### Practice 1: เรียนรู้ใช้งาน AI Use Canvas
 
 #### Steps
 
