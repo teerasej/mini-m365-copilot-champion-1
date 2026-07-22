@@ -15,12 +15,10 @@
 
 #### Steps
 
-1. เลือกผลลัพธ์หลัก 1–2 ด้าน: time saved, quality, reduced rework, turnaround หรือ employee experience
-2. บันทึก baseline ที่รู้จริง หากไม่รู้ให้เขียน “ต้องวัด” แทนการเดาตัวเลข
-3. เขียนสมมติฐานแบบนี้: “ถ้าเราเปลี่ยน **[workflow]** เราคาดว่า **[measure]** จะเปลี่ยนจาก **[baseline]** เป็น **[target]** ภายใน **[period]**”
-4. ระบุค่าใช้จ่ายหรือข้อจำกัดอย่างน้อย 1 เรื่อง และวิธีตรวจสอบผลอย่างน้อย 1 วิธี
-5. ติด canvas บนผนัง ทำ gallery walk แล้วให้ feedback 3 แบบ: **Strength**, **Question**, **Next Step**
-6. แก้ canvas หนึ่งจุดจาก feedback ที่ได้รับ
+1. ใช้ AI Use Canvas เพื่อประมาณค่า value ของ initiative ของพวกเรา
+2. ดาวน์โหลด AI Use Canvas (PPTX): [Raw GitHub Link](https://raw.githubusercontent.com/teerasej/mini-m365-copilot-champion-1/main/day-1-foundation/04-estimate-value-and-pitch/AI-Use-Canvas.pptx)
+3. ทำการวิเคราะห์ประเภทของ value ที่พวกเราคาดว่าจะได้รับจากการนำ ai มาใช้
+4. ทำการเติมข้อมูลรายละเอียดของหัวข้อต่างๆ  ลงใน AI Use Canvas
 
 ### Practice 2: Pitch 60 วินาที
 
