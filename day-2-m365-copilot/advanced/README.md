@@ -15,6 +15,7 @@
    - `Krungsri_BranchOps_Report_Source.docx`
    - `Krungsri_BranchKPI_28days.xlsx`
    - ผลงาน `Krungsri_BranchOps_ExecutiveSummary.docx` จากแบบฝึกหัดหลัก
+   - [Teams meeting transcript ตัวอย่าง 15 นาที](files/branch-operations-review-15min.vtt)
 5. ตรวจสอบสิทธิ์ของ Agent, Teams transcription, Copilot Pages, Copilot Notebooks และ Copilot Memory ก่อนเลือก Lab ที่เกี่ยวข้อง
 
 > Feature บางรายการขึ้นอยู่กับ tenant policy และการ rollout ของ Microsoft หากไม่เห็นเมนูตามขั้นตอน ให้ใช้ fallback ที่ระบุไว้ใน Lab นั้น

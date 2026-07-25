@@ -9,7 +9,7 @@
 1. มีไฟล์ `Krungsri_BranchKPI_28days.xlsx`
 2. มีไฟล์ `Krungsri_BranchOps_Report_Source.docx`
 3. มี `Krungsri_BranchOps_ExecutiveSummary.docx` และ presentation จากแบบฝึกหัดหลัก
-4. มี email หรือ meeting ตัวอย่างที่ใช้ข้อมูลสมมติ
+4. ดาวน์โหลด [Teams meeting transcript ตัวอย่าง 15 นาที](../files/branch-operations-review-15min.vtt)
 5. หากขาดผลงานจากขั้นก่อน ให้ใช้ source files และสร้าง output ใหม่ใน Practice นั้น
 
 ## Scenario 1: ตรวจ Source of Truth ด้วย Copilot Chat และ Excel
@@ -132,7 +132,7 @@ Metric | Value in each source | Conflict | Source of truth | Action required
 
 #### Steps
 
-1. สร้าง meeting draft หรือใช้ meeting ตัวอย่าง
+1. สร้าง meeting draft หรือใช้ Teams meeting transcript ตัวอย่าง
 2. เพิ่ม agenda จาก Reconciliation Brief
 3. เตรียม prompt สำหรับใช้ระหว่างหรือหลัง meeting
 
@@ -148,7 +148,7 @@ Metric | Value in each source | Conflict | Source of truth | Action required
 แยกสิ่งที่พูดใน meeting ออกจาก recommendation ของ Copilot
 ```
 
-4. หากใช้ transcription ไม่ได้ ให้ใช้ meeting note ตัวอย่างแทน
+4. หากใช้ transcription ไม่ได้ ให้เปิดไฟล์ `.vtt` คัดลอกข้อความ transcript และวางใน Copilot Chat ก่อนใช้ prompt
 5. นำ decision และ action items กลับไปอัปเดต Copilot Page
 
 ## Checkpoint

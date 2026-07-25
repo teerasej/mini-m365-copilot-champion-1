@@ -8,7 +8,7 @@
 
 1. ใช้ Microsoft 365 Copilot ใน app ที่เลือกได้
 2. มีไฟล์ workshop ใน OneDrive
-3. ใช้ email และ meeting ตัวอย่างเท่านั้น
+3. ใช้ email ตัวอย่างและ [Teams meeting transcript ตัวอย่าง 15 นาที](../files/branch-operations-review-15min.vtt) เท่านั้น
 4. ตรวจ output ทุกครั้งก่อน Replace, Keep, Send หรือ Share
 
 ## Scenario 1: Word — Multi-source Executive Brief
@@ -118,7 +118,7 @@
 3. หลังประชุม ขอ Decisions, Action items, Risks และ Open questions
 4. ตรวจ transcript หรือ meeting note
 5. นำ action items ไปอัปเดต Copilot Page
-6. หาก transcription ถูกปิด ให้ใช้ transcript ตัวอย่างที่ Trainer เตรียม
+6. หาก transcription ถูกปิด ให้เปิดไฟล์ `.vtt` คัดลอก transcript และวางใน Copilot Chat
 
 #### Prompt Example
 

@@ -12,7 +12,7 @@
 1. เปิด [Microsoft 365 Copilot](https://microsoft365.com)
 2. มี OneDrive และ SharePoint service พร้อมใช้งาน
 3. มีคำตอบที่ตรวจ source แล้วจาก Lab ก่อนหน้า
-4. มีไฟล์รายงาน, workbook และ meeting note ตัวอย่าง
+4. มีไฟล์รายงาน, workbook และ [Teams meeting transcript ตัวอย่าง 15 นาที](../files/branch-operations-review-15min.vtt)
 5. หากไม่เห็น **Notebooks** ให้ทำเฉพาะ Copilot Pages และใช้การแนบ source ใน Copilot Chat เป็น fallback
 
 ## Scenario 1: เปลี่ยนคำตอบจาก Chat เป็น Copilot Page
@@ -85,7 +85,7 @@
 4. เพิ่ม source อย่างน้อย 3 ชนิด
    - `Krungsri_BranchKPI_28days.xlsx`
    - `Krungsri_BranchOps_ExecutiveSummary.docx`
-   - Copilot Page หรือ meeting note ที่สร้างไว้
+   - Copilot Page หรือ Teams meeting transcript ตัวอย่าง
 5. ไม่เพิ่มไฟล์เพียงเพราะหาเจอ ให้เลือกเฉพาะ source ที่ช่วยตอบโจทย์
 
 ### Practice 2: ถามจาก Source Set ที่จำกัด
