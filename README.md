@@ -22,6 +22,9 @@
 | Foundation | 10:45–12:00 | 3 | เลือกลำดับความสำคัญ pain point  ด้วย selection framework | [Foundation Day README](day-1-foundation/README.md) |
 | Foundation | 13:00–14:30 | 4 | เตรียม workflow ให้พร้อมสำหรับนำ AI มาใช้กับมนุษย์ | [Foundation Day README](day-1-foundation/README.md) |
 | Foundation | 14:45–16:00 | 5 | รวมรวมไอเดียลง AI Use Canvas | [Foundation Day README](day-1-foundation/README.md) |
+| Microsoft 365 Copilot | Core workflow | 1–6 | เชื่อม Copilot Chat, Word, PowerPoint, Excel, Outlook, Teams และ Agent Builder | [Day 2 Core Exercises](day-2-m365-copilot/README.md) |
+| Microsoft 365 Copilot | Advanced practice | Lab menu | เลือก context, response mode, Prompt Gallery, Pages, Notebook, Microsoft-built Agent และ Agent Builder ให้ตรงกับงาน | [Day 2 Advanced Labs](day-2-m365-copilot/advanced/README.md) |
+| Microsoft 365 Copilot | 14:45–16:00 | Final reflection | ทดลอง workflow จาก Day 1 และอัปเดต AI Use Canvas จากหลักฐาน | [AI Use Canvas Experiment Studio](day-2-m365-copilot/advanced/09-ai-use-canvas-experiment-studio/README.md) |
 
 ## แหล่งข้อมูลอ้างอิง และติดตามอัพเดต
 
@@ -32,4 +35,3 @@
 ## All rights reserved
 
 All rights reserved by [Amaround Co., Ltd.](https://www.nextflow.in.th/)
-
