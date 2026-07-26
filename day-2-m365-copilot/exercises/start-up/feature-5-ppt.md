@@ -6,7 +6,8 @@
 > ในแบบฝึกหัดนี้ การใช้งานจะแตกต่างกันตามประเภทของ Account ที่ใช้งาน Copilot นะครับ
 
 1. กลับมาที่ folder เดิม ใน OneDrive 
-2. กดเปิดไฟล์​ PowerPoint ชื่อ **Business presentation.pptx**
+2. [ดาวน์โหลด **Business presentation.pptx**](https://github.com/teerasej/mini-m365-copilot-champion-1/raw/refs/heads/main/day-2-m365-copilot/files/Business%20presentation.pptx) หากยังไม่มีไฟล์ แล้วอัพโหลดไปยัง OneDrive
+3. กดเปิดไฟล์​ PowerPoint ชื่อ **Business presentation.pptx**
 
 ## ใช้ Copilot Chat (สำหรับผู้ใช้แบบฟรี และแบบมี license)
 

@@ -21,8 +21,8 @@
 2. เปิด link  https://onedrive.microsoft.com
 3. Login ด้วย Microsoft account ขององค์กร
 4. สร้าง folder ใหม่สำหรับ upload ไฟล์ ชื่อ **My Copilot**
-5. ทำการอัพโหลดไฟล์ **sample_product_revenue.xlsx** (ได้จาก zip file) ขึ้นไปใน **My Copilot** folder
-6. หรือเปิดไฟล์จาก link นี้
+5. [ดาวน์โหลด **sample_product_revenue.xlsx**](https://github.com/teerasej/mini-m365-copilot-champion-1/raw/refs/heads/main/day-2-m365-copilot/files/sample_product_revenue.xlsx) หรือใช้ไฟล์จาก Day 2 ZIP
+6. อัพโหลดไฟล์ขึ้นไปใน **My Copilot** folder
 
 
 ## 2. เปิดไฟล์ Excel บน Web
