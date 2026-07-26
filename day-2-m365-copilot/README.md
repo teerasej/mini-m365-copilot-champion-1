@@ -1,5 +1,5 @@
 
-# Day 2 — Microsoft 365 Copilot: Practise the Flow
+# Day 2 — Microsoft 365 Copilot
 
 วันที่ 2 นำ pain point และ AI Use Canvas จากวันแรกมาทดลองกับ Copilot Chat, Word, PowerPoint, Excel, Outlook และ Agent Builder
 
