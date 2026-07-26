@@ -36,15 +36,13 @@
 5. [Memory, Custom Instructions และ Temporary Chat](advanced/04-memory-and-temporary-chat/README.md)
 6. [Branch Operations Decision Pack](advanced/05-branch-operations-decision-pack/README.md)
 7. [Microsoft-built Agents](advanced/06-microsoft-built-agent-lab/README.md)
-8. [Agent Builder from AI Use Canvas](advanced/07-agent-builder-from-ai-use-canvas/README.md)
-9. [Microsoft 365 App Deep-dive Cards](advanced/08-m365-app-deep-dive-cards/README.md)
 
-## Final Reflection — 14:45–16:00
+## Final Reflection 
 
 ช่วงสุดท้ายใช้สำหรับทดลอง workflow จริงจาก Day 1 ทบทวนหลักฐาน และปรับ AI Use Canvas ไม่มีการเพิ่ม feature lecture ใหม่ในช่วงนี้
 
 1. [AI Use Canvas Experiment Studio](advanced/09-ai-use-canvas-experiment-studio/README.md)
-2. [Map Tools and Reflect](04-map-tools-and-reflect/README.md)
+
 
 
 

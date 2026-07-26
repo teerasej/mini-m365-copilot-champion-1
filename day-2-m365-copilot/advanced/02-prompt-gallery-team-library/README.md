@@ -1,13 +1,13 @@
-# Advanced Exercise: สร้าง Prompt Library ของทีมด้วย Prompt Gallery
+# Advanced Exercise: สร้าง Prompt Library ของทีมด้วย Prompt Lab
 
 ## Exercise Overview
 
-พวกเราจะเปลี่ยน prompt ที่ใช้ครั้งเดียวให้เป็น prompt template ที่ทีมค้นหา ใช้ซ้ำ และปรับค่าได้อย่างสม่ำเสมอผ่าน **Prompt Gallery**
+พวกเราจะเปลี่ยน prompt ที่ใช้ครั้งเดียวให้เป็น prompt template ที่ทีมสามารถค้นหา ใช้ซ้ำได้อย่างสม่ำเสมอผ่าน **Prompt Lab**
 
 ## Prerequisites
 
 1. เปิด [Microsoft 365 Copilot Chat](https://m365.cloud.microsoft/chat)
-2. เข้าถึง **Prompt Gallery**
+2. เข้าถึง **Prompt Lab (หรือชื่อเดิมคือ Prompt Gallery)**
 3. มี prompt ที่ให้ผลลัพธ์ดีจากแบบฝึกหัดก่อนหน้า
 4. หากองค์กรไม่อนุญาตให้แชร์ prompt กับ Teams team ให้บันทึกไว้ใน **Your Prompts** และแลกเปลี่ยนข้อความกับเพื่อนแทน
 
@@ -19,14 +19,15 @@
 
 #### Steps
 
-1. เปิด **Prompt Gallery**
+1. เปิด **Prompt Lab**
 2. เลือก **Suggested**
-3. ค้นหา prompt ที่เกี่ยวกับ summarize, prepare for a meeting หรือ analyze
-4. เปิด prompt อย่างน้อย 2 รายการ
-5. สังเกตส่วนที่ Microsoft แนะนำให้ปรับ เช่น เป้าหมาย source หรือรูปแบบผลลัพธ์
-6. เลือก 1 prompt ที่ใกล้กับงานของทีมที่สุด
+3. ค้นหา prompt ที่เกี่ยวกับ "define job"
+4. สังเกตส่วนที่ Microsoft แนะนำให้ปรับ เช่น เป้าหมาย source หรือรูปแบบผลลัพธ์
+5. ลองหา และเลือก 1 prompt ที่ใกล้กับงานของทีมที่สุด
 
 ### Practice 2: สร้าง Prompt Template ของทีม
+
+ตรงนี้ให้ลองจับคู่กับคนข้างๆ เพื่อเลือก และช่วยกันปรับ prompt ให้เป็น template ที่ใช้ซ้ำได้ง่าย
 
 #### Steps
 
@@ -61,7 +62,7 @@ Quality check:
 ```
 
 5. ส่ง prompt และตรวจผลลัพธ์
-6. ปรับจนผู้ใช้อีกคนอ่าน placeholder แล้วรู้ว่าต้องแทนค่าอะไร
+6. ปรับจนผู้ใช้คนอื่นอ่าน placeholder แล้วรู้ว่าต้องแทนค่าอะไร
 
 ### Practice 3: บันทึกและแชร์
 
@@ -70,7 +71,7 @@ Quality check:
 1. บันทึก prompt ใน **Your Prompts**
 2. ตั้งชื่อว่า `Branch Operations Decision Brief`
 3. เปิด Prompt Gallery และตรวจว่า prompt ปรากฏในรายการ
-4. หากมีสิทธิ์ ให้แชร์ prompt กับ Teams team ที่ Trainer กำหนด
+4. หากมีสิทธิ์ ให้แชร์ prompt กับ Teams ของตัวเอง หรือที่เหมาะกับกลุ่มผู้ใช้งาน
 5. ให้เพื่อนเปิด prompt แทนค่า และทดลองกับ source ของตนเอง
 6. เก็บ feedback ว่าส่วนใดยังคลุมเครือหรือผูกกับเจ้าของ prompt มากเกินไป
 
@@ -100,8 +101,7 @@ Quality check:
 - หลักฐานการทดลองโดยผู้ใช้อีกคน
 - Feedback และ prompt เวอร์ชันปรับปรุง
 
-## Optional Extension
+## Next Steps
 
-สร้าง prompt เพิ่มอีก 1 รายการสำหรับ Word, Excel, PowerPoint, Outlook หรือ Teams แล้วจัดเป็น mini prompt collection ของทีม
+[ดูภาพรวม Advanced](../README.md) | [กลับไป Lab 1](../01-context-and-response-modes/README.md) | [ไป Lab 3](../03-pages-and-notebooks/README.md)
 
-[กลับไป Lab 1](../01-context-and-response-modes/README.md) | [ไป Lab 3](../03-pages-and-notebooks/README.md)

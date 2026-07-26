@@ -2,7 +2,7 @@
 
 ## Exercise Overview
 
-พวกเราจะทดลองใช้ **Copilot Page** เป็นผลงานที่แก้ไขและแชร์ได้ และใช้ **Copilot Notebook** เป็นพื้นที่รวม source ที่ Copilot ต้องใช้ต่อเนื่อง
+พวกเราจะมาทดลองใช้ **Copilot Page** เป็นผลงานที่แก้ไขและแชร์ได้ และใช้ **Copilot Notebook** เป็นพื้นที่รวม source ที่ Copilot ต้องใช้ต่อเนื่อง
 
 - Page เหมือน whiteboard ที่ทีมช่วยกันแก้ไข
 - Notebook เหมือนแฟ้มโครงการที่รวบรวมเอกสารอ้างอิงไว้ถามต่อ
@@ -10,10 +10,8 @@
 ## Prerequisites
 
 1. เปิด [Microsoft 365 Copilot](https://microsoft365.com)
-2. มี OneDrive และ SharePoint service พร้อมใช้งาน
-3. มีคำตอบที่ตรวจ source แล้วจาก Lab ก่อนหน้า
-4. มีไฟล์รายงาน, workbook และ [Teams meeting transcript ตัวอย่าง 15 นาที](https://github.com/teerasej/mini-m365-copilot-champion-1/raw/refs/heads/main/day-2-m365-copilot/files/branch-operations-review-15min.vtt)
-5. หากไม่เห็น **Notebooks** ให้ทำเฉพาะ Copilot Pages และใช้การแนบ source ใน Copilot Chat เป็น fallback
+2. มีไฟล์รายงาน, workbook และ [Teams meeting transcript ตัวอย่าง 15 นาที](https://github.com/teerasej/mini-m365-copilot-champion-1/raw/refs/heads/main/day-2-m365-copilot/files/branch-operations-review-15min.vtt)
+3. หากไม่เห็น **Notebooks** ให้ทำเฉพาะ Copilot Pages และใช้การแนบ source ใน Copilot Chat เป็น fallback
 
 ## Scenario 1: เปลี่ยนคำตอบจาก Chat เป็น Copilot Page
 
@@ -21,7 +19,7 @@
 
 #### Steps
 
-1. เปิด Copilot Chat และแนบ source ที่เกี่ยวข้อง
+1. เปิด Copilot Chat และแนบ source ที่เกี่ยวข้อง ในที่นี้คือ `Krungsri_BranchOps_Report_Source.docx` และ `Krungsri_BranchKPI_28days.xlsx`
 2. ส่ง prompt ต่อไปนี้
 
 #### Prompt Example
@@ -44,7 +42,21 @@
 5. ตั้งชื่อ Page ว่า `Branch Operations Decision Page`
 6. แก้ owner และ due date บน Page โดยตรง
 
-### Practice 2: ทำงาน Side-by-side กับ Copilot
+#### Practice 2: แชร์ Page ให้เพื่อน
+
+#### Steps
+
+1. เปิด Page `Branch Operations Decision Page` ที่สร้างจาก Practice 1
+2. กดปุ่ม **Share** และเลือกช่องทาง (Teams หรือ Outlook)
+3. กำหนดสิทธิ์ให้เพื่อนเป็นระดับแก้ไขร่วมกันได้ (ไม่ใช่ owner)
+4. เขียนข้อความสั้นในคำเชิญ โดยระบุว่าให้เพื่อนช่วย review 2 เรื่อง
+   - ความชัดเจนของ decision
+   - ความสมเหตุสมผลของ owner และ due date
+5. ส่งลิงก์ให้เพื่อนและยืนยันว่าเพื่อนเปิด Page ได้จริง
+6. กลับมาที่ Page และเตรียมทำงานต่อแบบ side-by-side กับ Copilot ใน Practice 3
+
+
+### Practice 3: ทำงาน Side-by-side กับ Copilot
 
 #### Steps
 
@@ -64,7 +76,7 @@
 5. แก้ไขข้อความสำคัญด้วยตนเองอย่างน้อย 1 จุด
 6. แชร์ Page ให้เพื่อนผ่าน Teams หรือ Outlook ตามช่องทางที่ Trainer กำหนด
 
-### Practice 3: ตรวจการทำงานร่วมกัน
+### Practice 4: ตรวจการทำงานร่วมกัน
 
 #### Steps
 
@@ -124,8 +136,7 @@
 - `Branch Operations Context Pack`
 - รายการ findings, conflicts และ open questions ที่ตรวจย้อนกลับได้
 
-## Optional Extension
+## Next Steps
 
-เพิ่ม email หรือ meeting note อีก 1 source เข้า Notebook แล้วบันทึกว่าข้อมูลใหม่เปลี่ยน recommendation เดิมหรือไม่
 
 [กลับไป Lab 2](../02-prompt-gallery-team-library/README.md) | [ไป Lab 4](../04-memory-and-temporary-chat/README.md)

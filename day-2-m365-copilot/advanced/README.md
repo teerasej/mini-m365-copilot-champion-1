@@ -2,9 +2,7 @@
 
 ## Exercise Overview
 
-ชุด Advanced Labs นี้ต่อยอดจากแบบฝึกหัดหลักของ Day 2 โดยไม่แทนที่เนื้อหาเดิม พวกเราจะฝึกเลือก context, source, response mode, Microsoft 365 app และ Agent ให้ตรงกับงานจริง
-
-ไม่จำเป็นต้องทำทุก Lab ตามลำดับ Trainer สามารถเลือก Lab ให้เหมาะกับความสนใจของผู้เรียนได้ แต่ควรปิดท้ายด้วย **AI Use Canvas Experiment Studio**
+สำหรับชุด Advanced Labs นี้ พลได้ออกแบบให้ต่อยอดจากแบบฝึกหัดหลักของ Day 2 นะครับ โดยพวกเราจะฝึกทำความเข้าใจในพื้นฐานเบื้องลึกของ Microsoft 365 Copilot และทดลองปรับใช้กับ workflow ของเราเอง โดยสามารถเลือกได้อย่างอิสระครับ
 
 ## Prerequisites
 
@@ -24,7 +22,7 @@
 
 ### เส้นทาง A: เพิ่มความแม่นยำของ Copilot Chat
 
-1. [Context, Source และ Response Modes](01-context-and-response-modes/README.md)
+1. [เข้าใจการทำงาน Context, Source และ Response Modes](01-context-and-response-modes/README.md)
 2. [สร้าง Prompt Library ของทีมด้วย Prompt Gallery](02-prompt-gallery-team-library/README.md)
 3. [เปลี่ยนคำตอบเป็นงานร่วมกันด้วย Copilot Pages และ Notebooks](03-pages-and-notebooks/README.md)
 4. [แยก Memory ออกจาก Context และ Temporary Chat](04-memory-and-temporary-chat/README.md)
@@ -36,25 +34,10 @@
 7. [สร้าง Agent จาก AI Use Canvas](07-agent-builder-from-ai-use-canvas/README.md)
 8. [Microsoft 365 App Deep-dive Cards](08-m365-app-deep-dive-cards/README.md)
 
-### เส้นทาง C: ทดลองกับงานจริงของเรา
+## ทดลองกับงานจริงของเรา
 
-9. [AI Use Canvas Experiment Studio](09-ai-use-canvas-experiment-studio/README.md)
-10. [Map Tools and Reflect](../04-map-tools-and-reflect/README.md)
+1. [AI Use Canvas Experiment Studio](09-ai-use-canvas-experiment-studio/README.md)
 
-## วิธีเลือก Lab ให้ตรงกับโจทย์
-
-| ถ้าพวกเราต้องการ... | เริ่มที่ |
-|---|---|
-| ลดคำตอบกว้างหรืออ้างอิงผิดแหล่ง | Context, Source และ Response Modes |
-| สร้าง prompt ที่ทีมใช้ซ้ำได้ | Prompt Gallery |
-| เปลี่ยนคำตอบให้เป็นเอกสารที่แก้ไขและแชร์ได้ | Copilot Pages |
-| รวม source หลายชนิดไว้ถามต่อเนื่อง | Copilot Notebooks |
-| เข้าใจสิ่งที่ Copilot จำข้ามห้อง Chat | Memory และ Temporary Chat |
-| เชื่อม Chat, Excel, Word, PowerPoint, Outlook และ Teams | Branch Operations Decision Pack |
-| เลือก Researcher, Analyst, Surveys หรือ Creation Agent | Microsoft-built Agents |
-| สร้าง Agent สำหรับ workflow ของเรา | Agent Builder |
-| หา use case เพิ่มในแต่ละ Microsoft 365 app | App Deep-dive Cards |
-| ทดลองแนวคิดจาก Day 1 และปรับ Canvas | AI Use Canvas Experiment Studio |
 
 ## Official Microsoft References
 

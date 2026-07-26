@@ -125,6 +125,54 @@ Agent แต่ละตัวเหมือนผู้เชี่ยวช�
    - งานตรวจของมนุษย์
 7. หาก Agent ไม่พร้อม ให้ Trainer แสดง output ตัวอย่างและให้ผู้เรียนทำ comparison review
 
+#### Sample Prompts
+
+ใช้ prompt ตัวอย่างแบบสั้นด้านล่าง เพื่อให้ผู้เรียนลอง Agent แต่ละตัวได้ทันที
+
+**Word Agent**
+
+```text
+Source file: Branch_Operations_Review.docx
+
+สร้างร่างเอกสาร 1 หน้า สรุป Branch Operations Review จาก source ที่แนบ
+
+ให้มี 3 ส่วน:
+- Key findings
+- Risks
+- Next actions
+
+ทำให้พร้อมนำไปแก้ต่อใน Word
+```
+
+**Excel Agent**
+
+```text
+Source file: Krungsri_BranchKPI_28days.xlsx
+
+วิเคราะห์ไฟล์ที่แนบและสรุป KPI สำคัญ 3 ตัวในตารางสั้น ๆ
+
+ให้แสดง:
+- ค่าเฉลี่ย
+- ค่าสูงสุด
+- ค่าต่ำสุด
+
+จัดผลลัพธ์ให้ง่ายต่อการตรวจต่อใน Excel
+```
+
+**PowerPoint Agent**
+
+```text
+Source file: Branch_Operations_Review.docx
+
+สร้างโครงร่างสไลด์ 3 หน้า สำหรับสรุป Branch Operations Review
+
+แต่ละสไลด์ให้มี:
+- ชื่อสไลด์
+- 2-3 bullet points
+- ข้อความสรุปสั้น ๆ สำหรับผู้บริหาร
+
+ใช้ source ที่แนบและจัดรูปแบบให้พร้อมแก้ต่อใน PowerPoint
+```
 ## Checkpoint
 
 - Researcher ใช้กับงานหลาย source ที่ต้องการรายงานและ citation
@@ -141,7 +189,5 @@ Agent แต่ละตัวเหมือนผู้เชี่ยวช�
 - Survey preview หรือชุดคำถามตัวอย่าง
 
 ## Optional Extension
-
-ให้เพื่อนเลือก Agent คนละตัวกับเรา แต่ใช้โจทย์เดียวกัน แล้วโหวตว่า output ใดพร้อมใช้ที่สุดพร้อมแสดงหลักฐาน
 
 [กลับไป Lab 5](../05-branch-operations-decision-pack/README.md) | [ไป Lab 7](../07-agent-builder-from-ai-use-canvas/README.md)
