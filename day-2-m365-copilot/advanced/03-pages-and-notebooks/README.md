@@ -12,7 +12,7 @@
 1. เปิด [Microsoft 365 Copilot](https://microsoft365.com)
 2. มี OneDrive และ SharePoint service พร้อมใช้งาน
 3. มีคำตอบที่ตรวจ source แล้วจาก Lab ก่อนหน้า
-4. มีไฟล์รายงาน, workbook และ [Teams meeting transcript ตัวอย่าง 15 นาที](../files/branch-operations-review-15min.vtt)
+4. มีไฟล์รายงาน, workbook และ [Teams meeting transcript ตัวอย่าง 15 นาที](https://github.com/teerasej/mini-m365-copilot-champion-1/raw/refs/heads/main/day-2-m365-copilot/files/branch-operations-review-15min.vtt)
 5. หากไม่เห็น **Notebooks** ให้ทำเฉพาะ Copilot Pages และใช้การแนบ source ใน Copilot Chat เป็น fallback
 
 ## Scenario 1: เปลี่ยนคำตอบจาก Chat เป็น Copilot Page

@@ -6,10 +6,10 @@
 
 ## Prerequisites
 
-1. มีไฟล์ `Krungsri_BranchKPI_28days.xlsx`
-2. มีไฟล์ `Krungsri_BranchOps_Report_Source.docx`
+1. ดาวน์โหลด [Krungsri_BranchKPI_28days.xlsx](https://github.com/teerasej/mini-m365-copilot-champion-1/raw/refs/heads/main/day-2-m365-copilot/files/Krungsri_BranchKPI_28days.xlsx)
+2. ดาวน์โหลด [Krungsri_BranchOps_Report_Source.docx](https://github.com/teerasej/mini-m365-copilot-champion-1/raw/refs/heads/main/day-2-m365-copilot/files/Krungsri_BranchOps_Report_Source.docx)
 3. มี `Krungsri_BranchOps_ExecutiveSummary.docx` และ presentation จากแบบฝึกหัดหลัก
-4. ดาวน์โหลด [Teams meeting transcript ตัวอย่าง 15 นาที](../files/branch-operations-review-15min.vtt)
+4. ดาวน์โหลด [Teams meeting transcript ตัวอย่าง 15 นาที](https://github.com/teerasej/mini-m365-copilot-champion-1/raw/refs/heads/main/day-2-m365-copilot/files/branch-operations-review-15min.vtt)
 5. หากขาดผลงานจากขั้นก่อน ให้ใช้ source files และสร้าง output ใหม่ใน Practice นั้น
 
 ## Scenario 1: ตรวจ Source of Truth ด้วย Copilot Chat และ Excel

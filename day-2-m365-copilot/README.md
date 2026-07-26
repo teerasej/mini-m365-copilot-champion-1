@@ -9,10 +9,10 @@
 
 ## ไฟล์สำหรับ workshop
 
-1. [ไฟล์เอกสารนำเสนอ](https://github.com/teerasej/ai-for-everyone/raw/gpo-2026-01/files/TokioMarineLife/presentation.pdf)
-2. [ดาวน์โหลดไฟล์สำหรับใช้ในเวิร์คชอป (zip file)](https://github.com/teerasej/ai-for-everyone/raw/gpo-2026-01/files/TokioMarineLife/Nextflow-M365-Copilot-TokioMarineLife-files.zip)
+1. [ดาวน์โหลด Day 2 sample files ทั้งหมด (.zip)](https://github.com/teerasej/mini-m365-copilot-champion-1/raw/refs/heads/main/day-2-m365-copilot/downloads/day-2-sample-files.zip)
+2. [เปิดรายการไฟล์และเลือกดาวน์โหลดทีละไฟล์](sample-files.md)
 
-
+> **💡 Tip:** ดาวน์โหลด ZIP เมื่อต้องการเตรียมทุกไฟล์ล่วงหน้า หรือใช้ลิงก์รายไฟล์ในแต่ละแบบฝึกหัดเมื่อต้องการเริ่มเฉพาะหัวข้อนั้น
 
 ## แบบฝึกหัดหลัก
 

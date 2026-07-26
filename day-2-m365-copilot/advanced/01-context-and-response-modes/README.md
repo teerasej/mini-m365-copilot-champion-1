@@ -10,7 +10,7 @@
 
 1. เปิด [Microsoft 365 Copilot Chat](https://m365.cloud.microsoft/chat)
 2. เปิด **Work IQ**
-3. มีไฟล์ `Krungsri_BranchKPI_28days.xlsx` และ `Krungsri_BranchOps_Report_Source.docx` ใน OneDrive
+3. ดาวน์โหลด [Krungsri_BranchKPI_28days.xlsx](https://github.com/teerasej/mini-m365-copilot-champion-1/raw/refs/heads/main/day-2-m365-copilot/files/Krungsri_BranchKPI_28days.xlsx) และ [Krungsri_BranchOps_Report_Source.docx](https://github.com/teerasej/mini-m365-copilot-champion-1/raw/refs/heads/main/day-2-m365-copilot/files/Krungsri_BranchOps_Report_Source.docx) แล้วอัพโหลดไว้ใน OneDrive
 4. ใช้ข้อมูลตัวอย่างเท่านั้น
 
 ## Scenario 1: เปรียบเทียบผลลัพธ์เมื่อกำหนด Source

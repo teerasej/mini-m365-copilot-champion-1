@@ -1,0 +1,34 @@
+name: Validate Day 2 sample ZIP
+
+on:
+  pull_request:
+    paths:
+      - "day-2-m365-copilot/files/**"
+      - "day-2-m365-copilot/downloads/day-2-sample-files.zip"
+      - "scripts/build_day2_sample_zip.py"
+      - ".github/workflows/validate-day2-sample-zip.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "day-2-m365-copilot/files/**"
+      - "day-2-m365-copilot/downloads/day-2-sample-files.zip"
+      - "scripts/build_day2_sample_zip.py"
+      - ".github/workflows/validate-day2-sample-zip.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  archive-is-current:
+    name: Day 2 ZIP is current
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Rebuild Day 2 sample archive
+        run: python3 scripts/build_day2_sample_zip.py
+
+      - name: Confirm committed archive matches source files
+        run: git diff --exit-code -- day-2-m365-copilot/downloads/day-2-sample-files.zip

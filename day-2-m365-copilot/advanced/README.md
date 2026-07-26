@@ -11,11 +11,11 @@
 1. ใช้บัญชีองค์กรที่มี **Microsoft 365 Copilot license**
 2. ผ่านแบบฝึกหัดหลัก Copilot Chat, Word, PowerPoint, Excel และ Outlook + Teams
 3. มี AI Use Canvas จาก Day 1
-4. มีไฟล์ต่อไปนี้ใน OneDrive
+4. [ดาวน์โหลด Day 2 sample files ทั้งหมด (.zip)](https://github.com/teerasej/mini-m365-copilot-champion-1/raw/refs/heads/main/day-2-m365-copilot/downloads/day-2-sample-files.zip) หรือเลือกจาก [รายการไฟล์สำหรับ Day 2](../sample-files.md) แล้วเตรียมไฟล์ต่อไปนี้ใน OneDrive
    - `Krungsri_BranchOps_Report_Source.docx`
    - `Krungsri_BranchKPI_28days.xlsx`
    - ผลงาน `Krungsri_BranchOps_ExecutiveSummary.docx` จากแบบฝึกหัดหลัก
-   - [Teams meeting transcript ตัวอย่าง 15 นาที](files/branch-operations-review-15min.vtt)
+   - `branch-operations-review-15min.vtt`
 5. ตรวจสอบสิทธิ์ของ Agent, Teams transcription, Copilot Pages, Copilot Notebooks และ Copilot Memory ก่อนเลือก Lab ที่เกี่ยวข้อง
 
 > Feature บางรายการขึ้นอยู่กับ tenant policy และการ rollout ของ Microsoft หากไม่เห็นเมนูตามขั้นตอน ให้ใช้ fallback ที่ระบุไว้ใน Lab นั้น

@@ -9,7 +9,7 @@ Agent แต่ละตัวเหมือนผู้เชี่ยวช�
 ## Prerequisites
 
 1. เปิด **Agents** หรือ **All agents** ใน Microsoft 365 Copilot
-2. มี `Krungsri_BranchKPI_28days.xlsx`
+2. ดาวน์โหลด [Krungsri_BranchKPI_28days.xlsx](https://github.com/teerasej/mini-m365-copilot-champion-1/raw/refs/heads/main/day-2-m365-copilot/files/Krungsri_BranchKPI_28days.xlsx)
 3. ใช้ source และ scenario ตัวอย่างเท่านั้น
 4. Agent บางรายการต้องได้รับอนุญาตจาก Admin
 5. หากไม่เห็น Agent ให้ใช้ Copilot Chat ทำโจทย์เดียวกันและบันทึกเป็น fallback

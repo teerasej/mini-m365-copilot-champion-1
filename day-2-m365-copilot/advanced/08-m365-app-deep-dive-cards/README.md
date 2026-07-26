@@ -7,8 +7,8 @@
 ## Prerequisites
 
 1. ใช้ Microsoft 365 Copilot ใน app ที่เลือกได้
-2. มีไฟล์ workshop ใน OneDrive
-3. ใช้ email ตัวอย่างและ [Teams meeting transcript ตัวอย่าง 15 นาที](../files/branch-operations-review-15min.vtt) เท่านั้น
+2. มีไฟล์ workshop ใน OneDrive โดยดาวน์โหลดได้จาก [รายการไฟล์สำหรับ Day 2](../../sample-files.md)
+3. ใช้ email ตัวอย่างและ [Teams meeting transcript ตัวอย่าง 15 นาที](https://github.com/teerasej/mini-m365-copilot-champion-1/raw/refs/heads/main/day-2-m365-copilot/files/branch-operations-review-15min.vtt) เท่านั้น
 4. ตรวจ output ทุกครั้งก่อน Replace, Keep, Send หรือ Share
 
 ## Scenario 1: Word — Multi-source Executive Brief

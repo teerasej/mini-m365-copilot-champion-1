@@ -7,7 +7,7 @@
 
 ## Prerequisites
 
-1. เปิดไฟล์ `Krungsri_BranchKPI_28days.xlsx` จาก OneDrive ได้
+1. [ดาวน์โหลด `Krungsri_BranchKPI_28days.xlsx`](https://github.com/teerasej/mini-m365-copilot-champion-1/raw/refs/heads/main/day-2-m365-copilot/files/Krungsri_BranchKPI_28days.xlsx) และอัพโหลดไว้ใน OneDrive
 2. มี sheet `Summary` และ `KPI_Raw` พร้อมใช้งาน
 3. เปิด Copilot Chat ใน Excel ได้
 

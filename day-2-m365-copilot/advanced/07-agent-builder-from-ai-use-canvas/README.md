@@ -8,7 +8,7 @@
 
 1. มี AI Use Canvas จาก Day 1
 2. เปิด **New agent** หรือ **Create agent** ใน Microsoft 365 Copilot ได้
-3. มี source ตัวอย่างที่ไม่เป็นความลับ
+3. มี source ตัวอย่างที่ไม่เป็นความลับ เช่น [Krungsri_BranchOps_Report_Source.docx](https://github.com/teerasej/mini-m365-copilot-champion-1/raw/refs/heads/main/day-2-m365-copilot/files/Krungsri_BranchOps_Report_Source.docx)
 4. เลือก workflow step ที่ทำซ้ำและมี output ชัดเจน
 5. หาก Agent Builder ถูกปิด ให้เขียน Agent specification และทดสอบ instruction ใน Copilot Chat แทน
 

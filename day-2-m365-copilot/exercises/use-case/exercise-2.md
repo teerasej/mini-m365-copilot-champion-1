@@ -7,7 +7,7 @@
 
 ## Prerequisites
 
-1. มีไฟล์ `Krungsri_BranchOps_Report_Source.docx` จากชุดเวิร์คชอป
+1. [ดาวน์โหลด `Krungsri_BranchOps_Report_Source.docx`](https://github.com/teerasej/mini-m365-copilot-champion-1/raw/refs/heads/main/day-2-m365-copilot/files/Krungsri_BranchOps_Report_Source.docx) หรือใช้ไฟล์จาก Day 2 ZIP
 2. อัพโหลดไฟล์ขึ้น OneDrive และรอให้ระบบทำดัชนี
 3. เข้าใช้งาน Word บน Microsoft 365 ได้
 
@@ -108,4 +108,3 @@
 - โครงรายงานมีครบ: Executive summary, KPI highlights, Issues & root causes, 2-week plan, Requests
 - ภาษากระชับและเหมาะกับผู้บริหาร
 - ตาราง Action plan สอดคล้องกับข้อมูลต้นฉบับ
-
