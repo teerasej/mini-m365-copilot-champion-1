@@ -1,39 +1,66 @@
 
+# Exercise: สร้าง Presentation จากไฟล์ด้วย Copilot in PowerPoint
+
+## Exercise Overview
+
+เราจะใช้ Copilot in PowerPoint เปลี่ยนข้อมูลจาก `Business Idea.docx` ให้เป็น Presentation ภาษาไทย และตรวจสอบสไลด์ก่อนนำไปใช้งาน
+
+## Prerequisites
+
+1. มี Microsoft 365 Copilot license
+2. อัพโหลด `Business Idea.docx` ไปยัง OneDrive แล้ว
+3. เปิด PowerPoint บน Web ด้วยบัญชีองค์กร
+
+## Scenario 1: สร้าง Presentation สำหรับนำเสนอแนวคิดธุรกิจ
+
+### Practice 1: สร้างสไลด์จากไฟล์อ้างอิง 
+
+#### Steps
+
+1. เปิด PowerPoint บน Web เช่นการกด [https://www.office.com/launch/powerpoint](https://www.office.com/launch/powerpoint)
+2. เลือก **Create with Copilot**
+3. เลือก **Reference file** แล้วค้นหา `Business Idea.docx` จาก OneDrive
+
+![เลือก Copilot ใน PowerPoint](powerpoint/2026-02-09_14-46-42.png)
+
+3. วาง prompt ด้านล่าง แล้วกด **Send**
+
+```text
+สร้าง Presentation ภาษาไทยสำหรับนำเสนอแนวคิดธุรกิจจากไฟล์อ้างอิง
+กลุ่มผู้ฟังคือผู้บริหารที่ต้องตัดสินใจว่าจะสนับสนุนโครงการหรือไม่
+โครงสร้างต้องมี: ปัญหา โอกาสทางธุรกิจ แนวทางดำเนินงาน ประโยชน์ ความเสี่ยง และขั้นตอนถัดไป
+รวมทั้งหมด 6 สไลด์ โดยให้แต่ละสไลด์มีหัวข้อและเนื้อหาที่ชัดเจน
+ใช้ข้อความสั้น กระชับ และไม่เพิ่มข้อเท็จจริงที่ไม่มีในไฟล์
+```
+
+4. ทำการตอบคำถามเพื่อเจาะจงรายละเอียดงาน ตามที่ Copilot ถาม เช่น จำนวนสไลด์ที่ต้องการ และรูปแบบการนำเสนอ
+5. เมื่อ copilot ได้ข้อมูลครบถ้วนแล้ว ให้ตรวจสอบสไลด์ที่สร้างขึ้น และปรับแก้ไขข้อความหรือรูปภาพตามความเหมาะสม
 
 
-# PowerPoint: สร้าง Presentation ด้วย AI
+### Practice 2: การสรุปหรือสร้าง slide เพิ่มเติม
 
-> ในแบบฝึกหัดนี้ การใช้งานจะแตกต่างกันตามประเภทของ Account ที่ใช้งาน Copilot นะครับ
+1. กลับไปที่ OneDrive และให้คลิกเปิดไฟล์ `Business presentation.pttx` 
+2. เมื่อเปิดไฟล์แล้วให้**นำเม้าส์ไปชี้ที่ปุ่ม copilot** ที่อยู่ด้านล่างขวาของหน้าต่าง Microsoft PowerPoint บนเว็บเบราว์เซอร์
+3. เลือก prompt ที่ต้องการ เช่น
 
-1. กลับมาที่ folder เดิม ใน OneDrive 
-2. [ดาวน์โหลด **Business presentation.pptx**](https://github.com/teerasej/mini-m365-copilot-champion-1/raw/refs/heads/main/day-2-m365-copilot/files/Business%20presentation.pptx) หากยังไม่มีไฟล์ แล้วอัพโหลดไปยัง OneDrive
-3. กดเปิดไฟล์​ PowerPoint ชื่อ **Business presentation.pptx**
+```text
+Summarize this presentation 
+```
+หรือใช้ prompt ภาษาไทย เช่น
 
-## ใช้ Copilot Chat (สำหรับผู้ใช้แบบฟรี และแบบมี license)
+```text
+สรุปเนื้อหาสำคัญใน presentation นี้เป็น 5 หัวข้อ
+``` 
+4. ตรวจสอบผลลัพธ์ที่ได้จาก Copilot และปรับแก้ไขข้อความหรือรูปภาพตามความเหมาะสม
 
-   1. จากเมนู Home ด้านบน > เปิด Copilot จากแถบเมนูด้านซ้ายสุด 
-   2. จากห้องแชท เลือกคำสั่ง "Create a presentation about"
-   ![alt text](../../images/copilot/2025-08-23_22-43-23.png)
-   3. เราจะใช้คำสั่ง prompt ต่อไปนี้สำหรับให้ Copilot ใช้ข้อมูลตอบคำถามเรา
 
-   ```
-   สรุปประเด็นสําคัญจากสไลด์นี้ 1 ย่อหน้าสำหรับนำเสนอผู้บริหาร 
-   ```
+## Checkpoint
 
-   ### สร้าง Presentation จากเนื้อหาไฟล์ (สำหรับผู้ใช้ที่มี License)
+- Presentation อ้างอิงข้อมูลจาก `Business Idea.docx`
+- มีหัวข้อสำคัญครบตาม prompt และลำดับเรื่องต่อเนื่อง
+- ไม่มีตัวเลขหรือข้อเท็จจริงที่ตรวจสอบกับไฟล์ต้นทางไม่ได้
 
-   1. กดปุ่ม Copilot จากด้านบนซ้ายของ slide หน้าที่เปิดอยู่ปัจจุบันตามภาพ 
-      ![alt text](powerpoint/2026-02-09_14-46-42.png)
-   2. เลือกคำสั่ง "Create a new presentation with file" 
-      ![alt text](powerpoint/2026-02-09_14-46-48.png)
-   3. ค้นหาไฟล์ business idea.docx ที่เราอัพโหลดไว้ใน OneDrive และเลือกไฟล์ เพื่อใส่ลงไปใน prompt
-      ![alt text](powerpoint/2026-02-09_14-47-01.png)
-   4. เพิ่มคำสั่ง prompt ด้วยข้อความด้านล่างต่อท้าย และกดปุ่มส่ง
-      ```
-      เป็นภาษาไทย
-      ```
-      ![alt text](powerpoint/2026-02-09_14-47-12.png)
-   5. เลือก template ของงานนำเสนอ > เลือกรูปแบบของรูปว่าจะสร้างจาก AI หรือใช้รูปจากในแกลลอรี่เริ่มต้น > กดปุ่ม Generate Slides เพื่อสร้างสไลด์
-   ![alt text](powerpoint/2026-02-09_14-47-35.png)
-   6. รอ และตรวจสอบผลลัพธ์
-     
+## Expected Output
+
+- Presentation ภาษาไทย 1 ชุดที่พร้อมนำไปตรวจทานต่อ
+

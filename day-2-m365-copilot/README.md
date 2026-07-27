@@ -20,11 +20,11 @@
 ขั้นตอนที่เตรียมตัว [อัพโหลดไฟล์เข้า OneDrive](exercises/copilot-upload-file.md)
 
 1. [Copilot Chat & Create](exercises/use-case/exercise-1.md)
-2. [Word](exercises/use-case/exercise-2.md)
-3. [PowerPoint](exercises/use-case/exercise-3.md)
-4. [Excel](exercises/use-case/exercise-4.md)
-5. [Outlook & Teams](exercises/use-case/exercise-5.md)
-6. [Create First AI Agent](exercises/agent/create-first-ai-agent.md)
+2. [Word](exercises/start-up/word-feature-1.md)
+3. [Excel](exercises/start-up/feature-4-excel.md)
+4. [Outlook & Teams](exercises/use-case/exercise-5.md)
+5. [Create First AI Agent](exercises/agent/create-first-ai-agent.md)
+6. [สร้าง Presentation จากไฟล์ด้วย Copilot in PowerPoint](exercises/start-up/feature-5-ppt.md)
 
 ## Advanced Labs
 
