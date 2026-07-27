@@ -21,10 +21,10 @@
 
 1. [Copilot Chat & Create](exercises/use-case/exercise-1.md)
 2. [Word](exercises/use-case/exercise-2.md)
-3. [PowerPoint](exercises/use-case/exercise-3.md)
 4. [Excel](exercises/use-case/exercise-4.md)
 5. [Outlook & Teams](exercises/use-case/exercise-5.md)
 6. [Create First AI Agent](exercises/agent/create-first-ai-agent.md)
+7. [PowerPoint](exercises/use-case/exercise-3.md)
 
 ## Advanced Labs
 
