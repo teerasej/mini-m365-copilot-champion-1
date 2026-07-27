@@ -3,9 +3,10 @@
 
 วันที่ 2 นำ pain point และ AI Use Canvas จากวันแรกมาทดลองกับ Copilot Chat, Word, PowerPoint, Excel, Outlook และ Agent Builder
 
-## มาก่อนเวลาใช่ไหม? ลองเช็คดูว่าเราพร้อมสำหรับเวิร์คชอปนี้หรือยัง
+## แนะนำตัวเอง และใช้ระบบฝากคำถามกัน
 
-1. ลงชื่อเข้าใช้ Microsoft 365 บนเว็บเบราว์เซอร์ [https://www.office.com](https://www.office.com) ด้วย account ที่มี
+1. https://app.sli.do/event/7hzFe8nrjrkPcEtXjnwH74
+
 
 ## ไฟล์สำหรับ workshop
 
