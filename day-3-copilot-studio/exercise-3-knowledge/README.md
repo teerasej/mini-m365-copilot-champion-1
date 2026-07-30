@@ -1,4 +1,4 @@
-# แบบฝึกหัดที่ 4:  Knowledge
+# แบบฝึกหัดที่ 3:  Knowledge
 
 🔑 **ต้องการ M365 Copilot License + สิทธิ์เข้าใช้ Copilot Studio**
 
