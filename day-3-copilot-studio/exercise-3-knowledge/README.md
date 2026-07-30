@@ -24,8 +24,10 @@
    ![alt text](./images/upload-knowledge-files.png)
 5. กด **Add to agent**
    ![alt text](./images/add-files-to-agent.png)
-6. ตรวจสถานะให้เป็น **Ready** ก่อนเริ่มทดสอบ
+6. ตรวจสถานะให้เป็น **Ready** ก่อนเริ่มทดสอบ 
    ![alt text](./images/check-knowledge-status.png)
+
+> 💡 Tip: ถ้าเหมือนมันค้างนาน สามารถกดปุ่ม refresh ในหน้า Knowledge ได้
 
 > 💡 Tip: ถ้า status ของไฟล์ยังเป็น `In Progress` ตัว knowledge จะยังไม่สามารถนำมาใช้ได้
 
