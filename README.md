@@ -10,7 +10,7 @@
 
 - **วันที่ 1 — Foundation:** post-it  ปากกาเมจิก dot sticker และ flipchart วันนี้จะไม่มีการฝึกใช้งานโปรแกรมใดๆ นะ
 - **วันที่ 2 — Microsoft 365 Copilot:** บัญชี Microsoft 365 ที่เปิดใช้ Copilot Premium และสิทธิ์ใช้ **Agent Builder**; ดาวน์โหลดไฟล์ใน [`day-2-m365-copilot/files/`](day-2-m365-copilot/files/)
-- **วันที่ 3 — Copilot Studio:** บัญชีผู้ใช้ Microsoft 365 ที่มีสิทธิ์สร้างและนำ Agent ไปใช้ใน Microsoft Copilot Studio, กล่องจดหมาย Outlook และสิทธิ์ใช้ connector; ดาวน์โหลดไฟล์ใน [`day-3-copilot-studio/files/`](day-3-copilot-studio/files/)
+- **วันที่ 3 — Copilot Studio:** บัญชีผู้ใช้ Microsoft 365 ที่มีสิทธิ์สร้างและนำ Agent ไปใช้ใน Microsoft Copilot Studio, กล่องจดหมาย Outlook และสิทธิ์ใช้ connector; ดาวน์โหลดไฟล์ใน [`day-3-copilot-studio/files/`](day-3-copilot-studio/files/) หรือกด [ดาวน์โหลด Day 3 sample files ทั้งหมดที่นี่ (.zip)](https://github.com/teerasej/mini-m365-copilot-champion-1/raw/refs/heads/main/day-3-copilot-studio/downloads/day-3-sample-files.zip)
 
 
 ## สารบัญแบบฝึกหัด
