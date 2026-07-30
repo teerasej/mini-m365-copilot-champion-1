@@ -2,7 +2,7 @@
 
 🔑 **ต้องการ M365 Copilot License + สิทธิ์เข้าใช้ Copilot Studio**
 
-แบบฝึกหัดนี้จะพาเราสร้าง Agent ตัวตั้งต้นสำหรับ Module 2 โดยให้ได้ Agent ชื่อ **Financial Report Assistant** พร้อม instructions ที่พร้อมต่อยอดไปทำ Topic เดียวกันในแบบฝึกหัดถัดไป
+แบบฝึกหัดนี้ทางพลเอง จะพาพวกเราสร้าง Agent ตัวอย่างสำหรับ Module 2 โดยให้ได้ Agent ชื่อ **Financial Report Assistant** พร้อม instructions ที่พร้อมต่อยอดไปทำ Topic เดียวกันในแบบฝึกหัดถัดไป
 
 
 ## Practice 1: สร้าง Agent ใหม่ใน Copilot Studio
@@ -16,8 +16,6 @@
    ```
    Financial Report Assistant [ชื่อตัวเอง (ถ้าจำเป็น)]
    ```
-
-
 ---
 
 ## Practice 2: ใส่ instruction ฉบับพร้อมใช้งาน
@@ -43,10 +41,10 @@
    ```
 
    ```
-   ขอ executive summary ของผลการเงินเดือนล่าสุด และเน้น variance หลัก
+   ขอ executive summary ของผลการเงินเดือนล่าสุด 
    ```
 
-2. ตรวจว่า Agent ถามข้อมูลที่ยังขาด และตอบในโทนที่กระชับตาม instruction
+2. ตรวจว่า Agent ที่การตอบคำถามและมีการพรีวิวการทำงานที่จำเป็น
 
 ---
 
