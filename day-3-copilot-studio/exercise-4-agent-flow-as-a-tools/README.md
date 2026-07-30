@@ -16,40 +16,34 @@
 
 ## Practice 2: สร้าง Agent Flow และใช้ Send an email (V2)
 
-1. จากเมนูด้านซ้ายของ Copilot Studio portal ให้เลือก flow > กด **Create new flow** > ตั้งชื่อ flow ว่า
+1. จาก**หน้า Overview** ให้ลงมาที่ส่วนของ **Tools** และกดปุ่ม **New Tools**
+2. กดเลือก **Add New Workflows** 
+3. เราจะเข้าสู่หน้า Agent flow designer ให้กดปุ่ม **Save draft** ก่อนที่จะดำเนินขั้นตอนต่อไป
+   ![alt text](./images/save-draft-and-publish.png)
+4. คลิกที่ชื่อ **Untitled** ด้านบนซ้าย และตั้งชื่อ flow ว่า
 
    ```text
    Send Result by Email 
    ```
-2. เราจะเข้าสู่หน้า Agent flow designer ให้กดปุ่ม **Save draft** ก่อนที่จะดำเนินขั้นตอนต่อไป
-   ![alt text](./images/save-draft-and-publish.png)
-3. จากด้านบนซ้าย ให้อยู่ในส่วนของหน้า Designer > คลิกที่ชื่อเพื่อเปลี่ยนชื่อเป็น
-   - ชื่อ flow:
-      ```text
-      Send Result by Email 
-      ```
-   - Input parameters: `AnalysisSummary`, `ReviewerEmail`
-   - Output parameters: `ResponseMessage`
-   - ใน flow นี้ให้สร้างขั้นตอนธุรกิจแบบตรงไปตรงมา: ส่งอีเมลสรุปผลไปยัง reviewer แล้วส่งข้อความยืนยันกลับไปที่ Agent
-
-4. ที่ action `When an agent calls the flow` ให้เพิ่ม input parameters 2 ค่าเป็นประเภทดังนี้
-
+5. คลิกที่ trigger **When an Agent call flow** และกำหนดเพิ่ม input 2 ตัวดังนี้
+   > type: text
    ```text
-   AnalysisSummary (text)
+   AnalysisSummary
    ```
+   > type: email
    ```text
-   ReviewerEmail (email)
+   ReviewerEmail
    ```
    ![alt text](./images/configure-flow-inputs.png)
 
-5. สังเกตว่า input เหล่านี้คือค่าที่ Topic จะส่งเข้ามาให้ flow ใช้งานต่อใน action อื่นๆ
-6. ใต้ action `When an agent calls the flow` ให้เพิ่ม action `Send an email (V2)` จาก Office 365 Outlook
+6. สังเกตว่า input เหล่านี้คือค่าที่ Topic จะส่งเข้ามาให้ flow ใช้งานต่อใน action อื่นๆ
+7. ใต้ action `When an agent calls the flow` ให้เพิ่ม action **Send an email (V2)** จาก **Office 365 Outlook**
    ![alt text](./images/send-email-v2.png)
-7. กำหนดค่าหลักของ `Send an email (V2)` ตามนี้
+8. กำหนดค่าหลักของ `Send an email (V2)` ตามนี้
 
    ### To
    1. จากช่อง To ให้กดเลือกปุ่มรูปเฟือง (⚙) เพื่อเลือก **Use dynamic content**
-   2. จากนั้นเลือกหา Action ชื่อ `When an agent calls the flow`
+   2. จากนั้นเลือกหา Action ชื่อ **When an agent calls the flow**
    3. เลือกชื่อตัวแปร ReviewerEmail ที่เราสร้างไว้
    ![alt text](./images/use-dynamic-content.png)
 
@@ -71,39 +65,34 @@
    {{AnalysisSummary}}
    ```
 
-8. ที่ action `Respond to the agent` ให้กำหนดชื่อของตัวแปร output กลับมายัง Agent 1 ค่า
+9. ที่ action `Respond to the agent` ให้กำหนดชื่อของตัวแปร output กลับมายัง Agent 1 ค่า
 
    ```text
    ResponseMessage
    ```
 
-9. ให้คัดลอกตัวอย่างข้อความกำหนดลงในค่าตัวแปร **ResponseMessage** โดยให้แทนที่ข้อความ `{{ReviewerEmail}}` ด้วยตัวแปร input `ReviewerEmail` ที่เราสร้างไว้ใน action `When an agent calls the flow`
+10. ให้คัดลอกตัวอย่างข้อความกำหนดลงในค่าตัวแปร **ResponseMessage** โดยให้แทนที่ข้อความ `{{ReviewerEmail}}` ด้วยตัวแปร input `ReviewerEmail` ที่เราสร้างไว้ใน action `When an agent calls the flow`
 
    ### ResponseMessage
    ```text
    Report summary sent to {{ReviewerEmail}}.
    ```
    ![alt text](./images/map-output-response.gif)
-10. กด **Save draft** และ **Publish** ให้เรียบร้อย
+11. กด **Save draft**
+12. กด **Publish** ให้เรียบร้อย
 
 > ⚠️ **Note:** Microsoft Learn ระบุว่า `Send an email (V2)` ไม่ได้ส่ง `message id` กลับมาให้ใช้ต่อในแบบตรงๆ ดังนั้นในแบบฝึกหัดนี้ให้ใช้ `ResponseMessage` เป็นผลลัพธ์หลักที่ Topic จะนำไปแสดงในแชต
 
 ---
 
-## Practice 3: ผูก Agent Flow ที่ Publish แล้วเข้ากับ Agent ผ่าน Tools
+## Practice 3: ดูรายละเอียดของ Agent Flow tool 
 
-1. กลับไปที่หน้า **Overview** ของ Agent `Financial Report Assistant`
-2. เลื่อนมาที่ส่วน **Tools** แล้วกด **Add a tool**
-   ![alt text](image.png)
-3. เลือก Agent Flow 
-4. เลือก flow ที่เพิ่ง publish ไว้ (`Send Result by Email`)
-5. กดปุ่ม **Add and configure**
-6. ตรวจสอบ **Name** และ **Description** ของ Tool 
-7. ตรวจสอบ **Input parameters** ว่าตรงกับที่เรากำหนดไว้ใน flow หรือไม่
-8. กดปุ่ม back (⬅️) และตรวจว่า Tool แสดงในรายการของ Agent เรียบร้อย
-9. กดกลับมาที่หน้า **Overview** ของ Agent เพื่อเช็คดูว่า Tool ที่เพิ่งเพิ่มเข้ามาแสดงในรายการเรียบร้อยแล้ว
-
-> 💡 **Tip:** ในเวิร์กช็อปเวอร์ชันนี้ เราผูกความสามารถส่งอีเมลในระดับ Agent (Overview > Tools) ก่อน แล้วค่อยทดสอบการเรียกใช้จากบทสนทนา
+1. กลับไปที่หน้า **Overview** ของ Agent **Financial Report Assistant**
+2. คลิกเลือก Agent Flow ที่ปรากฎในรายการ
+3. ตรวจสอบ **Name** และ **Description** ของ Tool 
+4. ตรวจสอบ **Input parameters** ว่าตรงกับที่เรากำหนดไว้ใน flow หรือไม่
+5. กดปุ่ม back (⬅️) และตรวจว่า Tool แสดงในรายการของ Agent เรียบร้อย
+6. กดกลับมาที่หน้า **Overview** ของ Agent เพื่อเช็คดู Tool ที่แสดงในรายการ
 
 ---
 
