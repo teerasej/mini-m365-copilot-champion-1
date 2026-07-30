@@ -51,14 +51,18 @@ flowchart TD
    ```
    Ask for report file
    ```
-3. ใช้ข้อความด้านล่างสำหรับช่อง Message
+3. ใช้ข้อความด้านล่างสำหรับช่อง **Message**
 
    ```
    กรุณาแนบไฟล์รายงานการเงินรายเดือน (.xlsx) ที่ต้องการให้วิเคราะห์
    ```
-4. ให้เลือกประเภทการเก็บข้อมูลเป็น **File** (attachment) เพื่อให้ผู้ใช้แนบไฟล์ Excel ได้โดยตรง
-5. บันทึกคำตอบไว้ในตัวแปร โดยคลิกเลือก Save response as แล้วกรอกชื่อ `ReportFile` ลงไปในช่อง Variable name
-6. กดปุ่ม **Save** ด้านบนขวาเพื่อบันทึกการเปลี่ยนแปลงทั้งหมด
+4. จากช่อง **Identify** ให้เลือกประเภทการเก็บข้อมูลเป็น **File** (attachment) เพื่อให้ผู้ใช้แนบไฟล์ Excel ได้โดยตรง
+5. จากช่อง **Save response as** คลิกที่ชื่อ **Var1** เพื่อเปิดหน้าต่าง properties ด้านข้าง
+6. แล้วกรอกชื่อ ลงไปในช่อง **Variable name**
+   ```
+   ReportFile
+   ```
+10. กดปุ่ม **Save** ด้านบนขวาเพื่อบันทึกการเปลี่ยนแปลงทั้งหมด
 
 > 💡 **Tip:** ใช้ไฟล์ตัวอย่าง [`Krungsri-Monthly-Financial-Report-May2026.xlsx`](../files/Krungsri-Monthly-Financial-Report-May2026.xlsx) เป็นไฟล์ทดสอบสำหรับ Practice นี้ ไฟล์นี้มี 4 ชีต (`Summary`, `Revenue`, `Costs`, `Variance_Analysis`) ครอบคลุมข้อมูลของ Retail Banking, Corporate Banking, SME Banking และ Card & Payments
 
@@ -67,29 +71,38 @@ flowchart TD
 ## Practice 3: เพิ่ม Prompt node เพื่อวิเคราะห์ไฟล์
 
 1. จากด้านล่างของ Question node `Ask for report file` ให้กด **+** แล้วเลือก **Prompt**
-2. ตั้งชื่อ Prompt node ว่า
+2. กดชื่อด้านบนของ Prompt node เพื่อตั้งชื่อ Prompt node ว่า
 
    ```
    Analyze monthly financial report
    ```
-3. เลือก input ของ Prompt เป็นตัวแปร `ReportFile` ที่เก็บไว้จาก Practice 2
+3. สังเกตช่อง instruction ทางซ้าย
 4. ใส่ prompt สำหรับ 1 use case ตัวอย่างการวิเคราะห์ ดังนี้ (แก้ไขคำได้ตามทีม):
 
    ```
    คุณคือนักวิเคราะห์การเงินของธนาคาร Krungsri
-   จากไฟล์รายงานการเงินรายเดือนที่แนบมา ({{ReportFile}}) ให้สรุปเป็น Executive Summary ภาษาไทย ความยาวไม่เกิน 200 คำ ประกอบด้วย:
+   จากไฟล์รายงานการเงินรายเดือนที่แนบมา {{ReportFile}} ให้สรุปเป็น Executive Summary ภาษาไทย ความยาวไม่เกิน 200 คำ ประกอบด้วย:
    - ภาพรวมรายได้และค่าใช้จ่ายหลักตาม Business Unit
    - Variance ที่สำคัญเทียบกับ Budget พร้อมสาเหตุโดยย่อ
    - ความเสี่ยงหรือประเด็นที่ควรจับตาในเดือนนี้
    ```
-5. บันทึกผลลัพธ์ของ Prompt ไว้ในตัวแปรชื่อ
+5. แทนที่ **{{ReportFile}}** ด้วย "/" เพื่อเลือก Image or Document และตั้งชื่อตัว input เป็น
+   ```
+   Report file
+   ```
+6. จากด้านบนของ Instruction ใน prompt node กดเลือกปุ่ม **(...)** และเลือก **Setting**
+7. **ลงมาด้านล่างเพื่อเปิดการทำงานของ Code Interpreter**
+8. กดปิด setting
+9. กดเลือกตัวแปร input **ReportFile** เพื่อเลือกไฟล์ [`Krungsri-Monthly-Financial-Report-May2026.xlsx`](../files/Krungsri-Monthly-Financial-Report-May2026.xlsx) 
+10. กดปุ่ม **Test** เพื่อทดสอบ
+    > 💡 หากผลการทำงานไม่เป็นที่น่าพอใจ ให้เลือกปรับ model ให้มีคุณภาพสูงขึ้น
+11. กดปุ่ม **Save** ด้านบนขวาเพื่อบันทึกการเปลี่ยนแปลงทั้งหมด
+12. จาก Prompt Node ในส่วน output ด้านล่าง ให้กดสร้างตัวแปรใหม่ และตั้งชื่อตัวแปรใหม่ชื่อตามด้านล่าง
 
    ```
    FinancialAnalysisResult
    ```
-6. กดปุ่ม **Save** ด้านบนขวาเพื่อบันทึกการเปลี่ยนแปลงทั้งหมด
 
-> ⚠️ **Note:** ในแบบฝึกหัดนี้ให้ใช้ prompt ตัวอย่างข้างต้นแค่ 1 use case ก่อน (สรุป Executive Summary) เพื่อให้ flow เรียบง่ายและทดสอบได้เร็ว ทีมสามารถต่อยอด prompt เพิ่มเติมได้เองภายหลัง
 
 ---
 
@@ -106,18 +119,9 @@ flowchart TD
    ```
    {{FinancialAnalysisResult}}
    ```
-
-## Practice 5: ตรวจสอบตัวแปรที่เก็บได้
-
-1. คลิกที่ **Variables** ด้านบนขวา แล้วตรวจสอบว่าตอนนี้มีตัวแปรหลักคือ:
-   - `ReportFile`
-   - `FinancialAnalysisResult`
-   ![alt text](images/check-variables-list.png)
-2. กดปุ่ม **Save** ด้านบนขวาเพื่อบันทึกการเปลี่ยนแปลงทั้งหมด
-
 ---
 
-## Practice 6: ปรับ instructions ของ Agent ให้เรียกใช้งาน Topic เมื่อตรงตามเงื่อนไข
+## Practice 5: ปรับ instructions ของ Agent ให้เรียกใช้งาน Topic เมื่อตรงตามเงื่อนไข
 
 1. ไปที่หน้า **Overview** ของ Agent แล้วลงมาด้านล่างที่ **Instructions**
 2. กดปุ่ม **Edit** เพื่อแก้ไข Instructions
@@ -131,7 +135,7 @@ flowchart TD
 
 ---
 
-## Practice 7: ทดสอบ Topic รอบแรก
+## Practice 6: ทดสอบ Topic รอบแรก
 
 1. เปิดหน้าต่าง **Test** ด้านขวา
 2. ทดสอบด้วยคำสั่ง:
