@@ -5,6 +5,12 @@
 
 
 ---
+## ดาวน์โหลดไฟล์ประกอบการอบรมวันนี้
+
+[ดาวน์โหลด Day 3 sample files ทั้งหมด (.zip)](https://github.com/teerasej/mini-m365-copilot-champion-1/raw/refs/heads/main/day-3-copilot-studio/downloads/day-3-sample-files.zip)
+
+
+---
 
 ## Practice 1: เตรียม Canvas Template และกำหนดโจทย์
 
