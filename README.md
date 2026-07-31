@@ -6,6 +6,10 @@
 
 เรื่องราวตลอดหลักสูตรจะมีตั้งแต่การ สร้าง AI Use Canvas, ทดลอง Copilot, แล้วเปลี่ยนแนวคิดเป็น AI Agent Canvas พร้อมทั้งทดลองสร้าง Agent ต้นแบบจากโจทย์ที่กำหนด เพื่อให้ได้ประสบการณ์การใช้งานจริงและสามารถนำไปต่อยอดกับงานของตนเองได้
 
+## ไฟล์ material อยู่ที่นี่ครับ
+
+- [link ไฟล์ material](https://gkid-my.sharepoint.com/personal/wilawan_trainocate_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fwilawan%5Ftrainocate%5Fcom%2FDocuments%2FDocuments%2FKrungsri%2DMini%20M365%20Copilot%20Champion&ga=1)
+
 ## สิ่งที่ต้องเตรียม
 
 - **วันที่ 1 — Foundation:** post-it  ปากกาเมจิก dot sticker และ flipchart วันนี้จะไม่มีการฝึกใช้งานโปรแกรมใดๆ นะ
