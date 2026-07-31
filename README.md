@@ -8,7 +8,7 @@
 
 ## ไฟล์ material อยู่ที่นี่ครับ
 
-- [link ไฟล์ material](https://gkid-my.sharepoint.com/personal/wilawan_trainocate_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fwilawan%5Ftrainocate%5Fcom%2FDocuments%2FDocuments%2FKrungsri%2DMini%20M365%20Copilot%20Champion&ga=1)
+- [link ไฟล์ material](https://github.com/teerasej/mini-m365-copilot-champion-1/raw/refs/heads/main/day-1-foundation/files/day-1-file.zip)
 
 ## สิ่งที่ต้องเตรียม
 
