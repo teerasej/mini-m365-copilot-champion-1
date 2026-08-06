@@ -1,8 +1,8 @@
-# แบบฝึกหัดที่ 2: สร้าง Financial Report Assistant Agent
+# แบบฝึกหัดที่ 1: สร้าง Financial Report Assistant Agent
 
 🔑 **ต้องการ M365 Copilot License + สิทธิ์เข้าใช้ Copilot Studio**
 
-แบบฝึกหัดนี้ทางพลเอง จะพาพวกเราสร้าง Agent ตัวอย่างสำหรับ Module 2 โดยให้ได้ Agent ชื่อ **Financial Report Assistant** พร้อม instructions ที่พร้อมต่อยอดไปทำ Topic เดียวกันในแบบฝึกหัดถัดไป
+แบบฝึกหัดนี้ทางพลเอง จะพาพวกเราสร้าง Agent ตัวอย่าง โดยให้ได้ Agent ชื่อ **Financial Report Assistant** พร้อม instructions ที่พร้อมต่อยอดไปทำ Topic เดียวกันในแบบฝึกหัดถัดไป
 
 
 ## Practice 1: สร้าง Agent ใหม่ใน Copilot Studio
@@ -50,6 +50,6 @@
 
 ## สรุป
 
-ในแบบฝึกหัดนี้ พวกเราได้สร้าง Agent ตั้งต้นสำหรับงานรายงานการเงิน พร้อม instruction ที่พร้อมต่อยอดใน Module 2
+ในแบบฝึกหัดนี้ พวกเราได้สร้าง Agent ตั้งต้นสำหรับงานรายงานการเงิน พร้อม instruction ที่พร้อมต่อยอดในแบบฝึกหัดถัดไป
 
 ขั้นตอนถัดไป → [ออกแบบ Topic รับไฟล์รายงานการเงินและวิเคราะห์ด้วย Prompt node](../exercise-5-topic/README.md)

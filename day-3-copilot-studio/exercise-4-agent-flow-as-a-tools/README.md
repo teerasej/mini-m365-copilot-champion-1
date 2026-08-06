@@ -9,7 +9,7 @@
 
 ## Practice 1: ทบทวน flow เดิมและกำหนดเป้าหมายของ action
 
-1. เปิด Agent `Financial Report Assistant` ที่สร้างจาก Module 2
+1. เปิด Agent `Financial Report Assistant` ที่สร้างจากแบบฝึกหัดที่ 1
 2. เช็คดู instructions และ orchestration ของ Agent ว่ายังเหมาะสมกับการทำงานแบบ hybrid conversation หรือไม่
 
 ---
@@ -128,4 +128,4 @@
 
 ในแบบฝึกหัดนี้ พวกเราได้สร้างและ publish Agent Flow สำหรับส่งอีเมล แล้วผูก flow นั้นเข้ากับ Agent ผ่านหน้า **Overview > Tools** จากนั้นทดสอบการเรียกใช้งานจริงในแชต รวมถึงตรวจขั้นตอน **authenticate/consent** ก่อนส่งอีเมล เพื่อให้มั่นใจว่า Agent ทำงานได้ถูกต้องตามสิทธิ์ผู้ใช้
 
-ขั้นตอนถัดไป → [กลับไปที่สารบัญ Copilot Studio](../README.md)
+ขั้นตอนถัดไป → [เลือก Channel และ Publish Agent](../exercise-4-channel-and-publishing/README.md)

@@ -1,4 +1,4 @@
-# แบบฝึกหัดที่ 1: AI Agent Canvas Template
+# แบบฝึกหัดที่ 6: AI Agent Canvas Template
 
 แบบฝึกหัดที่ตัวพลออกแบบนี้จะช่วยให้พวกเราเปลี่ยนไอเดีย Agent ให้เป็นแผนที่ลงมือ build ได้จริง โดยใช้ AI Agent Canvas เป็น template สำหรับการทำงาน
 เมื่อจบแล้ว เราจะเห็นภาพชัดขึ้นว่า Agent นี้มีเป้าหมายอะไร, ใช้ข้อมูลจากไหน, และต้องทำ action อะไรได้บ้าง
@@ -47,4 +47,4 @@
 พวกเราได้แปลง use case ให้เป็น AI Agent Canvas ที่พร้อมใช้ต่อยอดจริง ทั้งในมุมเป้าหมายธุรกิจ, ข้อมูล RAG, action และขอบเขตความปลอดภัยของ Agent
 ผลลัพธ์นี้จะเป็น blueprint สำคัญสำหรับการเริ่ม build ใน Copilot Studio
 
-**Next Step:** ไปต่อที่ [แบบฝึกหัดที่ 2: สร้าง Financial Report Assistant Agent](../exercise-2-create-financial-agent/README.md)
+**Next Step:** [กลับไปที่สารบัญ Day 3](../README.md)

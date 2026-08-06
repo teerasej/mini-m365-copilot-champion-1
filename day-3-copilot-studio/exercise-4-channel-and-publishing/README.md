@@ -1,6 +1,6 @@
-# แบบฝึกหัดที่ 6: เลือก Channel และ Publish Agent
+# แบบฝึกหัดที่ 5: เลือก Channel และ Publish Agent
 
-แบบฝึกหัดนี้จะพาเราต่อยอดจากงานที่ทำเสร็จในแบบฝึกหัดที่ 5 โดยใช้ **Financial Report Assistant** ตัวเดิม แล้วโฟกัสเรื่อง **Channel selection**, **Authentication**, **Publishing** และการตรวจความพร้อม หลัง publish
+แบบฝึกหัดนี้จะพาเราต่อยอดจากงานที่ทำเสร็จในแบบฝึกหัดที่ 4 โดยใช้ **Financial Report Assistant** ตัวเดิม แล้วโฟกัสเรื่อง **Channel selection**, **Authentication**, **Publishing** และการตรวจความพร้อม หลัง publish
 
 ## ก่อนเริ่ม: ตรวจความพร้อม
 
@@ -13,7 +13,7 @@
 
 > **⚠️ Note:** Copilot Studio trial ใช้สร้างและทดสอบ Agent ใน test panel ได้ แต่ใช้ publish ไม่ได้ หาก publish ไม่ได้ ให้จับภาพ screenshot และติดต่อผู้ดูแล environment แทนการพยายามหลีกเลี่ยงนโยบายที่องค์กรตั้งไว้
 
-> **💡 Tip:** สำหรับ hands-on นี้ ให้ใช้ Agent เดิมที่ทำต่อเนื่องมาจากแบบฝึกหัดที่ 5 
+> **💡 Tip:** สำหรับ hands-on นี้ ให้ใช้ Agent เดิมที่ทำต่อเนื่องมาจากแบบฝึกหัดที่ 4
 
 ```mermaid
 flowchart LR
@@ -45,7 +45,7 @@ flowchart LR
 
 ## Practice 2: ตั้งค่า Authentication และ Publish Agent
 
-1. เปิด Agent `Financial Report Assistant` ที่ต่อเนื่องมาจากแบบฝึกหัดที่ 5
+1. เปิด Agent `Financial Report Assistant` ที่ต่อเนื่องมาจากแบบฝึกหัดที่ 4
 2. เปิด **Settings** ของ Agent แล้วไปที่ **Security** > **Authentication**
 3. เลือก **Authenticate with Microsoft** แล้วกด **Save**
 4. เปิด Agent สำหรับแก้ไข แล้วกด **Publish**
@@ -90,9 +90,9 @@ flowchart LR
 
 ## สรุป
 
-ในแบบฝึกหัดนี้ พวกเราได้ใช้ **Financial Report Assistant** ตัวเดิมจากแบบฝึกหัดที่ 5 เพื่อเลือก channel ที่เหมาะสม ตั้งค่า authentication, publish, เชื่อมต่อ Microsoft 365 Copilot และตรวจความพร้อมหลัง publish แบบรวบรัด
+ในแบบฝึกหัดนี้ พวกเราได้ใช้ **Financial Report Assistant** ตัวเดิมจากแบบฝึกหัดที่ 4 เพื่อเลือก channel ที่เหมาะสม ตั้งค่า authentication, publish, เชื่อมต่อ Microsoft 365 Copilot และตรวจความพร้อมหลัง publish แบบรวบรัด
 
-ขั้นตอนถัดไป → [กลับไปที่สารบัญ Day 3](../README.md)
+ขั้นตอนถัดไป → [เติมข้อมูลใน AI Agent Canvas](../exercise-1-agent-canvas-template/README.md)
 
 ## อ่านเพิ่มเติม
 
