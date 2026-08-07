@@ -32,6 +32,8 @@
 
 #### Step 2: ระบุ input และ output ของ workflow
 
+![alt text](image-3.png)
+
 6. เขียน input 1 อย่างต่อ 1 ใบ และแปะลงบน workflow นั้นๆ เช่น
     - การรับเรื่องร้องเรียน ก็จะมี post-it ของ **Customer Complaint Form** หรือ **Email**
     - การส่งรายงาน ก็จะมี post-it ของ **Report Template** หรือ **Excel File**
