@@ -1,5 +1,7 @@
 # Exercise: Redesign the Human + AI Workflow
 
+![alt text](image.png)
+
 ## Exercise Overview
 
 - **เป้าหมาย:** แยก workflow เป็นขั้นตอน
@@ -8,7 +10,7 @@
 ## Prerequisites
 
 - Pain-point theme ที่เลือกจาก Section 2
-- [Human + AI Workflow Map](../../templates/human-ai-workflow-map.md) และ [AI Use Canvas](https://raw.githubusercontent.com/teerasej/mini-m365-copilot-champion-1/main/templates/AI%20Use%20Canvas%20Template.pptx)
+- [Human Workflow Map](../../templates/human-ai-workflow-map.md) 
 
 ## Scenario 1: เจาะจงขั้นตอนให้ชัดเจน ก่อนเพิ่ม AI
 

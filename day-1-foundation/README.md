@@ -2,7 +2,7 @@
 
 วันที่ 1 ใช้เพียง post-it ปากกา dot sticker และ flipchart เป้าหมายไม่ใช่การเลือกฟีเจอร์ แต่คือการมองงานเหมือนมองครัวที่กำลังยุ่ง: หาจุดที่เป็นปัญหาก่อน จัด workflow ให้ชัดเจน แล้วค่อยคิดว่า AI ควรช่วยตรงไหน
 
-1. [สำรวจ AI agents ที่กำลังเปลี่ยนแปลงการทำงาน (Agents of Change)](01a-agent-of-change/README.md)
+1. [สำรวจ AI agents ที่กำลังเปลี่ยนแปลงการทำงาน หรือรูปแบบการทำธุรกิจของเรา (Agents of Change)](01a-agent-of-change/README.md)
 2. [ถอดแผนงานประจำวันและค้นหา pain point (Map Work Friction)](01-map-work-friction/README.md)
 3. [เลือกลำดับความสำคัญ pain point  ด้วย selection framework (Prioritize Opportunity)](02-prioritize-opportunity/README.md)
 4. [เตรียม workflow ให้พร้อมสำหรับนำ AI มาใช้กับมนุษย์ (Redesign Human + AI Workflow)](03-redesign-human-ai-workflow/README.md)
