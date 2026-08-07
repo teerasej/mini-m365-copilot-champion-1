@@ -42,6 +42,9 @@
     - การแจ้งเตือน ก็จะมี post-it ของ **Notification Email** หรือ **Teams Message**
 
 #### Step 3: ระบุโปรแกรม/เครื่องมือปัจจุบันที่ใช้ในขั้นตอน
+
+![alt text](image-4.png)
+
 8. หากมีขั้นตอนใด ใช้งานโปรแกรมไหนเป็นพิเศษ เช่น word, excel, powerpoint, outlook, teams, sharepoint ให้เขียนชื่อโปรแกรมลงบน post-it ต่างหาก และแปะลงบนขั้นตอนนั้นๆ
 9. ทำจนได้ workflow map ที่ชัดเจนว่าแต่ละขั้นตอนทำอะไร ใครทำ และมี input/output อะไรบ้าง
 10.  เสร็จแล้วถ่ายรูปเก็บไว้ได้
@@ -59,7 +62,7 @@
 5. ทำแบบเดียวกันอีก 2 รอบ กับเพื่อน 2 คน (รวมแล้วต้องมี 3 ลายเซ็น)
 6. เสร็จแล้วถ่ายรูปเก็บไว้ได้
 
-### Practice 3: ออกแบบ future state  "TO-BE" workflow
+### (Optional) Practice 3: ออกแบบ future state  "TO-BE" workflow
 
 #### Steps
 
