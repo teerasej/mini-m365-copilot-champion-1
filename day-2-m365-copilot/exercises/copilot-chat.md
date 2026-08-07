@@ -62,7 +62,7 @@
 
 ## 5. การให้ Copilot ทำงานกับไฟล์แทนเรา
 
-1. ดาวน์โหลดไฟล์ PDF จาก [ที่นี่](https://github.com/teerasej/ai-for-everyone/blob/main/files/Expenses_Policy.pdf) หรือใช้ file ที่ได้จาก zip ที่ดาวน์โหลดตอนแรก
+1. [ดาวน์โหลด `Expenses_Policy.pdf`](https://github.com/teerasej/mini-m365-copilot-champion-1/raw/refs/heads/main/day-2-m365-copilot/files/Expenses_Policy.pdf) หรือใช้ไฟล์จาก Day 2 ZIP ที่ดาวน์โหลดไว้ตอนเริ่มต้น
 2. กดปุ่มสร้างห้องแชทใหม่
 3. จากกล่องข้อความแชท ให้กดปุ่ม "+" และเลือก **Upload images or files**
 ![alt text](../images/copilot/use-file-as-context-in-copilot-chat.png)
@@ -85,7 +85,6 @@
 ```
 
 3. ตรวจสอบผลลัพธ์
-
 
 
 

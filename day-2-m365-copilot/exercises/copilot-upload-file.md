@@ -2,7 +2,8 @@
 # อัพโหลดไฟล์เข้า OneDrive
 
 ## 1. ดาวน์โหลดไฟล์สำหรับใช้ในเวิร์คชอป
-- [ดาวน์โหลดไฟล์ที่นี่ (zip file)](https://github.com/teerasej/ai-for-everyone/raw/cpall-1/files/CPAll-copilot.zip)
+- [ดาวน์โหลด Day 2 sample files ทั้งหมด (.zip)](https://github.com/teerasej/mini-m365-copilot-champion-1/raw/refs/heads/main/day-2-m365-copilot/downloads/day-2-sample-files.zip)
+- หากต้องการเพียงบางไฟล์ ให้เปิด [รายการไฟล์สำหรับ Day 2](../sample-files.md)
 - แตก zip file ออกมาเพื่อใช้งาน
 
 ## 2. ล๊อคอินเข้าใช้งาน OneDrive

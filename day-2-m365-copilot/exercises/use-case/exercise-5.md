@@ -10,7 +10,8 @@
 
 1. เข้าใช้งาน Outlook และ Teams ด้วยบัญชีที่เข้าถึง Copilot ได้
 2. มี email thread หรือ meeting ตัวอย่างสำหรับทดลอง
-3. ตั้งค่า meeting ให้รองรับการบันทึก/ถอดเทปได้ (ถ้ามีนโยบายองค์กรรองรับ)
+3. [ดาวน์โหลด Teams meeting transcript ตัวอย่าง 15 นาที](https://github.com/teerasej/mini-m365-copilot-champion-1/raw/refs/heads/main/day-2-m365-copilot/files/branch-operations-review-15min.vtt) สำหรับใช้เมื่อไม่มี meeting ที่ถอดเทปไว้
+4. ตั้งค่า meeting ให้รองรับการบันทึก/ถอดเทปได้ (ถ้ามีนโยบายองค์กรรองรับ)
 
 ## Steps
 
