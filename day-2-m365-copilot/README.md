@@ -23,7 +23,7 @@
 2. [Word](exercises/start-up/word-feature-1.md)
 3. [Excel](exercises/start-up/feature-4-excel.md)
 4. [Outlook & Teams](exercises/use-case/exercise-5.md)
-5. [Create First AI Agent](exercises/agent/create-first-ai-agent.md)
+5. [Agent Builder: สร้าง Agent 3 รูปแบบ](exercises/agent/README.md)
 6. [สร้าง Presentation จากไฟล์ด้วย Copilot in PowerPoint](exercises/start-up/feature-5-ppt.md)
 
 ## Advanced Labs
