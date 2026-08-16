@@ -1,4 +1,4 @@
-# แบบฝึกหัดที่ 2: ออกแบบ Topic วิเคราะห์รายงานการเงินจากไฟล์ Excel ด้วย Prompt node
+# แบบฝึกหัดที่ 4: ออกแบบ Topic วิเคราะห์รายงานการเงินจากไฟล์ Excel ด้วย Prompt node
 
 🔑 **ต้องการ M365 Copilot License + สิทธิ์เข้าใช้ Copilot Studio**
 
@@ -7,7 +7,7 @@
 ```mermaid
 flowchart TD
     A[Trigger: ขอวิเคราะห์รายงานการเงินรายเดือน] --> B[Message: แจ้งขอบเขตงาน]
-   B --> C[Question: แนบไฟล์รายงานการเงิน]
+   B --> C[Question: แจ้งให้แนบไฟล์ข้อมูลการเงิน]
    C --> D[Prompt node: วิเคราะห์ไฟล์ -> FinancialAnalysisResult]
    D --> E[Message: แสดงผลวิเคราะห์]
    E --> F[End current topic]
@@ -32,14 +32,7 @@ flowchart TD
 
    ![alt text](images/set-trigger-description.png)
 5. กดปุ่ม **Save** ด้านบนขวาเพื่อบันทึกการเปลี่ยนแปลงทั้งหมด
-6. ทดสอบ prompt
 
-   ```
-   ช่วยวิเคราะห์รายงานการเงินรายเดือนของ Krungsri ให้หน่อย
-   ```
-7. ตรวจสอบว่า Agent มีการเลือก Topic นี้หรือไม่
-
-> 💡 **Tip:** ใน Description ให้ระบุเจตนาของผู้ใช้อย่างชัดเจนว่าเป็นการวิเคราะห์รายงานการเงินจากไฟล์แนบ เพื่อช่วยให้ Agent เลือก Topic นี้ได้แม่นยำขึ้น
 
 ---
 

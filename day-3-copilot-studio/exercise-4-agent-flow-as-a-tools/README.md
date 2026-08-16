@@ -1,4 +1,4 @@
-# แบบฝึกหัดที่ 4: เพิ่ม Agent Flow สำหรับส่ง email
+# แบบฝึกหัดที่ 3: เพิ่ม Agent Flow สำหรับส่ง email
 
 🔑 **ต้องการ M365 Copilot License + สิทธิ์เข้าใช้ Copilot Studio**
 

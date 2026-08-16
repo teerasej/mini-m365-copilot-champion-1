@@ -1,4 +1,4 @@
-# แบบฝึกหัดที่ 3:  Knowledge
+# แบบฝึกหัดที่ 2:  Knowledge
 
 🔑 **ต้องการ M365 Copilot License + สิทธิ์เข้าใช้ Copilot Studio**
 
@@ -56,17 +56,7 @@ Rules:
 
 ---
 
-## Practice 3: ตรวจสอบการเปิด orchestration เพื่อให้คุยแบบผสมได้
-
-1. ไปที่ **Settings** ของ Agent
-2. ตรวจส่วน **Orchestration** ให้เป็นโหมด generative เพื่อให้ Agent ตัดสินใจเส้นทางบทสนทนาได้
-3. บันทึกการตั้งค่า
-
-> 💡 Tip: ในแบบฝึกหัดถัดไป เราจะต่อยอดจาก Topic เดิมอีกครั้ง แต่จะเพิ่ม action สำหรับส่งรายงานต่อให้ครบกระบวนการ
-
----
-
-## Practice 4: ทดสอบ 
+## Practice 3: ทดสอบ 
 
 ให้ทดสอบใน **Test your agent** ตามลำดับนี้
 
@@ -117,6 +107,11 @@ Rules:
    Rules:
    - If user asks the meaning of financial reporting technical terms, answer with **grounded knowledge** and keep explanation concise, always show citation or source reference of the knowledge used.
    - If request is outside finance reporting scope, ask user to rephrase within scope.
+   ```
+
+   สังเกตว่ามีการเพิ่ม Rule ข้อ 2 ให้ Agent แสดง citation หรือ source reference ของ knowledge ที่ใช้อ้างอิง
+   ```text
+   ..., always show citation or source reference of the knowledge used.
    ```
 
 4. เปรียบเทียบผลก่อนและหลังใช้ prompt ปรับปรุง ว่าคำตอบชัดเจนขึ้นและตรวจสอบแหล่งที่มาได้มากขึ้นหรือไม่

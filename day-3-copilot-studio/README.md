@@ -7,9 +7,9 @@
 ## Table of contents
 
 1. [Create the Financial Report Assistant Agent](exercise-2-create-financial-agent/README.md)
-2. [Build the Report Intake Topic (Excel + Prompt node)](exercise-5-topic/README.md)
-3. [Add Knowledge](exercise-3-knowledge/README.md)
-4. [Add Agent Flow email tool and test](exercise-4-agent-flow-as-a-tools/README.md)
+2. [Add Knowledge](exercise-3-knowledge/README.md)
+3. [Add Agent Flow email tool and test](exercise-4-agent-flow-as-a-tools/README.md)
+4. [Build the Report Intake Topic (Excel + Prompt node)](exercise-5-topic/README.md)
 5. [Select channel, publish, and validate in Microsoft 365 Copilot](exercise-4-channel-and-publishing/README.md)
 6. [Design the Agent Canvas](exercise-1-agent-canvas-template/README.md)
 
