@@ -1,5 +1,7 @@
 #   Auto Report Writing ด้วย Copilot in Word
 
+![alt text](image-4.png)
+
 ## Scenario
 
 แบบฝึกหัดนี้ให้ผู้เรียนใช้ Copilot ใน Word เพื่อร่างรายงานผู้บริหารจากเอกสารต้นฉบับ

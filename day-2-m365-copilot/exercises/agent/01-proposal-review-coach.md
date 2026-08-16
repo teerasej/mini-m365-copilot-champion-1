@@ -1,6 +1,6 @@
 # Exercise 1: สร้าง Proposal Review Coach
 
-ในแบบฝึกหัดแรก เราจะสร้าง Agent ที่ช่วยผู้บริหารอ่าน project proposal และเตรียมประเด็นสำหรับตัดสินใจ โดยเราจะได้ลองส่วนสำคัญของ Agent Builder ตั้งแต่ **Describe**, **Configure**, **Try it** จนถึง **Create** ครับ
+ในแบบฝึกหัดแรก เราจะสร้าง Agent ที่ช่วยผู้บริหารสรุป project proposal และเตรียมประเด็นสำหรับการตัดสินใจ โดยเราจะได้ลองส่วนสำคัญของ Agent Builder ตั้งแต่ **Describe**, **Configure**, **Try it** จนถึง **Create** ครับ
 
 > **License:** ต้องใช้บัญชีที่เข้าถึง Microsoft 365 Copilot และ Agent Builder ได้
 
@@ -33,6 +33,17 @@
    - สร้าง Executive Decision Brief ที่อ่านง่ายสำหรับผู้บริหาร
    - ระบุคำถามที่ควรถาม project owner ก่อนตัดสินใจ
 
+   รูปแบบ Executive Decision Brief เริ่มต้น:
+   1. Decision requested
+   2. Business value และ success measures
+   3. Cost และ timeline
+   4. Key risks และ dependencies
+   5. Missing information
+   6. Questions for project owner
+
+   ถ้าผู้ใช้ไม่ได้ระบุหัวข้อหรือรูปแบบคำตอบ ให้ใช้รูปแบบเริ่มต้นนี้เสมอ
+   ถ้าผู้ใช้ระบุรูปแบบอื่น ให้ทำตามรูปแบบที่ผู้ใช้ขอ
+
    ข้อจำกัด:
    - ห้ามสร้างตัวเลขหรือข้อเท็จจริงที่ไม่มีในเอกสาร
    - ห้ามอนุมัติหรือปฏิเสธโครงการแทนผู้บริหาร
@@ -40,18 +51,18 @@
    ```
 
 3. เปิด **Configure** แล้วตรวจ **Name**, **Description** และ **Instructions** ที่ Agent Builder เตรียมให้
-4. ถ้า instruction ยังไม่ชัด ให้แก้เฉพาะส่วนที่เกี่ยวกับขอบเขต รูปแบบคำตอบ และสิ่งที่ห้ามเดา
+4. ถ้า instruction ยังไม่ชัด ให้แก้เฉพาะส่วนที่เกี่ยวกับขอบเขต รูปแบบคำตอบ และสิ่งที่ห้ามเดา โดยตรวจว่ามี Executive Decision Brief เริ่มต้นครบทั้ง 6 หัวข้อ
 5. เพิ่ม starter prompt เช่น
 
    ```text
    วิเคราะห์ proposal ที่แนบมาและสร้าง Executive Decision Brief ภาษาไทย
    ```
 
-6. เปิด **Try it** เพื่อตรวจว่า Agent พร้อมรับคำถาม แล้วกด **Create**
+6. เปิด **Try it** เพื่อตรวจว่า Agent พร้อมรับคำถาม แล้วกด **Create** เพื่อสร้าง agent
 
 #### Checkpoint
 
-- Agent มีหน้าที่ชัดเจน และยังให้มนุษย์เป็นผู้ตัดสินใจขั้นสุดท้าย
+- Agent มีการกำหนดขั้นตอนหน้าที่ชัดเจน และยังให้ผู้ใช้เป็นผู้ตัดสินใจขั้นสุดท้าย
 - Instructions ระบุวิธีจัดการเมื่อ source ไม่มีข้อมูล
 
 ### Practice 2: แนบ proposal และตรวจผลวิเคราะห์
@@ -66,24 +77,15 @@
 
    ```text
    วิเคราะห์ proposal ที่แนบมาและสร้าง Executive Decision Brief ภาษาไทย
-
-   ให้มีหัวข้อ:
-   1. Decision requested
-   2. Business value และ success measures
-   3. Cost และ timeline
-   4. Key risks และ dependencies
-   5. Missing information
-   6. Questions for project owner
-
-   แยก Fact, Assumption และ Missing information ให้ชัด และอย่าตัดสินใจแทนผู้บริหาร
    ```
 
-4. ตรวจคำตอบเทียบกับไฟล์ โดยเฉพาะ budget, timeline และข้อมูลที่ proposal ยังไม่ได้ระบุ
-5. ถ้า Agent เดาข้อมูล ให้บอก Agent ว่าข้อใดไม่มีหลักฐาน แล้วทดลองสั่งใหม่
+4. ตรวจว่า Agent ใช้ Executive Decision Brief เริ่มต้นครบทั้ง 6 หัวข้อ แม้ prompt ไม่ได้ระบุโครงสร้าง จากนั้นเทียบคำตอบกับไฟล์ โดยเฉพาะ budget, timeline และข้อมูลที่ proposal ยังไม่ได้ระบุ
+5. ถ้า Agent เดาข้อมูล ให้ลอง prompt บอก Agent ว่าข้อใดไม่มีหลักฐาน แล้วทดลองสั่งใหม่
 
 #### Checkpoint
 
 - ตัวเลขสำคัญตรงกับ proposal
+- คำตอบมี Executive Decision Brief เริ่มต้นครบทั้ง 6 หัวข้อ
 - Agent พบช่องว่างเรื่อง owner, privacy review หรือ network evidence อย่างน้อยหนึ่งรายการ
 - คำตอบระบุสิ่งที่ไม่ทราบแทนการเดา
 
@@ -92,8 +94,5 @@
 - `Proposal Review Coach` หนึ่ง Agent
 - Executive Decision Brief ภาษาไทยที่ตรวจสอบกับ source แล้ว
 
-## Optional Extension
-
-ลองเปลี่ยนผู้ฟังจาก Executive Steering Committee เป็น project team แล้วสังเกตว่ารายละเอียดและภาษาควรเปลี่ยนอย่างไร
 
 [← กลับหน้าหลัก Agent Builder](README.md) | [ไป Exercise 2: Vendor Comparison Advisor →](02-vendor-comparison-advisor.md)

@@ -13,9 +13,9 @@
 3. [ดาวน์โหลด Teams meeting transcript ตัวอย่าง 15 นาที](https://github.com/teerasej/mini-m365-copilot-champion-1/raw/refs/heads/main/day-2-m365-copilot/files/branch-operations-review-15min.vtt) สำหรับใช้เมื่อไม่มี meeting ที่ถอดเทปไว้
 4. ตั้งค่า meeting ให้รองรับการบันทึก/ถอดเทปได้ (ถ้ามีนโยบายองค์กรรองรับ)
 
-## Steps
-
 ## A) Outlook: สรุปและร่างอีเมลตอบกลับ
+
+![alt text](image.png)
 
 ### Practice 1: สรุปเนื้อหา Email (สำหรับผู้ใช้แบบ free และแบบมี license)
 
@@ -58,6 +58,8 @@
 
 
 ## B) Teams: สรุปแชท/ประชุม + Action Items
+
+![alt text](image-1.png)
 
 ### 1. การสร้าง Meeting ที่พร้อมถอดเทปการประชุม
 

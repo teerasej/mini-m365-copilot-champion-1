@@ -23,20 +23,9 @@
 2. [Word](exercises/start-up/word-feature-1.md)
 3. [Excel](exercises/start-up/feature-4-excel.md)
 4. [Outlook & Teams](exercises/use-case/exercise-5.md)
-5. [Agent Builder: สร้าง Agent 3 รูปแบบ](exercises/agent/README.md)
-6. [สร้าง Presentation จากไฟล์ด้วย Copilot in PowerPoint](exercises/start-up/feature-5-ppt.md)
+5. [สร้าง Presentation จากไฟล์ด้วย Copilot in PowerPoint](exercises/start-up/feature-5-ppt.md)
+6. [Agent Builder: สร้าง Agent 3 รูปแบบ](exercises/agent/README.md)
 
-## Advanced Labs
-
-หลังจากผ่านแบบฝึกหัดหลักแล้ว พวกเราสามารถเลือก Advanced Lab ให้ตรงกับ pain point และ AI Use Canvas ของตนเองได้
-
-1. [เปิด Advanced Labs และเลือกเส้นทาง](advanced/README.md)
-2. [Context, Source และ Response Modes](advanced/01-context-and-response-modes/README.md)
-3. [Prompt Gallery Team Library](advanced/02-prompt-gallery-team-library/README.md)
-4. [Copilot Pages และ Copilot Notebooks](advanced/03-pages-and-notebooks/README.md)
-5. [Memory, Custom Instructions และ Temporary Chat](advanced/04-memory-and-temporary-chat/README.md)
-6. [Branch Operations Decision Pack](advanced/05-branch-operations-decision-pack/README.md)
-7. [Microsoft-built Agents](advanced/06-microsoft-built-agent-lab/README.md)
 
 ## Final Reflection 
 
@@ -52,6 +41,19 @@
 - [Youtube](https://www.youtube.com/teerasej)
 - [คุยกันบน Facebook](https://www.facebook.com/teerasej)
 - [ทวิตกันบน Twitter](https://twitter.com/teerasej)
+
+
+## Advanced Labs
+
+หลังจากผ่านแบบฝึกหัดหลักแล้ว พวกเราสามารถเลือก Advanced Lab ให้ตรงกับ pain point และ AI Use Canvas ของตนเองได้
+
+1. [เปิด Advanced Labs และเลือกเส้นทาง](advanced/README.md)
+2. [Context, Source และ Response Modes](advanced/01-context-and-response-modes/README.md)
+3. [Prompt Gallery Team Library](advanced/02-prompt-gallery-team-library/README.md)
+4. [Copilot Pages และ Copilot Notebooks](advanced/03-pages-and-notebooks/README.md)
+5. [Memory, Custom Instructions และ Temporary Chat](advanced/04-memory-and-temporary-chat/README.md)
+6. [Branch Operations Decision Pack](advanced/05-branch-operations-decision-pack/README.md)
+7. [Microsoft-built Agents](advanced/06-microsoft-built-agent-lab/README.md)
 
 
 ## All rights reserved

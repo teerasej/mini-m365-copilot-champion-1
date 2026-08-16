@@ -1,5 +1,7 @@
 #  Data Exploration with Copilot in Excel
 
+![alt text](image-2.png)
+
 ## Scenario
 
 แบบฝึกหัดนี้ให้ผู้เรียนใช้ Copilot ใน Excel เพื่อสำรวจข้อมูล KPI หาแนวโน้มและความผิดปกติ
@@ -12,6 +14,8 @@
 3. เปิด Copilot Chat ใน Excel ได้
 
 ## Steps
+
+
 
 ## Step 1: เปิดไฟล์ Excel และเปิด Copilot Chat
 

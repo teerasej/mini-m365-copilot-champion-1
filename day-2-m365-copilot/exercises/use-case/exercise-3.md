@@ -3,6 +3,8 @@
 
 # Copilot in Powerpoint
 
+![alt text](image-3.png)
+
 ## Scenario
 
 แบบฝึกหัดนี้ให้ผู้เรียนใช้ Copilot ใน PowerPoint เพื่อสร้างงานนำเสนอจากไฟล์รายงาน

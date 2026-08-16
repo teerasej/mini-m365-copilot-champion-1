@@ -1,6 +1,6 @@
 # Exercise 3: สร้าง Krungsri Product Information Agent
 
-แบบฝึกหัดสุดท้ายจะกลับมาใช้ flow แบบเดียวกับ Agent ตัวแรก แต่เพิ่ม **Knowledge** จากเว็บไซต์สาธารณะและเอกสาร PDF เพื่อให้ Agent ช่วยค้นและอธิบายข้อมูลผลิตภัณฑ์ที่มี source รองรับครับ
+แบบฝึกหัดสุดท้ายนี้ พลจะพาพวกเรากลับมาใช้ flow แบบเดียวกับ Agent ตัวแรก แต่เพิ่ม **Knowledge** จากเว็บไซต์สาธารณะและเอกสาร PDF เพื่อให้ Agent ช่วยค้นและอธิบายข้อมูลผลิตภัณฑ์ที่มี source รองรับครับ
 
 ข้อความที่ Agent ตอบอาจแตกต่างจากตัวอย่าง ให้เราตรวจว่า Agent ใช้ source ที่กำหนดและยอมรับเมื่อ source ไม่มีคำตอบนะครับ
 
@@ -8,7 +8,7 @@
 
 ## Prerequisites
 
-- ผ่าน [Exercise 2: Vendor Comparison Advisor](02-vendor-comparison-advisor.md)
+- ทำ [Exercise 2: Vendor Comparison Advisor](02-vendor-comparison-advisor.md)
 - ดาวน์โหลด [`Krungsri_5_Banking_Products_Quick_Guide.pdf`](../../files/Krungsri_5_Banking_Products_Quick_Guide.pdf)
 
 ## Scenario 1: ตอบคำถามผลิตภัณฑ์จาก source ที่กำหนด
@@ -52,7 +52,7 @@
 7. เพิ่ม starter prompt
 
    ```text
-   อธิบายผลิตภัณฑ์ 5 รายการใน Knowledge แบบสั้น ๆ
+   แนะนำผลิตภัณฑ์ 5 รายการแบบสั้น ๆ
    ```
 
 #### Checkpoint
@@ -69,21 +69,21 @@
 1. เปิด **Try it** แล้วถามคำถามต่อไปนี้ทีละข้อ
 
    ```text
-   ผลิตภัณฑ์ 5 รายการใน PDF มีอะไรบ้าง และแต่ละรายการมีวัตถุประสงค์ต่างกันอย่างไร
+   ผลิตภัณฑ์ 5 รายการมีอะไรบ้าง และแต่ละรายการมีวัตถุประสงค์ต่างกันอย่างไร
    ```
 
    ```text
-   อธิบายความต่างด้านวัตถุประสงค์ระหว่าง Mee Tae Dai Savings และ Krungsri iFIN โดยไม่แนะนำว่าลูกค้าต้องเลือกอะไร
+   อธิบายความต่างด้านวัตถุประสงค์ระหว่าง Mee Tae Dai Savings และ Krungsri iFIN
    ```
 
    ```text
-   ค่าธรรมเนียมล่าสุดของทุกผลิตภัณฑ์เท่าไหร่ ถ้า source ไม่มีข้อมูลให้บอกว่าไม่พบ
+   ค่าธรรมเนียมล่าสุดของทุกผลิตภัณฑ์เท่าไหร่
    ```
 
-2. ตรวจว่า Agent ระบุ source และไม่สร้างค่าธรรมเนียมหรือเงื่อนไขที่ไม่มีหลักฐาน
+2. ตรวจว่า Agent ระบุ source อ้างอิงสำหรับคำตอบข้อแรกและข้อสอง และบอกว่าไม่พบข้อมูลสำหรับค่าธรรมเนียมในข้อสาม
 3. ถ้าคำตอบกว้างเกินไป ให้ปรับ Instructions ให้ตอบจาก PDF หรือหน้าเว็บไซต์ที่เกี่ยวข้องก่อน
-4. เมื่อพอใจแล้ว กด **Create**
-5. เก็บการ Share เป็น **Only you** ก่อน หาก Trainer อนุญาตให้แชร์ ให้ตรวจ source และสิทธิ์ของผู้รับก่อนเลือก **Specific users in your organization**
+4. เมื่อทดสอบจนพอใจแล้ว กด **Create**
+5. เก็บการ Share เป็น **Only you** ก่อน หาก Admin อนุญาตให้แชร์ ให้ตรวจ source และสิทธิ์ของผู้รับก่อนเลือก **Specific users in your organization**
 
    ![หน้าต่างยืนยันว่า Agent ถูกสร้างและยังแชร์แบบ Only you](../../images/agent/2025-08-24_13-42-42.png)
 
@@ -96,10 +96,7 @@
 ## Expected Output
 
 - `Krungsri Product Guide` หนึ่ง Agent
-- ผลทดสอบอย่างน้อยหนึ่งคำถามที่ตอบได้จาก Knowledge และหนึ่งคำถามที่ Agent ต้องยอมรับว่า source ไม่พอ
+- ผลทดสอบอย่างน้อยหนึ่งคำถามที่ตอบได้จาก Knowledge และหนึ่งคำถามที่ Agent ต้องยอมรับว่าข้อมูลไม่พอ
 
-## Optional Extension
-
-ให้เพื่อนถาม Agent โดยไม่บอกว่ามีข้อมูลอะไรอยู่ใน PDF แล้วจดคำถามที่ Agent ตอบได้ดีและคำถามที่ควรปรับ instruction เพิ่มเติม
 
 [← กลับหน้าหลัก Agent Builder](README.md) | [จบชุด Agent Builder และกลับไป Day 2](../../README.md)
