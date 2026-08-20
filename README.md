@@ -42,9 +42,9 @@
 | วัน | เวลา | Section | ผลลัพธ์ของผู้เรียน | แบบฝึกหัด |
 |---|---|---|---|---|
 | Copilot Studio | 1 | Create | สร้าง Financial Report Assistant Agent | [Create the Financial Report Assistant Agent](day-3-copilot-studio/exercise-2-create-financial-agent/README.md) |
-| Copilot Studio | 2 | Topic | สร้าง Report Intake Topic (Excel + Prompt node) | [Build the Report Intake Topic](day-3-copilot-studio/exercise-5-topic/README.md) |
-| Copilot Studio | 3 | Knowledge | เพิ่ม Knowledge ให้ Agent | [Add Knowledge](day-3-copilot-studio/exercise-3-knowledge/README.md) |
-| Copilot Studio | 4 | Tools | เพิ่ม Agent Flow email tool และทดสอบ | [Add Agent Flow email tool and test](day-3-copilot-studio/exercise-4-agent-flow-as-a-tools/README.md) |
+| Copilot Studio | 2 | Knowledge | เพิ่ม Knowledge ให้ Agent | [Add Knowledge](day-3-copilot-studio/exercise-3-knowledge/README.md) |
+| Copilot Studio | 3 | Tools | เพิ่ม Agent Flow email tool และทดสอบ | [Add Agent Flow email tool and test](day-3-copilot-studio/exercise-4-agent-flow-as-a-tools/README.md) |
+| Copilot Studio | 4 | Topic | สร้าง Report Intake Topic (Excel + Prompt node) | [Build the Report Intake Topic](day-3-copilot-studio/exercise-5-topic/README.md) |
 | Copilot Studio | 5 | Publish | เลือก channel, publish และตรวจสอบใน Microsoft 365 Copilot | [Select channel, publish, and validate](day-3-copilot-studio/exercise-4-channel-and-publishing/README.md) |
 | Copilot Studio | 6 | (optional) Design | เปลี่ยน AI Use Canvas เป็น AI Agent Canvas | [Design the Agent Canvas](day-3-copilot-studio/exercise-1-agent-canvas-template/README.md) |
 
