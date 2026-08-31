@@ -30,7 +30,8 @@
 
 1. วาง pain point ทั้งหมดลงในด้านซ้ายของตาราง Pain Point Priority Matrix
 2. สมาชิกในทีมแต่ละคนจะมี 3 คะแนน เพื่อโหวตให้กับแต่ละด้าน
-3. ให้ค่อยๆ พิจารณาให้คะแนนทีละด้าน เช่น business impact, frequency, frustration, feasibility (resource) และ feasibility (skill) โดยให้คะแนน 1–3 คะแนนต่อด้าน
+	- เช่น มีสมาชิก 5 คนในทีม ดังนั้นสำหรับ Business Impact จะมีคะแนนรวมสูงสุด 15 คะแนน, Frequent จะมีคะแนนรวมสูงสุด 15 คะแนน เป็นต้น
+4. ให้ค่อยๆ พิจารณาให้คะแนนทีละด้าน เช่น business impact, frequency, frustration, feasibility (resource) และ feasibility (skill) โดยให้คะแนน 1–3 คะแนนต่อด้าน
    
     > เช่น สมาชิกในทีมมี 5 คน พิจารณาด้าน business impact แล้วมีการโหวตคะแนนเป็น 3, 2, 1, 3, 2 คะแนน รวมเป็น 11 คะแนน จากนั้นจึงพิจารณาด้าน frequency และทำซ้ำจนครบทุกด้าน
 
