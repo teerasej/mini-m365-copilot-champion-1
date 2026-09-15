@@ -5,7 +5,8 @@
 
 ## แนะนำตัวเอง และใช้ระบบฝากคำถามกัน
 
-1. https://app.sli.do/event/xeSxWPxU12mQFy8kx9Kyzq
+1. https://app.sli.do/event/mGmuwPvUuV3nezWZya3iWi
+
 
 
 ## ไฟล์สำหรับ workshop
