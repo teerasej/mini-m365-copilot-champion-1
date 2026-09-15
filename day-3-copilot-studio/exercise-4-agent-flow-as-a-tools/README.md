@@ -1,4 +1,4 @@
-# แบบฝึกหัดที่ 3: เพิ่ม Agent Flow สำหรับส่ง email
+# แบบฝึกหัดที่ 4: เพิ่ม Agent Flow สำหรับส่ง email
 
 🔑 **ต้องการ M365 Copilot License + สิทธิ์เข้าใช้ Copilot Studio**
 
@@ -7,10 +7,11 @@
 
 ---
 
-## Practice 1: ทบทวน flow เดิมและกำหนดเป้าหมายของ action
+## Practice 1: ทบทวน Agent เดิมและกำหนดเป้าหมายของ action
 
 1. เปิด Agent `Financial Report Assistant` ที่สร้างจากแบบฝึกหัดที่ 1
-2. เช็คดู instructions และ orchestration ของ Agent ว่ายังเหมาะสมกับการทำงานแบบ hybrid conversation หรือไม่
+2. ตรวจว่า Instructions สำหรับ Knowledge และการอ่าน Excel จาก [แบบฝึกหัดที่ 3](../exercise-5-topic/README.md) ยังอยู่ และเตรียมข้อความ **สรุปพร้อมส่งอีเมล** ที่ตรวจแล้วจากโน้ตของตนเอง
+3. ใช้ข้อความนี้เป็น `AnalysisSummary` และใช้อีเมลของตนเองที่อนุญาตให้ทดสอบเป็น `ReviewerEmail`
 
 ---
 
@@ -36,7 +37,7 @@
    ```
    ![alt text](./images/configure-flow-inputs.png)
 
-6. สังเกตว่า input เหล่านี้คือค่าที่ Topic จะส่งเข้ามาให้ flow ใช้งานต่อใน action อื่นๆ
+6. สังเกตว่า input เหล่านี้คือค่าที่ Agent จะส่งเข้ามาให้ flow ใช้งานต่อใน action อื่นๆ
 7. ใต้ action `When an agent calls the flow` ให้เพิ่ม action **Send an email (V2)** จาก **Office 365 Outlook**
    ![alt text](./images/send-email-v2.png)
 8. กำหนดค่าหลักของ `Send an email (V2)` ตามนี้
@@ -65,23 +66,10 @@
    {{AnalysisSummary}}
    ```
 
-9. ที่ action `Respond to the agent` ให้กำหนดชื่อของตัวแปร output กลับมายัง Agent 1 ค่า
+9.  กด **Save draft**
+10. กด **Publish** ให้เรียบร้อย
 
-   ```text
-   ResponseMessage
-   ```
-
-10. ให้คัดลอกตัวอย่างข้อความกำหนดลงในค่าตัวแปร **ResponseMessage** โดยให้แทนที่ข้อความ `{{ReviewerEmail}}` ด้วยตัวแปร input `ReviewerEmail` ที่เราสร้างไว้ใน action `When an agent calls the flow`
-
-   ### ResponseMessage
-   ```text
-   Report summary sent to {{ReviewerEmail}}.
-   ```
-   ![alt text](./images/map-output-response.gif)
-11. กด **Save draft**
-12. กด **Publish** ให้เรียบร้อย
-
-> ⚠️ **Note:** Microsoft Learn ระบุว่า `Send an email (V2)` ไม่ได้ส่ง `message id` กลับมาให้ใช้ต่อในแบบตรงๆ ดังนั้นในแบบฝึกหัดนี้ให้ใช้ `ResponseMessage` เป็นผลลัพธ์หลักที่ Topic จะนำไปแสดงในแชต
+> ⚠️ **Note:** Microsoft Learn ระบุว่า `Send an email (V2)` ไม่ได้ส่ง `message id` กลับมาให้ใช้ต่อในแบบตรงๆ ดังนั้นในแบบฝึกหัดนี้ให้ใช้ `ResponseMessage` เป็นผลลัพธ์หลักที่ Agent จะนำไปแสดงในแชต
 
 ---
 
@@ -108,14 +96,15 @@
 3. สังเกตว่าเมื่อ Agent พยายามเรียก Tool ครั้งแรก ระบบควรแสดงขั้นตอนให้ผู้ใช้ **authenticate/consent** เพื่อใช้สิทธิ์อีเมลของผู้ใช้
 4. ดำเนินการ sign in หรือกดยืนยันสิทธิ์ให้ครบ 
 5. ระบบอาจจะมีการถามรายละเอียดเพิ่มเติม เช่น ชื่อผู้รับ หรือ ข้อความสรุปผล ให้ตอบกลับตามที่ระบบถาม
-6. แล้วส่ง prompt 
+6. ใช้ prompt ด้านล่าง โดยแทนข้อความในวงเล็บด้วยสรุปที่ตรวจแล้ว และอีเมลของตนเอง ห้ามส่งข้อความที่ยังมีวงเล็บ placeholder อยู่
    ```text
-   ช่วยส่งสรุปรายงานการเงินรายเดือน "ยอดกำไรลดลง 5%" ให้ training@nextflow.in.th
+   ช่วยส่งสรุปนี้ให้ [อีเมลของฉัน]
+   [วางสรุปพร้อมส่งอีเมลที่ตรวจแล้ว]
    ```
 7. ตรวจว่าระบบเรียก Tool สำเร็จและมีข้อความยืนยันกลับมา เช่น
 
    ```text
-   Report summary sent to finance-manager@krungsri.example.
+   Report summary sent to [อีเมลของฉัน].
    ```
 
 8. ตรวจเช็คปลายทางอีเมลของผู้รับว่ามีอีเมลสรุปรายงานส่งไปเรียบร้อยหรือไม่

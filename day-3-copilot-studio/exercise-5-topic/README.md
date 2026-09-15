@@ -1,149 +1,134 @@
-# แบบฝึกหัดที่ 4: ออกแบบ Topic วิเคราะห์รายงานการเงินจากไฟล์ Excel ด้วย Prompt node
+# แบบฝึกหัดที่ 3: วิเคราะห์รายงาน Excel ด้วย Agent Instructions
 
-🔑 **ต้องการ M365 Copilot License + สิทธิ์เข้าใช้ Copilot Studio**
+## Exercise Overview
 
-แบบฝึกหัดนี้จะพาเราสร้าง Topic แรกของ **Krungsri Financial Report Assistant** โดยให้ผู้ใช้แนบไฟล์รายงานการเงินรายเดือน (Excel) เข้ามาในบทสนทนา แล้วให้ Agent ใช้ **Prompt node** วิเคราะห์ไฟล์นั้นตาม prompt ที่เรากำหนดไว้ล่วงหน้า เพื่อให้ได้ผลสรุปกลับมาในบทสนทนา
+เราจะต่อยอด **Financial Report Assistant** ที่มี Knowledge แล้ว ให้ช่วยอ่านรายงานประจำเดือนและเตรียมสรุปสำหรับผู้บริหาร โดยกำหนดรูปแบบงานไว้ใน **Instructions** แล้วแนบไฟล์พร้อมคำสั่งสั้น ๆ
 
-```mermaid
-flowchart TD
-    A[Trigger: ขอวิเคราะห์รายงานการเงินรายเดือน] --> B[Message: แจ้งขอบเขตงาน]
-   B --> C[Question: แจ้งให้แนบไฟล์ข้อมูลการเงิน]
-   C --> D[Prompt node: วิเคราะห์ไฟล์ -> FinancialAnalysisResult]
-   D --> E[Message: แสดงผลวิเคราะห์]
-   E --> F[End current topic]
+เหมือนส่งแฟ้มรายงานให้ผู้ช่วยพร้อมบอกไว้ก่อนว่าต้องการดูอะไร ผู้ใช้จึงไม่ต้องเขียนคำสั่งยาวทุกครั้งครับ กิจกรรมนี้ไม่สร้าง Topic หรือ Prompt node และคง **Code Interpreter = Off**
+
+**เวลาโดยประมาณ:** 25 นาที | **ผลลัพธ์:** ตาราง 4 Business Units, 3 ประเด็นติดตาม และสรุปที่ใช้ในแบบฝึกหัดส่งอีเมลได้
+
+## Prerequisites
+
+- ทำ [เพิ่ม Knowledge](../exercise-3-knowledge/README.md) แล้ว ใช้ Agent `Financial Report Assistant` ตัวเดิม
+- **License / availability: ต้องตรวจสอบก่อนเริ่มอบรม** — มีสิทธิ์แก้ไข Agent และใช้ Copilot Studio / Generative AI พร้อม capacity ตามที่องค์กรจัดให้ การมี Microsoft 365 Copilot อย่างเดียวไม่ได้ยืนยันว่า environment รับ XLSX ได้
+- ดาวน์โหลด [Krungsri-Monthly-Financial-Report-May2026.xlsx](../files/Krungsri-Monthly-Financial-Report-May2026.xlsx) ฉบับที่มากับแบบฝึกหัดนี้ หรือ [Day 3 sample files (.zip)](../downloads/day-3-sample-files.zip) แล้วแตก ZIP ก่อนแนบไฟล์
+- ใช้เฉพาะข้อมูลสมมติในไฟล์ตัวอย่าง เริ่มใน **Test your agent**
+
+> **⚠️ ก่อนเริ่ม:** Microsoft ระบุการรับ XLSX เป็น experimental ความสามารถอาจต่างกันตาม environment/channel ให้ทดสอบรับ XLSX โดยปิด Code Interpreter ก่อน หากเลือก XLSX ไม่ได้หรือ Agent อ่านไม่ได้ ให้บันทึกอาการและแจ้งผู้สอน ไม่ต้องเปิด Code Interpreter หรือเปลี่ยนชนิดไฟล์เอง
+
+## Scenario 1: เตรียมสรุปรายงานเดือน May 2026
+
+| Sheet | ใช้ทำอะไร |
+|---|---|
+| `Summary` | ยอดรายได้ เป้ารายได้ ค่าใช้จ่าย งบ และ variance ที่คำนวณไว้แล้ว แยกตาม Business Unit |
+| `Revenue` | รายได้จริงและเป้าหมายแยกตามประเภทผลิตภัณฑ์ |
+| `Costs` | ค่าใช้จ่ายจริงและงบแยกตามประเภทค่าใช้จ่าย |
+| `Variance_Analysis` | รายการเปรียบเทียบที่เชื่อมกับรายละเอียด |
+
+> **💡 หน่วย:** จำนวนเงินเป็น **ล้านบาท** ช่อง `Percent` เก็บเลขเปอร์เซ็นต์ เช่น `8.55` หมายถึง `8.55%` ผลต่างของ ratio ใช้ **percentage points** ไม่ใช่ล้านบาท ส่วน `KeyRisk` เป็นข้อสมมติ ไม่ใช่หลักฐานยืนยันสาเหตุ
+
+### Practice 1: เปิดให้ Agent รับไฟล์
+
+เป้าหมาย: ตั้งค่าให้ Agent รับไฟล์ในบทสนทนา โดยไม่เปิด Code Interpreter
+
+#### Steps
+
+1. เปิด Agent แล้วไปที่ **Settings > Generative AI**
+2. ใน **File processing capabilities** ตั้ง **File uploads = On** และตรวจว่า **Code Interpreter = Off**
+3. กด **Save** แล้วกลับมาที่ Agent
+4. เปิด **Test your agent** ตรวจว่ามีปุ่มแนบไฟล์ หากไม่มีหรือเลือก XLSX ไม่ได้ ให้แจ้งผู้สอนก่อนทำต่อ
+
+#### Checkpoint
+
+เห็นปุ่มแนบไฟล์ และ Code Interpreter เป็น Off 
+
+### Practice 2: กำหนดรูปแบบการสรุปใน Instructions
+
+เป้าหมาย: ให้ Agent รู้ว่าจะอ่านรายงานและจัดรูปแบบคำตอบอย่างไร
+
+#### Steps
+
+1. ไปที่ **Overview > Instructions > Edit**
+2. ใช้ข้อความด้านล่างแทน instruction ของแบบฝึกหัด Knowledge ข้อความนี้รวมการตอบคำศัพท์จาก Knowledge แล้ว หากมีข้อกำหนดเพิ่มเติมขององค์กร ให้คงไว้ด้วย
+3. ตรวจว่าไม่มีบรรทัดเรียก `Monthly Report Intake` จากฉบับเก่า หากเคยทำฉบับเก่า ให้ผู้สอนช่วยปิด Topic เก่านั้นก่อนทดสอบ
+4. กด **Save**
+
+#### Instruction Example
+
+```text
+You are Financial Report Assistant for enterprise business users.
+
+Scope:
+- Explain financial reporting terms using the approved Knowledge.
+- Read a monthly financial workbook attached by the user and prepare a Thai executive brief.
+
+Knowledge questions:
+- Answer financial terminology questions from approved Knowledge, concisely.
+- Show an available source reference. Never invent citations or sources.
+
+Attached report:
+- Use only the workbook attached in this conversation for report figures. Do not use Knowledge or memory as a source of report numbers.
+- If no workbook is attached, ask for it. If the attachment cannot be read, say so and stop; never claim that you analyzed it.
+- Do not use Code Interpreter, write code, or call an email tool to analyze the report.
+- Read the period and prepared values in Summary. Revenue and Costs contain supporting detail; Variance_Analysis provides comparisons. Do not add detail to Summary totals or sum percentages.
+- Use saved totals and variances. If a required result is absent or inconsistent, identify the missing/conflicting field instead of estimating or recalculating it.
+- Amounts ending in Million_THB are million Thai baht. Percent fields store percentage numbers: 8.55 means 8.55%, not 855%.
+- Positive revenue variance means above target. Positive cost variance means over budget. Keep signs and show two decimal places.
+- Revenue_Less_Cost is a simple difference, not audited net profit. Use Difference_Unit for ratio differences; do not describe percentage points as money.
+- KeyRisk, Trend and YoY figures are supplied scenario assumptions, not proof of a cause. If Explanation says Not provided, state that the cause is not supplied. Do not invent prior-month data.
+
+For a request to summarize the attached report, respond in Thai in this order:
+1. State the reporting period and source filename/sheet.
+2. Show one table for the four Business Units: actual revenue, revenue target, actual cost, cost budget and cost variance percent. Copy the Total row from Summary below it.
+3. Give exactly three supported follow-up points: the unit with the highest cost variance percent, any unit below revenue target, and the unit with the largest negative Revenue_Less_Cost. Include relevant workbook figures and one useful follow-up question for each. If there is no matching unit, say so.
+4. End with a short section titled สรุปพร้อมส่งอีเมล, no more than 150 words, based on the same figures. Do not send it automatically.
+
+For requests outside financial reporting, ask the user to rephrase within scope.
 ```
 
----
+#### Checkpoint
 
-## Practice 1: สร้าง Topic และตั้ง Description สำหรับ Trigger
+Instructions ครอบคลุมคำศัพท์จาก Knowledge และการอ่านรายงาน 
 
-1. เข้า [https://copilotstudio.microsoft.com](https://copilotstudio.microsoft.com) แล้วเปิด Agent `Financial Report Assistant` ของพวกเรา
-2. ไปที่ **Topics** และกด **Add a topic** เลือก **Blank Topic**
-   ![alt text](images/add-blank-topic.png)
-3. ด้านบนขวา ให้คลิกตั้งชื่อ Topic ว่า `Monthly Report Intake`
-   ![alt text](images/rename-topic-title.png)
-4. ลงมาที่ Trigger node และใส่ Description prompt เพื่อช่วยให้ Agent เลือก Topic นี้ได้แม่นขึ้น เช่น:
+### Practice 3: แนบไฟล์และตรวจผลสรุป
 
-   ```
-   Use this topic when the user asks Krungsri's Financial Report Assistant to analyze a monthly financial report.
-   The user will attach an Excel workbook containing the report data.
-   Typical requests include: "ช่วยวิเคราะห์รายงานการเงินรายเดือนของ Krungsri ให้หน่อย", "สรุปผลจากไฟล์รายงานการเงินที่แนบมาให้หน่อย", "Analyze this month's financial report file"
-   ```
+เป้าหมาย: ตรวจว่า Agent อ่านไฟล์จริงและให้ข้อมูลที่นำไปใช้ต่อได้
 
-   ![alt text](images/set-trigger-description.png)
-5. กดปุ่ม **Save** ด้านบนขวาเพื่อบันทึกการเปลี่ยนแปลงทั้งหมด
+#### Steps
 
+1. เปิด **Test your agent** แล้วเริ่มบทสนทนาใหม่
+2. แนบ `Krungsri-Monthly-Financial-Report-May2026.xlsx` รอจนไฟล์แสดงเป็นสิ่งแนบ
+3. ส่งคำสั่งด้านล่างพร้อมไฟล์แนบ
 
----
+#### Prompt Example
 
-## Practice 2: เพิ่มคำถามให้แนบไฟล์รายงานการเงิน
+```text
+ช่วยสรุปรายงานนี้ให้ผู้บริหาร พร้อมชี้ 3 ประเด็นที่ควรติดตาม
+```
 
-1. จากด้านล่างของ Trigger node ให้กด **+** แล้วเลือก **Ask a question** node
-2. คลิกที่ชื่อด้านบนของ Question node แล้วตั้งชื่อว่า
-
-   ```
-   Ask for report file
-   ```
-3. ใช้ข้อความด้านล่างสำหรับช่อง **Message**
-
-   ```
-   กรุณาแนบไฟล์รายงานการเงินรายเดือน (.xlsx) ที่ต้องการให้วิเคราะห์
-   ```
-4. จากช่อง **Identify** ให้เลือกประเภทการเก็บข้อมูลเป็น **File** (attachment) เพื่อให้ผู้ใช้แนบไฟล์ Excel ได้โดยตรง
-5. จากช่อง **Save response as** คลิกที่ชื่อ **Var1** เพื่อเปิดหน้าต่าง properties ด้านข้าง
-6. แล้วกรอกชื่อ ลงไปในช่อง **Variable name**
-   ```
-   ReportFile
-   ```
-10. กดปุ่ม **Save** ด้านบนขวาเพื่อบันทึกการเปลี่ยนแปลงทั้งหมด
-
-> 💡 **Tip:** ใช้ไฟล์ตัวอย่าง [`Krungsri-Monthly-Financial-Report-May2026.xlsx`](../files/Krungsri-Monthly-Financial-Report-May2026.xlsx) เป็นไฟล์ทดสอบสำหรับ Practice นี้ ไฟล์นี้มี 4 ชีต (`Summary`, `Revenue`, `Costs`, `Variance_Analysis`) ครอบคลุมข้อมูลของ Retail Banking, Corporate Banking, SME Banking และ Card & Payments
-
----
-
-## Practice 3: เพิ่ม Prompt node เพื่อวิเคราะห์ไฟล์
-
-1. จากด้านล่างของ Question node `Ask for report file` ให้กด **+** แล้วเลือก **Prompt**
-2. กดชื่อด้านบนของ Prompt node เพื่อตั้งชื่อ Prompt node ว่า
-
-   ```
-   Analyze monthly financial report
-   ```
-3. สังเกตช่อง instruction ทางซ้าย
-4. ใส่ prompt สำหรับ 1 use case ตัวอย่างการวิเคราะห์ ดังนี้ (แก้ไขคำได้ตามทีม):
-
-   ```
-   คุณคือนักวิเคราะห์การเงินของธนาคาร Krungsri
-   จากไฟล์รายงานการเงินรายเดือนที่แนบมา {{ReportFile}} ให้สรุปเป็น Executive Summary ภาษาไทย ความยาวไม่เกิน 200 คำ ประกอบด้วย:
-   - ภาพรวมรายได้และค่าใช้จ่ายหลักตาม Business Unit
-   - Variance ที่สำคัญเทียบกับ Budget พร้อมสาเหตุโดยย่อ
-   - ความเสี่ยงหรือประเด็นที่ควรจับตาในเดือนนี้
-   ```
-5. แทนที่ **{{ReportFile}}** ด้วย "/" เพื่อเลือก Image or Document และตั้งชื่อตัว input เป็น
-   ```
-   Report file
-   ```
-6. จากด้านบนของ Instruction ใน prompt node กดเลือกปุ่ม **(...)** และเลือก **Setting**
-7. **ลงมาด้านล่างเพื่อเปิดการทำงานของ Code Interpreter**
-8. กดปิด setting
-9. กดเลือกตัวแปร input **ReportFile** เพื่อเลือกไฟล์ [`Krungsri-Monthly-Financial-Report-May2026.xlsx`](../files/Krungsri-Monthly-Financial-Report-May2026.xlsx) 
-10. กดปุ่ม **Test** เพื่อทดสอบ
-    > 💡 หากผลการทำงานไม่เป็นที่น่าพอใจ ให้เลือกปรับ model ให้มีคุณภาพสูงขึ้น
-11. กดปุ่ม **Save** ด้านบนขวาเพื่อบันทึกการเปลี่ยนแปลงทั้งหมด
-12. จาก Prompt Node ในส่วน output ด้านล่าง ให้กดสร้างตัวแปรใหม่ และตั้งชื่อตัวแปรใหม่ชื่อตามด้านล่าง
-
-   ```
-   FinancialAnalysisResult
-   ```
+1. คัดลอกส่วน **สรุปพร้อมส่งอีเมล** ที่ตรวจแล้ว เก็บในโน้ตของตนเองเพื่อใช้ในแบบฝึกหัด Agent Flow ถัดไป
 
 
----
+#### Checkpoint
 
-## Practice 4: แสดงผลวิเคราะห์กลับให้ผู้ใช้
+ตัวเลขตรงกับตาราง มี 3 ประเด็นที่มีหลักฐานและสรุปพร้อมใช้ต่อ หากอ่านไฟล์ไม่ได้หรือเลขไม่ตรง ให้หยุดส่งต่อสรุป ตรวจฉบับไฟล์ เริ่มบทสนทนาใหม่และแนบอีกครั้ง หากยังไม่ผ่าน ให้แจ้งผู้สอนพร้อมอาการ การตอบข้อความได้ไม่ได้แปลว่าอ่าน Excel สำเร็จ
 
-1. จากด้านล่างของ Prompt node ให้กด **+** แล้วเลือก **Send a message**
-2. ตั้งชื่อ Message node ว่า
+## Checkpoint
 
-   ```
-   Show analysis result
-   ```
-3. ใส่ข้อความในช่อง Message โดยแทรกตัวแปร
+- ใช้ Agent ตัวเดิม และ Code Interpreter เป็น Off
+- อ่าน XLSX ได้ใน environment ที่ใช้เรียน พร้อมตรวจตัวเลขและหน่วยแล้ว
+- ไม่แต่งสาเหตุ ไม่อ้างข้อมูลเดือนก่อนที่ไม่มี และไม่ส่งอีเมลเอง
+- ยังตอบคำศัพท์จาก Knowledge ได้
 
-   ```
-   {{FinancialAnalysisResult}}
-   ```
----
+## Expected Output
 
-## Practice 5: ปรับ instructions ของ Agent ให้เรียกใช้งาน Topic เมื่อตรงตามเงื่อนไข
+คำตอบระบุไฟล์และเดือน มีตาราง 4 Business Units และ Total, 3 ประเด็นติดตาม และ **สรุปพร้อมส่งอีเมล** ที่ตรวจแล้ว สำนวนอาจต่างกันได้ แต่ตัวเลขและความหมายต้องตรงกัน
 
-1. ไปที่หน้า **Overview** ของ Agent แล้วลงมาด้านล่างที่ **Instructions**
-2. กดปุ่ม **Edit** เพื่อแก้ไข Instructions
-3. ด้านท้ายของ Instructions ให้เพิ่มข้อความเพื่อบอก Agent ว่าเมื่อใดควรเรียกใช้ Topic นี้ เช่น:
 
-   ```
-   - If user asks for monthly financial report analysis, use
-   ```
-4. พิมพ์ `/` และเลือก Topic `Monthly Report Intake`
-5. กดปุ่ม **Save** เพื่อบันทึกการเปลี่ยนแปลง
+## อ่านเพิ่มเติม
 
----
+- [Microsoft Learn: Allow file input from users](https://learn.microsoft.com/en-us/microsoft-copilot-studio/image-input-analysis) — XLSX experimental, ขนาดไฟล์และข้อจำกัดการอ่านข้อความ
 
-## Practice 6: ทดสอบ Topic รอบแรก
-
-1. เปิดหน้าต่าง **Test** ด้านขวา
-2. ทดสอบด้วยคำสั่ง:
-
-   ```
-   ช่วยวิเคราะห์รายงานการเงินรายเดือนของ Krungsri ให้หน่อย
-   ```
-3. เมื่อ Agent ขอไฟล์แนบ ให้แนบไฟล์ [`Krungsri-Monthly-Financial-Report-May2026.xlsx`](../files/Krungsri-Monthly-Financial-Report-May2026.xlsx)
-4. ตรวจสอบว่า Agent แสดงผลวิเคราะห์แบบ Executive Summary กลับมา
-5. บันทึกสิ่งที่ต้องปรับ 2-3 จุด เช่น prompt ยังสรุปไม่ตรงประเด็น หรือคำถามยังไม่ชัด
-
----
-
-## สรุป
-
-ในแบบฝึกหัดนี้ พวกเราได้สร้าง Topic `Monthly Report Intake` ที่รับไฟล์ Excel รายงานการเงินของ Krungsri แล้วใช้ **Prompt node** วิเคราะห์ตาม prompt ที่กำหนดไว้ 1 use case จนได้ตัวแปร `FinancialAnalysisResult`
-
-ขั้นตอนถัดไป → [เพิ่ม Knowledge ให้ Agent ตอบคำศัพท์ทางการเงิน](../exercise-3-knowledge/README.md)
+ก่อนหน้า → [เพิ่ม Knowledge](../exercise-3-knowledge/README.md)
+ขั้นตอนถัดไป → [สร้าง Agent Flow สำหรับส่งอีเมล](../exercise-4-agent-flow-as-a-tools/README.md)

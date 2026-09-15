@@ -15,16 +15,6 @@
 
 > **💡 Tip:** สำหรับ hands-on นี้ ให้ใช้ Agent เดิมที่ทำต่อเนื่องมาจากแบบฝึกหัดที่ 4
 
-```mermaid
-flowchart LR
-    A[Use existing Financial Report Assistant] --> B[Test in authoring]
-    B --> C[Choose channel and authentication]
-    C --> D[Publish]
-    D --> E[Configure Microsoft 365 Copilot]
-    E --> F[Test latest published version]
-    F --> G[Review readiness notes]
-```
-
 ---
 
 ## Practice 1: เลือก Channel และวิธีเข้าถึง
@@ -52,7 +42,7 @@ flowchart LR
 5. ยืนยันการ publish และรอจนระบบแสดงว่า publish สำเร็จ
 6. หาก publish ไม่สำเร็จ ให้บันทึก status หรือ error message และติดต่อผู้ดูแล environment
 
-> **💡 Tip:** ก่อนกด publish ให้เช็คว่า Tool และ Topic ที่ต่อยอดมาจากแบบฝึกหัดก่อนหน้าอยู่ในสถานะพร้อมใช้งาน
+> **💡 Tip:** ก่อนกด publish ให้เช็คว่า Tool, Knowledge และ Instructions ที่ต่อยอดมาจากแบบฝึกหัดก่อนหน้าอยู่ในสถานะพร้อมใช้งาน
 
 > **💡 Tip:** การเปลี่ยน authentication จะมีผลกับผู้ใช้หลัง publish แล้วเท่านั้น
 
@@ -75,14 +65,14 @@ flowchart LR
 
 ## Practice 4: ตรวจสอบความพร้อมหลัง Publish (Quick Readiness Check)
 
-1. เปิด **Test your agent** แล้วลอง prompt ที่ครอบคลุมงานจริงอย่างน้อย 2 แบบ
-   - คำสั่งให้วิเคราะห์รายงานการเงินจากไฟล์
+1. ทดสอบใน **Test your agent** ก่อน แล้วทำซ้ำกับ Agent ฉบับที่ publish ใน **Microsoft 365 Copilot** ด้วย prompt อย่างน้อย 2 แบบ
+   - แนบ XLSX ฉบับปัจจุบันแล้วส่ง `ช่วยสรุปรายงานนี้ให้ผู้บริหาร พร้อมชี้ 3 ประเด็นที่ควรติดตาม` ตรวจตัวเลขตาม [แบบฝึกหัดที่ 3](../exercise-5-topic/README.md) และคง Code Interpreter เป็น Off
    - คำสั่งให้ช่วยส่งสรุปผ่านอีเมลตาม flow ที่ต่อไว้
 2. ตรวจว่า Agent ยังรักษาขอบเขตงานด้านการเงิน และตอบกรณีนอกขอบเขตอย่างเหมาะสม
 3. บันทึกผลการทดสอบสั้นๆ 2-3 ข้อ เช่น
-   - ผ่าน: route ไป Topic และเรียก Tool ได้ตามคาด
+   - ผ่าน: อ่านรายงานได้ตัวเลขถูกต้อง และเรียก Tool ส่งสรุปที่ตรวจแล้วได้ตามคาด
    - ต้องปรับ: ข้อความตอบกลับบางช่วงยังไม่ชัดเจน
-4. หากเจอปัญหาจากสิทธิ์หรือ policy ของ tenant ให้บันทึกอาการและส่งต่อผู้ดูแล environment
+4. หากรับ XLSX ไม่ได้ใน channel นี้ แม้ Test your agent จะผ่าน ให้บันทึกเป็นข้อจำกัดของ channel ไม่ถือว่าทดสอบไฟล์ผ่าน และแจ้งผู้ดูแล environment โดยไม่เปิด Code Interpreter
 
 > **💡 Tip:** ให้ใช้การตรวจแบบสั้นแต่ครบเส้นทาง เพื่อยืนยันว่า version ที่ publish พร้อมใช้งานใน Microsoft 365 Copilot
 

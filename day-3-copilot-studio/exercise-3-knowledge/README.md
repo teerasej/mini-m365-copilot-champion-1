@@ -2,9 +2,9 @@
 
 🔑 **ต้องการ M365 Copilot License + สิทธิ์เข้าใช้ Copilot Studio**
 
-ทางพลออกแบบแบบฝึกหัดนี้ เพื่อพาเราต่อยอด **Financial Report Assistant** ที่สร้างไว้ให้รองรับการคุยได้มากขึ้น 
+ทางพลออกแบบแบบฝึกหัดนี้ เพื่อพาเราต่อยอด **Financial Report Assistant** ที่สร้างไว้ให้รองรับการคุยได้มากขึ้น
 
-จุดสำคัญของแบบฝึกหัดนี้คือ **ไม่ต้องสร้าง Topic ใหม่** ให้เริ่มจาก Agent เดิมที่มีอยู่แล้ว แล้วปรับ **Instructions** 
+จุดสำคัญของแบบฝึกหัดนี้คือ **ไม่ต้องสร้าง Topic ใหม่** ให้เริ่มจาก Agent เดิมที่มีอยู่แล้ว แล้วปรับ **Instructions**
 
 
 ---
@@ -12,7 +12,7 @@
 ## Practice 1: เตรียม Knowledge ให้พร้อม (Technical Terms)
 
 1. ไปที่แท็บ **Knowledge** ของ Agent
-2. ถ้ายังไม่มีไฟล์สำหรับฝึก ให้ดาวน์โหลดทั้งหมดจาก [Day 3 sample files (.zip)](https://github.com/teerasej/mini-m365-copilot-champion-1/raw/refs/heads/main/day-3-copilot-studio/downloads/day-3-sample-files.zip)
+2. ถ้ายังไม่มีไฟล์สำหรับฝึก ให้ดาวน์โหลดทั้งหมดจาก [Day 3 sample files (.zip)](../downloads/day-3-sample-files.zip)
 3. กด **Add knowledge**
    ![alt text](./images/click-add-knowledge.png)
 4. อัปโหลดไฟล์
@@ -24,7 +24,7 @@
    ![alt text](./images/upload-knowledge-files.png)
 5. กด **Add to agent**
    ![alt text](./images/add-files-to-agent.png)
-6. ตรวจสถานะให้เป็น **Ready** ก่อนเริ่มทดสอบ 
+6. ตรวจสถานะให้เป็น **Ready** ก่อนเริ่มทดสอบ
    ![alt text](./images/check-knowledge-status.png)
 
 > 💡 Tip: ถ้าเหมือนมันค้างนาน สามารถกดปุ่ม refresh ในหน้า Knowledge ได้
@@ -33,11 +33,11 @@
 
 ---
 
-## Practice 2: ปรับ Agent Instructions 
+## Practice 2: ปรับ Agent Instructions
 
 1. ไปที่หน้า **Overview** ของ Agent แล้วแก้ส่วน **Instructions**
 2. เพิ่มข้อความให้ชัดว่า Agent อธิบาย technical term โดยอาศัยข้อมูลจาก knowledge ที่อัปโหลดไว้แล้ว
-3. สามารถใช้ตัวอย่างข้อความนี้แทนที่ลงไปได้ **แล้วถ้าเกิดไปลบการเรียกใช้ตัวแปรใน instruction เดิมให้ทำการเพิ่มตัวแปรกลับไปเป็นแบบเดิมด้วย**
+3. สามารถใช้ตัวอย่างข้อความนี้แทนที่ลงไปได้ **ให้คงข้อกำหนดเพิ่มเติมขององค์กรไว้ หากมี**
 
 ```text
 You are Financial Report Assistant for enterprise business users.
@@ -56,7 +56,7 @@ Rules:
 
 ---
 
-## Practice 3: ทดสอบ 
+## Practice 3: ทดสอบ
 
 ให้ทดสอบใน **Test your agent** ตามลำดับนี้
 
@@ -79,17 +79,17 @@ Rules:
    ```
 
 สิ่งที่ต้องสังเกต:
-- Agent ยังทำ structured flow สำหรับงานรายงานได้
+- Agent ยังคงขอบเขตงานรายงานการเงิน
 - Agent ตอบคำถาม technical term ได้โดยอิง knowledge
 - คำถามนอกขอบเขตไม่ควรถูกตอบมั่ว
 
 ---
 
-## Practice 5: สังเกต Citation ในคำตอบของ Agent
+## Practice 4: สังเกต Citation ในคำตอบของ Agent
 
 ให้ทดสอบต่อใน **Test your agent** จากบทสนทนาเดิม แล้วโฟกัสที่การอ้างอิงแหล่งข้อมูล
 
-1. ถามคำถามเชิง technical term อีกครั้ง (หรือใช้คำถามเดิมจาก Practice 4)
+1. ถามคำถามเชิง technical term อีกครั้ง (หรือใช้คำถามเดิมจาก Practice 3)
 
    ```text
    Variance Percent คืออะไร และควรตีความอย่างไรในรายงานรายเดือน
@@ -103,7 +103,7 @@ Rules:
 
    Scope:
    - Explain financial reporting technical terms using approved knowledge.
-   
+
    Rules:
    - If user asks the meaning of financial reporting technical terms, answer with **grounded knowledge** and keep explanation concise, always show citation or source reference of the knowledge used.
    - If request is outside finance reporting scope, ask user to rephrase within scope.
@@ -127,9 +127,6 @@ Rules:
 
 ## สรุป
 
-ในแบบฝึกหัดนี้ พวกเราได้เพิ่ม knowledge ให้กับ Financial Report Assistant โดยใช้ Agent orchestration และ knowledge เดิม 
+ในแบบฝึกหัดนี้ พวกเราได้เพิ่ม knowledge ให้กับ Financial Report Assistant โดยใช้ Agent orchestration และ knowledge เดิม
 
-ขั้นตอนถัดไป → [เพิ่ม Agent Flow และใช้ Send an email (V2) สำหรับส่งรายงาน](../exercise-4-agent-flow-as-a-tools/README.md)
-
-   > ⚠️ Note: ในแบบฝึกหัดนี้ให้ใช้ `UserKnowledgeQuestion` เหมือนกับ branch แรก เพื่อให้ทั้ง 2 เส้นทางรับคำถามจากตัวแปรเดียวกัน และเปรียบเทียบผลการ route ได้ง่าย
-
+ขั้นตอนถัดไป → [วิเคราะห์รายงาน Excel ด้วย Agent Instructions](../exercise-5-topic/README.md)

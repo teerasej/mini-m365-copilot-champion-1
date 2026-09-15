@@ -14,7 +14,7 @@
 
 - **วันที่ 1 — Foundation:** post-it  ปากกาเมจิก dot sticker และ flipchart วันนี้จะไม่มีการฝึกใช้งานโปรแกรมใดๆ นะ
 - **วันที่ 2 — Microsoft 365 Copilot:** บัญชี Microsoft 365 ที่เปิดใช้ Copilot Premium และสิทธิ์ใช้ **Agent Builder**; ดาวน์โหลดไฟล์ใน [`day-2-m365-copilot/files/`](day-2-m365-copilot/files/)
-- **วันที่ 3 — Copilot Studio:** บัญชีผู้ใช้ Microsoft 365 ที่มีสิทธิ์สร้างและนำ Agent ไปใช้ใน Microsoft Copilot Studio, กล่องจดหมาย Outlook และสิทธิ์ใช้ connector; ดาวน์โหลดไฟล์ใน [`day-3-copilot-studio/files/`](day-3-copilot-studio/files/) หรือกด [ดาวน์โหลด Day 3 sample files ทั้งหมดที่นี่ (.zip)](https://github.com/teerasej/mini-m365-copilot-champion-1/raw/refs/heads/main/day-3-copilot-studio/downloads/day-3-sample-files.zip)
+- **วันที่ 3 — Copilot Studio:** บัญชีผู้ใช้ Microsoft 365 ที่มีสิทธิ์สร้างและนำ Agent ไปใช้ใน Microsoft Copilot Studio, กล่องจดหมาย Outlook และสิทธิ์ใช้ connector; ดาวน์โหลดไฟล์ใน [`day-3-copilot-studio/files/`](day-3-copilot-studio/files/) หรือกด [ดาวน์โหลด Day 3 sample files ทั้งหมดที่นี่ (.zip)](day-3-copilot-studio/downloads/day-3-sample-files.zip)
 
 
 ## สารบัญแบบฝึกหัด
@@ -43,8 +43,8 @@
 |---|---|---|---|---|
 | Copilot Studio | 1 | Create | สร้าง Financial Report Assistant Agent | [Create the Financial Report Assistant Agent](day-3-copilot-studio/exercise-2-create-financial-agent/README.md) |
 | Copilot Studio | 2 | Knowledge | เพิ่ม Knowledge ให้ Agent | [Add Knowledge](day-3-copilot-studio/exercise-3-knowledge/README.md) |
-| Copilot Studio | 3 | Tools | เพิ่ม Agent Flow email tool และทดสอบ | [Add Agent Flow email tool and test](day-3-copilot-studio/exercise-4-agent-flow-as-a-tools/README.md) |
-| Copilot Studio | 4 | Topic | สร้าง Report Intake Topic (Excel + Prompt node) | [Build the Report Intake Topic](day-3-copilot-studio/exercise-5-topic/README.md) |
+| Copilot Studio | 3 | Excel analysis | อ่านรายงาน Excel ด้วย Agent Instructions และตรวจสรุปก่อนนำไปใช้ | [Analyze an Excel report with Agent Instructions](day-3-copilot-studio/exercise-5-topic/README.md) |
+| Copilot Studio | 4 | Tools | เพิ่ม Agent Flow email tool และส่งสรุปที่ตรวจแล้ว | [Add Agent Flow email tool and test](day-3-copilot-studio/exercise-4-agent-flow-as-a-tools/README.md) |
 | Copilot Studio | 5 | Publish | เลือก channel, publish และตรวจสอบใน Microsoft 365 Copilot | [Select channel, publish, and validate](day-3-copilot-studio/exercise-4-channel-and-publishing/README.md) |
 | Copilot Studio | 6 | (optional) Design | เปลี่ยน AI Use Canvas เป็น AI Agent Canvas | [Design the Agent Canvas](day-3-copilot-studio/exercise-1-agent-canvas-template/README.md) |
 
