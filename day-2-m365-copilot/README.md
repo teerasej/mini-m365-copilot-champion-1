@@ -25,7 +25,7 @@
 3. [Excel](exercises/start-up/feature-4-excel.md)
 4. [Outlook & Teams](exercises/use-case/exercise-5.md)
 5. [สร้าง Presentation จากไฟล์ด้วย Copilot in PowerPoint](exercises/start-up/feature-5-ppt.md)
-6. [Agent Builder: สร้าง Agent 3 รูปแบบ](exercises/agent/README.md)
+6. [Agent Builder: 3 แบบฝึกหัดหลัก + Skills ทางเลือก](exercises/agent/README.md)
 
 
 ## Final Reflection 
