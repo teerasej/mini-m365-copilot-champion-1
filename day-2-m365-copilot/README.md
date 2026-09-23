@@ -55,6 +55,9 @@
 5. [Memory, Custom Instructions และ Temporary Chat](advanced/04-memory-and-temporary-chat/README.md)
 6. [Branch Operations Decision Pack](advanced/05-branch-operations-decision-pack/README.md)
 7. [Microsoft-built Agents](advanced/06-microsoft-built-agent-lab/README.md)
+8. [สร้าง Agent จาก AI Use Canvas](advanced/07-agent-builder-from-ai-use-canvas/README.md)
+9. [Microsoft 365 App Deep-dive Cards](advanced/08-m365-app-deep-dive-cards/README.md)
+10. [AI Use Canvas Experiment Studio](advanced/09-ai-use-canvas-experiment-studio/README.md)
 
 
 ## All rights reserved

@@ -98,5 +98,8 @@
 - `Krungsri Product Guide` หนึ่ง Agent
 - ผลทดสอบอย่างน้อยหนึ่งคำถามที่ตอบได้จาก Knowledge และหนึ่งคำถามที่ Agent ต้องยอมรับว่าข้อมูลไม่พอ
 
+---
 
-[← กลับหน้าหลัก Agent Builder](README.md) | [จบ 3 แบบฝึกหัดหลักและกลับไป Day 2](../../README.md) | [ลอง Exercise 4: Skills (ทางเลือก) →](04-branch-briefing-skill.md)
+## ไปต่อ
+
+[← กลับไปสารบัญ Day 2](../../README.md) | [แบบฝึกหัดถัดไป (ทางเลือก): Exercise 4: Skills ใน Agent Builder →](04-branch-briefing-skill.md)

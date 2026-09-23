@@ -91,3 +91,9 @@ Human + AI Workflow Map ที่ออกแบบใหม่และ AI Use 
 ## Optional Extension
 
 เพิ่ม fallback path สำหรับกรณีข้อมูลไม่ครบ AI ตอบไม่ได้ หรือผู้ใช้ไม่อนุมัติร่าง
+
+---
+
+## ไปต่อ
+
+[← กลับไปสารบัญ Day 1](../README.md) | [แบบฝึกหัดถัดไป: เติม AI Use Canvas และนำเสนอ →](../04-estimate-value-and-pitch/README.md)

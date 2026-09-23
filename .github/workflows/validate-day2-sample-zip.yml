@@ -2,11 +2,6 @@ name: Validate Day 2 sample ZIP
 
 on:
   pull_request:
-    paths:
-      - "day-2-m365-copilot/files/**"
-      - "day-2-m365-copilot/downloads/day-2-sample-files.zip"
-      - "scripts/build_day2_sample_zip.py"
-      - ".github/workflows/validate-day2-sample-zip.yml"
   push:
     branches:
       - main

@@ -101,7 +101,8 @@ Quality check:
 - หลักฐานการทดลองโดยผู้ใช้อีกคน
 - Feedback และ prompt เวอร์ชันปรับปรุง
 
-## Next Steps
+---
 
-[ดูภาพรวม Advanced](../README.md) | [กลับไป Lab 1](../01-context-and-response-modes/README.md) | [ไป Lab 3](../03-pages-and-notebooks/README.md)
+## ไปต่อ
 
+[← กลับไปสารบัญ Advanced Labs](../README.md) | [แบบฝึกหัดถัดไป: Lab 3: Copilot Pages และ Notebooks →](../03-pages-and-notebooks/README.md)

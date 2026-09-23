@@ -94,5 +94,8 @@
 - `Proposal Review Coach` หนึ่ง Agent
 - Executive Decision Brief ภาษาไทยที่ตรวจสอบกับ source แล้ว
 
+---
 
-[← กลับหน้าหลัก Agent Builder](README.md) | [ไป Exercise 2: Vendor Comparison Advisor →](02-vendor-comparison-advisor.md)
+## ไปต่อ
+
+[← กลับไปสารบัญ Day 2](../../README.md) | [แบบฝึกหัดถัดไป: Exercise 2: Vendor Comparison Advisor →](02-vendor-comparison-advisor.md)

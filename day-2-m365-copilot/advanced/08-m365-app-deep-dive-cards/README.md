@@ -168,4 +168,8 @@
 
 ทำโจทย์เดิมด้วย Copilot Chat, In-app Copilot และ Agent แล้วใช้ scorecard เดียวกันตัดสินวิธีที่เหมาะที่สุด
 
-[กลับไป Lab 7](../07-agent-builder-from-ai-use-canvas/README.md) | [ไป Lab 9](../09-ai-use-canvas-experiment-studio/README.md)
+---
+
+## ไปต่อ
+
+[← กลับไปสารบัญ Advanced Labs](../README.md) | [แบบฝึกหัดถัดไป: Lab 9: AI Use Canvas Experiment Studio →](../09-ai-use-canvas-experiment-studio/README.md)

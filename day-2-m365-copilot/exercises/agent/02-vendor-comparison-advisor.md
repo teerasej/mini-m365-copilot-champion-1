@@ -116,4 +116,8 @@
 
 ลองเพิ่มน้ำหนักเกณฑ์ที่ผู้บริหารกำหนด แล้วตรวจว่า Agent อธิบายผลกระทบของน้ำหนักนั้นแทนการซ่อนวิธีคิดหรือไม่
 
-[← กลับหน้าหลัก Agent Builder](README.md) | [ไป Exercise 3: Krungsri Product Information Agent →](03-krungsri-product-information-agent.md)
+---
+
+## ไปต่อ
+
+[← กลับไปสารบัญ Day 2](../../README.md) | [แบบฝึกหัดถัดไป: Exercise 3: Krungsri Product Information Agent →](03-krungsri-product-information-agent.md)

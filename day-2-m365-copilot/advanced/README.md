@@ -69,4 +69,8 @@
 
 เลือก Lab เดียวกันกับเพื่อน แต่ใช้คนละ response mode หรือคนละ Microsoft 365 app แล้วเปรียบเทียบว่าวิธีใดเหมาะกับ workflow มากกว่า
 
-[กลับไป Day 2](../README.md) | [เริ่ม Lab 1](01-context-and-response-modes/README.md)
+---
+
+## ไปต่อ
+
+[← กลับไปสารบัญ Day 2](../README.md) | [แบบฝึกหัดถัดไป: Lab 1: Context, Source และ Response Modes →](01-context-and-response-modes/README.md)

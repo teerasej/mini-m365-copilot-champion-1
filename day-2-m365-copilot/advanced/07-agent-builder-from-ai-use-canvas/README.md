@@ -138,4 +138,8 @@ Agent ห้าม:
 
 ให้เพื่อนทดสอบ Agent โดยไม่บอก expected behavior แล้วรวบรวม failure ที่เจ้าของ Agent ไม่ได้นึกถึง
 
-[กลับไป Lab 6](../06-microsoft-built-agent-lab/README.md) | [ไป Lab 8](../08-m365-app-deep-dive-cards/README.md)
+---
+
+## ไปต่อ
+
+[← กลับไปสารบัญ Advanced Labs](../README.md) | [แบบฝึกหัดถัดไป: Lab 8: Microsoft 365 App Deep-dive Cards →](../08-m365-app-deep-dive-cards/README.md)

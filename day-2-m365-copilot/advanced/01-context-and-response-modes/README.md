@@ -144,4 +144,8 @@ Response mode เหมือนการเลือกช่องชำระ
 
 สร้าง summary ที่ผ่านการตรวจแล้ว 1 หน้า แล้วใช้เป็น context แบบย่อในห้อง Chat ใหม่ เปรียบเทียบกับการแนบ source หลายไฟล์โดยตรง
 
-[กลับไป Advanced Labs](../README.md) | [ไป Lab 2](../02-prompt-gallery-team-library/README.md)
+---
+
+## ไปต่อ
+
+[← กลับไปสารบัญ Advanced Labs](../README.md) | [แบบฝึกหัดถัดไป: Lab 2: Prompt Gallery Team Library →](../02-prompt-gallery-team-library/README.md)

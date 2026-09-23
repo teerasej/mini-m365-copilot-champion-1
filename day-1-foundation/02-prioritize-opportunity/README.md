@@ -82,3 +82,9 @@
 ## Expected Output
 
 Pain-point theme ที่ทีมเลือก พร้อมคะแนน ผลโหวต และเหตุผลว่าทำไมทีมเลือกเรื่องนี้
+
+---
+
+## ไปต่อ
+
+[← กลับไปสารบัญ Day 1](../README.md) | [แบบฝึกหัดถัดไป: ออกแบบ Human + AI Workflow →](../03-redesign-human-ai-workflow/README.md)

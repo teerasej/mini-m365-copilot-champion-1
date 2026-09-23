@@ -6,12 +6,12 @@
 
 ## Table of contents
 
-1. [Create the Financial Report Assistant Agent](exercise-2-create-financial-agent/README.md)
-2. [Add Knowledge](exercise-3-knowledge/README.md)
-3. [Analyze an Excel report with Agent Instructions](exercise-5-topic/README.md)
+1. [Create the Financial Report Assistant Agent](exercise-1-create-financial-agent/README.md)
+2. [Add Knowledge](exercise-2-knowledge/README.md)
+3. [Analyze an Excel report with Agent Instructions](exercise-3-excel-analysis/README.md)
 4. [Add Agent Flow email tool and test](exercise-4-agent-flow-as-a-tools/README.md)
-5. [Select channel, publish, and validate in Microsoft 365 Copilot](exercise-4-channel-and-publishing/README.md)
-6. [Design the Agent Canvas](exercise-1-agent-canvas-template/README.md)
+5. [Select channel, publish, and validate in Microsoft 365 Copilot](exercise-5-channel-and-publishing/README.md)
+6. (ทางเลือก) [Design the Agent Canvas](exercise-6-agent-canvas-template/README.md)
 
 > **ก่อนเริ่ม Excel analysis:** ตรวจว่า environment รับ XLSX ได้โดยเปิด File uploads และปิด Code Interpreter; XLSX ยังมีข้อจำกัดด้าน availability ให้ทำตาม prerequisite ในแบบฝึกหัดที่ 3
 

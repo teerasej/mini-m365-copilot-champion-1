@@ -10,7 +10,7 @@
 ## Practice 1: ทบทวน Agent เดิมและกำหนดเป้าหมายของ action
 
 1. เปิด Agent `Financial Report Assistant` ที่สร้างจากแบบฝึกหัดที่ 1
-2. ตรวจว่า Instructions สำหรับ Knowledge และการอ่าน Excel จาก [แบบฝึกหัดที่ 3](../exercise-5-topic/README.md) ยังอยู่ และเตรียมข้อความ **สรุปพร้อมส่งอีเมล** ที่ตรวจแล้วจากโน้ตของตนเอง
+2. ตรวจว่า Instructions สำหรับ Knowledge และการอ่าน Excel จาก [แบบฝึกหัดที่ 3](../exercise-3-excel-analysis/README.md) ยังอยู่ และเตรียมข้อความ **สรุปพร้อมส่งอีเมล** ที่ตรวจแล้วจากโน้ตของตนเอง
 3. ใช้ข้อความนี้เป็น `AnalysisSummary` และใช้อีเมลของตนเองที่อนุญาตให้ทดสอบเป็น `ReviewerEmail`
 
 ---
@@ -117,4 +117,8 @@
 
 ในแบบฝึกหัดนี้ พวกเราได้สร้างและ publish Agent Flow สำหรับส่งอีเมล แล้วผูก flow นั้นเข้ากับ Agent ผ่านหน้า **Overview > Tools** จากนั้นทดสอบการเรียกใช้งานจริงในแชต รวมถึงตรวจขั้นตอน **authenticate/consent** ก่อนส่งอีเมล เพื่อให้มั่นใจว่า Agent ทำงานได้ถูกต้องตามสิทธิ์ผู้ใช้
 
-ขั้นตอนถัดไป → [เลือก Channel และ Publish Agent](../exercise-4-channel-and-publishing/README.md)
+---
+
+## ไปต่อ
+
+[← กลับไปสารบัญ Day 3](../README.md) | [แบบฝึกหัดถัดไป: เลือก Channel และ Publish Agent →](../exercise-5-channel-and-publishing/README.md)
