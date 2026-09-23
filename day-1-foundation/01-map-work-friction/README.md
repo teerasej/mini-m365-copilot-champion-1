@@ -63,3 +63,9 @@
 ## Expected Output
 
 Work Friction Map ที่แยกงานตามระดับและชี้ 3 จุดติดขัดด้วยหลักฐานจากประสบการณ์จริง
+
+---
+
+## ไปต่อ
+
+[← กลับไปสารบัญ Day 1](../README.md) | [แบบฝึกหัดถัดไป: จัดลำดับ pain point →](../02-prioritize-opportunity/README.md)

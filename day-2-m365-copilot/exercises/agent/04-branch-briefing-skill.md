@@ -108,4 +108,8 @@
 - [Add custom skills to your declarative agent in Agent Builder (preview)](https://learn.microsoft.com/microsoft-365/copilot/extensibility/agent-builder-add-skills)
 - [Custom skills in declarative agents (preview)](https://learn.microsoft.com/microsoft-365/copilot/extensibility/declarative-agent-skills)
 
-[← กลับหน้าหลัก Agent Builder](README.md) | [จบชุด Agent Builder และกลับไป Day 2 →](../../README.md)
+---
+
+## ไปต่อ
+
+[← กลับไปสารบัญ Day 2](../../README.md)

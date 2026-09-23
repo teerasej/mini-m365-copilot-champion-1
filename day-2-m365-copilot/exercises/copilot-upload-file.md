@@ -14,3 +14,9 @@
 
 ## 4. อัพโหลดไฟล์ที่เตรียมไว้ทั้งหมดจาก zip file ที่แตกออกมา ไปที่ OneDrive 
    ![alt text](../images/copilot/2025-10-07_14-20-43.png)
+
+---
+
+## ไปต่อ
+
+[← กลับไปสารบัญ Day 2](../README.md) | [แบบฝึกหัดถัดไป: Copilot Chat & Create →](use-case/exercise-1.md)

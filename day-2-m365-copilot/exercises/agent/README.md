@@ -27,4 +27,8 @@
 
 **ทางเลือกหลังแบบฝึกหัดหลัก:** [สร้างและทดสอบ Skill ใน Agent Builder](04-branch-briefing-skill.md) — สร้าง Agent ตัวใหม่ที่ใช้ Skill ทำ Decision Brief จากข้อมูลสาขาจำลอง (ต้องมี Frontier Preview)
 
-[← กลับไป Day 2](../../README.md) | [เริ่ม Exercise 1: Proposal Review Coach →](01-proposal-review-coach.md)
+---
+
+## ไปต่อ
+
+[← กลับไปสารบัญ Day 2](../../README.md) | [แบบฝึกหัดถัดไป: Exercise 1: Proposal Review Coach →](01-proposal-review-coach.md)

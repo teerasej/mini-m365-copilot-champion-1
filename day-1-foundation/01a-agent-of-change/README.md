@@ -18,3 +18,9 @@ Objective: สำรวจหน้าเว็บ "Agents of Change" ของ 
 
 ## Summary
 คุณได้สำรวจมุมมองของ Microsoft เกี่ยวกับ AI agents และแปลงเป็น shortlist ที่มีโครงสร้างชัดเจน ทั้งโอกาส ความเสี่ยง และ 1 ไอเดีย pilot ที่พร้อมนำไปต่อยอดในทีม
+
+---
+
+## ไปต่อ
+
+[← กลับไปสารบัญ Day 1](../README.md) | [แบบฝึกหัดถัดไป: ถอดแผนงานและค้นหา pain point →](../01-map-work-friction/README.md)

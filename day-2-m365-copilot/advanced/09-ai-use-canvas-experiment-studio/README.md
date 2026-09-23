@@ -116,7 +116,8 @@ Quality check:
 - AI Use Canvas ฉบับอัปเดต
 - Reflection 1 นาทีและ next experiment
 
-## Optional Extension
+---
 
+## ไปต่อ
 
-[กลับไป Lab 8](../08-m365-app-deep-dive-cards/README.md) | [ทำ Map Tools and Reflect ต่อ](../../04-map-tools-and-reflect/README.md) | [กลับไป Day 2](../../README.md)
+[← กลับไปสารบัญ Advanced Labs](../README.md)

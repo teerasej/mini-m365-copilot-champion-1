@@ -64,3 +64,8 @@ Summarize this presentation
 
 - Presentation ภาษาไทย 1 ชุดที่พร้อมนำไปตรวจทานต่อ
 
+---
+
+## ไปต่อ
+
+[← กลับไปสารบัญ Day 2](../../README.md) | [แบบฝึกหัดถัดไป: Agent Builder: สร้าง Agent →](../agent/README.md)

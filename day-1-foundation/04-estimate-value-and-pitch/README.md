@@ -41,3 +41,9 @@
 ## Expected Output
 
 AI Use Canvas ที่มี value hypothesis, feedback, first experiment และ pitch 5 นาที
+
+---
+
+## ไปต่อ
+
+[← กลับไปสารบัญ Day 1](../README.md)

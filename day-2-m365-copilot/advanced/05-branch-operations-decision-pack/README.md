@@ -210,6 +210,8 @@ Slide | Existing claim/number | Verified value | Status (match/mismatch) | Sugge
 - `Krungsri_BranchOps_DecisionBrief_Verified.pptx`
 - Outlook draft และ Teams meeting agenda
 
-## Optional Extension
+---
 
-[กลับไป Lab 4](../04-memory-and-temporary-chat/README.md) | [ไป Lab 6](../06-microsoft-built-agent-lab/README.md)
+## ไปต่อ
+
+[← กลับไปสารบัญ Advanced Labs](../README.md) | [แบบฝึกหัดถัดไป: Lab 6: Microsoft-built Agents →](../06-microsoft-built-agent-lab/README.md)

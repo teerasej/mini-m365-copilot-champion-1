@@ -188,6 +188,8 @@ Source file: Branch_Operations_Review.docx
 - Analyst finding หรือ fallback comparison
 - Survey preview หรือชุดคำถามตัวอย่าง
 
-## Optional Extension
+---
 
-[กลับไป Lab 5](../05-branch-operations-decision-pack/README.md) | [ไป Lab 7](../07-agent-builder-from-ai-use-canvas/README.md)
+## ไปต่อ
+
+[← กลับไปสารบัญ Advanced Labs](../README.md) | [แบบฝึกหัดถัดไป: Lab 7: Agent Builder จาก AI Use Canvas →](../07-agent-builder-from-ai-use-canvas/README.md)

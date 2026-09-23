@@ -161,6 +161,8 @@ decision memo ที่มี 3 options พร้อม pros, cons และ hum
 - ตัวอย่าง Custom instructions ที่ปลอดภัย
 - หลักฐานว่าลบ test memory แล้ว หรือผลจาก fallback
 
-## Next Steps
+---
 
-[กลับไป Lab 3](../03-pages-and-notebooks/README.md) | [ไป Lab 5](../05-branch-operations-decision-pack/README.md)
+## ไปต่อ
+
+[← กลับไปสารบัญ Advanced Labs](../README.md) | [แบบฝึกหัดถัดไป: Lab 5: Branch Operations Decision Pack →](../05-branch-operations-decision-pack/README.md)

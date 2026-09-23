@@ -136,7 +136,8 @@
 - `Branch Operations Context Pack`
 - รายการ findings, conflicts และ open questions ที่ตรวจย้อนกลับได้
 
-## Next Steps
+---
 
+## ไปต่อ
 
-[กลับไป Lab 2](../02-prompt-gallery-team-library/README.md) | [ไป Lab 4](../04-memory-and-temporary-chat/README.md)
+[← กลับไปสารบัญ Advanced Labs](../README.md) | [แบบฝึกหัดถัดไป: Lab 4: Memory, Custom Instructions และ Temporary Chat →](../04-memory-and-temporary-chat/README.md)
