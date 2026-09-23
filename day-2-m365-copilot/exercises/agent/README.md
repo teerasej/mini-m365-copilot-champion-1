@@ -25,4 +25,6 @@
 2. [Vendor Comparison Advisor](02-vendor-comparison-advisor.md) — ปรับ instruction เพิ่ม report template เป็น Knowledge และสร้างรายงานเพื่อทำหน้าที่เปรียบเทียบ vendor 3 เจ้า
 3. [Krungsri Product Information Agent](03-krungsri-product-information-agent.md) — เพิ่มเว็บไซต์และ PDF เป็น Knowledge แล้วทดสอบคำตอบที่มีและไม่มีข้อมูลรองรับ
 
+**ทางเลือกหลังแบบฝึกหัดหลัก:** [สร้างและทดสอบ Skill ใน Agent Builder](04-branch-briefing-skill.md) — สร้าง Agent ตัวใหม่ที่ใช้ Skill ทำ Decision Brief จากข้อมูลสาขาจำลอง (ต้องมี Frontier Preview)
+
 [← กลับไป Day 2](../../README.md) | [เริ่ม Exercise 1: Proposal Review Coach →](01-proposal-review-coach.md)

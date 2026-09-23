@@ -99,4 +99,4 @@
 - ผลทดสอบอย่างน้อยหนึ่งคำถามที่ตอบได้จาก Knowledge และหนึ่งคำถามที่ Agent ต้องยอมรับว่าข้อมูลไม่พอ
 
 
-[← กลับหน้าหลัก Agent Builder](README.md) | [จบชุด Agent Builder และกลับไป Day 2](../../README.md)
+[← กลับหน้าหลัก Agent Builder](README.md) | [จบ 3 แบบฝึกหัดหลักและกลับไป Day 2](../../README.md) | [ลอง Exercise 4: Skills (ทางเลือก) →](04-branch-briefing-skill.md)
