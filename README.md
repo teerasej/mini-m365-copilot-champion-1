@@ -36,6 +36,7 @@
 | Microsoft 365 Copilot | Core workflow | 1–6 | เชื่อม Copilot Chat, Word, PowerPoint, Excel, Outlook, Teams และ Agent Builder | [Day 2 Core Exercises](day-2-m365-copilot/README.md) |
 | Microsoft 365 Copilot | Advanced practice | Lab menu | เลือก context, response mode, Prompt Gallery, Pages, Notebook, Microsoft-built Agent และ Agent Builder ให้ตรงกับงาน | [Day 2 Advanced Labs](day-2-m365-copilot/advanced/README.md) |
 | Microsoft 365 Copilot | 14:45–16:00 | Final reflection | ทดลอง workflow จาก Day 1 และอัปเดต AI Use Canvas จากหลักฐาน | [AI Use Canvas Experiment Studio](day-2-m365-copilot/advanced/09-ai-use-canvas-experiment-studio/README.md) |
+| Microsoft 365 Copilot | Optional end-of-day | Canvas → Agent → Skill | เลือก task จาก AI Use Canvas สร้าง Agent ทดสอบ และเพิ่ม Custom Skill เมื่อผ่าน Success Gate | [AI Use Canvas to Agent and Skill](day-2-m365-copilot/advanced/10-ai-use-canvas-agent-skill/README.md) |
 
 ### Day 3 — Copilot Studio
 
@@ -47,6 +48,7 @@
 | Copilot Studio | 4 | Tools | เพิ่ม Agent Flow email tool และส่งสรุปที่ตรวจแล้ว | [Add Agent Flow email tool and test](day-3-copilot-studio/exercise-4-agent-flow-as-a-tools/README.md) |
 | Copilot Studio | 5 | Publish | เลือก channel, publish และตรวจสอบใน Microsoft 365 Copilot | [Select channel, publish, and validate](day-3-copilot-studio/exercise-5-channel-and-publishing/README.md) |
 | Copilot Studio | 6 | (optional) Design | เปลี่ยน AI Use Canvas เป็น AI Agent Canvas | [Design the Agent Canvas](day-3-copilot-studio/exercise-6-agent-canvas-template/README.md) |
+| Copilot Studio | 7 | (optional) Bridge | กลับไปเลือก task ของตนเอง แล้วเปรียบเทียบขอบเขตของ Agent Builder กับสิ่งที่เรียนใน Copilot Studio | [AI Use Canvas to Agent and Skill](day-2-m365-copilot/advanced/10-ai-use-canvas-agent-skill/README.md) |
 
 ## แหล่งข้อมูลอ้างอิง และติดตามอัพเดต
 

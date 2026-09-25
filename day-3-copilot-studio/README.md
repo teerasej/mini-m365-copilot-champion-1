@@ -12,6 +12,7 @@
 4. [Add Agent Flow email tool and test](exercise-4-agent-flow-as-a-tools/README.md)
 5. [Select channel, publish, and validate in Microsoft 365 Copilot](exercise-5-channel-and-publishing/README.md)
 6. (ทางเลือก) [Design the Agent Canvas](exercise-6-agent-canvas-template/README.md)
+7. (ทางเลือก) [กลับไปเลือก task จาก AI Use Canvas แล้วสร้าง Agent และ Custom Skill](../day-2-m365-copilot/advanced/10-ai-use-canvas-agent-skill/README.md) — ใช้เป็นกิจกรรมท้ายวันได้ โดยไม่เปลี่ยนลำดับ capstone ของ Copilot Studio
 
 > **ก่อนเริ่ม Excel analysis:** ตรวจว่า environment รับ XLSX ได้โดยเปิด File uploads และปิด Code Interpreter; XLSX ยังมีข้อจำกัดด้าน availability ให้ทำตาม prerequisite ในแบบฝึกหัดที่ 3
 
@@ -32,4 +33,3 @@
 ## All rights reserved
 
 All rights reserved by [Amaround Co., Ltd.](https://www.nextflow.in.th/)
-

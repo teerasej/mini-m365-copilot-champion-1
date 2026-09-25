@@ -34,6 +34,10 @@
 
 1. [AI Use Canvas Experiment Studio](advanced/09-ai-use-canvas-experiment-studio/README.md)
 
+## Optional End-of-Day Extension
+
+1. [จาก AI Use Canvas สู่ Agent และ Custom Skill](advanced/10-ai-use-canvas-agent-skill/README.md) — สร้าง Agent จาก task ของตนเอง ทดสอบให้ผ่าน แล้วจึงเพิ่ม Skill หาก tenant รองรับ Preview
+
 
 
 
@@ -58,6 +62,7 @@
 8. [สร้าง Agent จาก AI Use Canvas](advanced/07-agent-builder-from-ai-use-canvas/README.md)
 9. [Microsoft 365 App Deep-dive Cards](advanced/08-m365-app-deep-dive-cards/README.md)
 10. [AI Use Canvas Experiment Studio](advanced/09-ai-use-canvas-experiment-studio/README.md)
+11. (ทางเลือก) [จาก AI Use Canvas สู่ Agent และ Custom Skill](advanced/10-ai-use-canvas-agent-skill/README.md)
 
 
 ## All rights reserved

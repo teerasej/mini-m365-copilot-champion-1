@@ -120,4 +120,4 @@ Quality check:
 
 ## ไปต่อ
 
-[← กลับไปสารบัญ Advanced Labs](../README.md)
+[← กลับไปสารบัญ Advanced Labs](../README.md) | [แบบฝึกหัดถัดไป (ทางเลือก): จาก AI Use Canvas สู่ Agent และ Custom Skill →](../10-ai-use-canvas-agent-skill/README.md)

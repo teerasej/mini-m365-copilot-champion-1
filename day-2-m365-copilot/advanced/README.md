@@ -37,6 +37,7 @@
 ## ทดลองกับงานจริงของเรา
 
 1. [AI Use Canvas Experiment Studio](09-ai-use-canvas-experiment-studio/README.md)
+2. (ทางเลือก) [จาก AI Use Canvas สู่ Agent และ Custom Skill](10-ai-use-canvas-agent-skill/README.md) — เลือก task ของตนเอง สร้างและทดสอบ Agent ก่อนเพิ่ม Skill ที่ใช้ซ้ำได้
 
 
 ## Official Microsoft References

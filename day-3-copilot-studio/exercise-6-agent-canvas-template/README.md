@@ -51,4 +51,4 @@
 
 ## ไปต่อ
 
-[← กลับไปสารบัญ Day 3](../README.md)
+[← กลับไปสารบัญ Day 3](../README.md) | [แบบฝึกหัดถัดไป (ทางเลือก): จาก AI Use Canvas สู่ Agent และ Custom Skill →](../../day-2-m365-copilot/advanced/10-ai-use-canvas-agent-skill/README.md)
