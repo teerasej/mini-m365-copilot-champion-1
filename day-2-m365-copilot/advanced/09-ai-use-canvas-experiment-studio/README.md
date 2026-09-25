@@ -17,16 +17,13 @@
 #### Steps
 
 1. เปิด AI Use Canvas
-2. เลือก workflow step ที่มี pain point ชัดเจน 1 ขั้น
-3. เขียน baseline:
-   - ปัจจุบันใช้เวลาเท่าไร
-   - ใครเป็น owner
-4. เลือก Copilot surface ที่จะทดลอง
+2. เลือก workflow step ที่มี pain point ชัดเจน 1 ขั้นตอน
+3. เลือก Copilot surface ที่จะทดลอง
    - Copilot Chat
    - Word, Excel, PowerPoint, Outlook หรือ Teams
    - Microsoft-built Agent
    - Agent Builder prototype
-5. เขียนเหตุผลว่าทำไมเลือกวิธีนี้
+4. เขียนเหตุผลว่าทำไมเลือกวิธีนี้
 
 
 ## Scenario 2: Run, Observe, Improve
